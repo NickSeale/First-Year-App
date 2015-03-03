@@ -13,6 +13,8 @@
 		A7BDAAA61AA109CB00E35518 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BDAAA51AA109CB00E35518 /* Images.xcassets */; };
 		A7BDAAA91AA109CB00E35518 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7BDAAA71AA109CB00E35518 /* LaunchScreen.xib */; };
 		A7BDAAB51AA109CB00E35518 /* First_Year_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDAAB41AA109CB00E35518 /* First_Year_AppTests.swift */; };
+		A7F7915C1AA6476F001A88A2 /* douglasLibrary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */; };
+		A7F7915E1AA64FD4001A88A2 /* douglasLibraryCopy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A7BDAAAE1AA109CB00E35518 /* First Year AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First Year AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BDAAB31AA109CB00E35518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7BDAAB41AA109CB00E35518 /* First_Year_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_Year_AppTests.swift; sourceTree = "<group>"; };
+		A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = douglasLibrary.jpg; sourceTree = "<group>"; };
+		A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = douglasLibraryCopy.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		A7BDAA9C1AA109CB00E35518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */,
+				A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */,
 				A7BDAA9D1AA109CB00E35518 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7BDAAA41AA109CB00E35518 /* Main.storyboard in Resources */,
+				A7F7915C1AA6476F001A88A2 /* douglasLibrary.jpg in Resources */,
 				A7BDAAA91AA109CB00E35518 /* LaunchScreen.xib in Resources */,
+				A7F7915E1AA64FD4001A88A2 /* douglasLibraryCopy.jpg in Resources */,
 				A7BDAAA61AA109CB00E35518 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 				A7BDAABA1AA109CB00E35518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7BDAABB1AA109CB00E35518 /* Build configuration list for PBXNativeTarget "First Year AppTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				A7BDAABD1AA109CB00E35518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

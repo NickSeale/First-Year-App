@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72A2D4C1AA8F8B30039D726 /* utensilIconCopy.png in Resources */ = {isa = PBXBuildFile; fileRef = A72A2D4B1AA8F8B30039D726 /* utensilIconCopy.png */; };
 		A7BDAA9F1AA109CB00E35518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */; };
 		A7BDAAA11AA109CB00E35518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDAAA01AA109CB00E35518 /* ViewController.swift */; };
 		A7BDAAA41AA109CB00E35518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BDAAA21AA109CB00E35518 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A72A2D4B1AA8F8B30039D726 /* utensilIconCopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utensilIconCopy.png; sourceTree = "<group>"; };
 		A7BDAA991AA109CB00E35518 /* First Year App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Year App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BDAA9D1AA109CB00E35518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		A7BDAA9C1AA109CB00E35518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A72A2D4B1AA8F8B30039D726 /* utensilIconCopy.png */,
 				A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */,
 				A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */,
 				A7BDAA9D1AA109CB00E35518 /* Info.plist */,
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72A2D4C1AA8F8B30039D726 /* utensilIconCopy.png in Resources */,
 				A7BDAAA41AA109CB00E35518 /* Main.storyboard in Resources */,
 				A7F7915C1AA6476F001A88A2 /* douglasLibrary.jpg in Resources */,
 				A7BDAAA91AA109CB00E35518 /* LaunchScreen.xib in Resources */,

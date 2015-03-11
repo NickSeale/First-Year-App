@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		A72A2D4C1AA8F8B30039D726 /* utensilIconCopy.png in Resources */ = {isa = PBXBuildFile; fileRef = A72A2D4B1AA8F8B30039D726 /* utensilIconCopy.png */; };
 		A7BDAA9F1AA109CB00E35518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */; };
-		A7BDAAA11AA109CB00E35518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDAAA01AA109CB00E35518 /* ViewController.swift */; };
+		A7BDAAA11AA109CB00E35518 /* Home page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDAAA01AA109CB00E35518 /* Home page.swift */; };
 		A7BDAAA41AA109CB00E35518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BDAAA21AA109CB00E35518 /* Main.storyboard */; };
 		A7BDAAA61AA109CB00E35518 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BDAAA51AA109CB00E35518 /* Images.xcassets */; };
 		A7BDAAA91AA109CB00E35518 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7BDAAA71AA109CB00E35518 /* LaunchScreen.xib */; };
 		A7BDAAB51AA109CB00E35518 /* First_Year_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDAAB41AA109CB00E35518 /* First_Year_AppTests.swift */; };
 		A7F7915C1AA6476F001A88A2 /* douglasLibrary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */; };
 		A7F7915E1AA64FD4001A88A2 /* douglasLibraryCopy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */; };
+		FA0720441AAF60B2000F42FC /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0720431AAF60B2000F42FC /* Schedule.swift */; };
+		FA0720461AAF75D6000F42FC /* DrivingMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0720451AAF75D6000F42FC /* DrivingMap.swift */; };
+		FA4B61181AB0C63700C3BDAB /* TopBarMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4B61171AB0C63700C3BDAB /* TopBarMap.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +36,7 @@
 		A7BDAA991AA109CB00E35518 /* First Year App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Year App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BDAA9D1AA109CB00E35518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7BDAAA01AA109CB00E35518 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7BDAAA01AA109CB00E35518 /* Home page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home page.swift"; sourceTree = "<group>"; };
 		A7BDAAA31AA109CB00E35518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7BDAAA51AA109CB00E35518 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A7BDAAA81AA109CB00E35518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -42,6 +45,9 @@
 		A7BDAAB41AA109CB00E35518 /* First_Year_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_Year_AppTests.swift; sourceTree = "<group>"; };
 		A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = douglasLibrary.jpg; sourceTree = "<group>"; };
 		A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = douglasLibraryCopy.jpg; sourceTree = "<group>"; };
+		FA0720431AAF60B2000F42FC /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		FA0720451AAF75D6000F42FC /* DrivingMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrivingMap.swift; sourceTree = "<group>"; };
+		FA4B61171AB0C63700C3BDAB /* TopBarMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TopBarMap.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */,
-				A7BDAAA01AA109CB00E35518 /* ViewController.swift */,
+				A7BDAAA01AA109CB00E35518 /* Home page.swift */,
+				FA0720451AAF75D6000F42FC /* DrivingMap.swift */,
+				FA0720431AAF60B2000F42FC /* Schedule.swift */,
 				A7BDAAA21AA109CB00E35518 /* Main.storyboard */,
 				A7BDAAA51AA109CB00E35518 /* Images.xcassets */,
 				A7BDAAA71AA109CB00E35518 /* LaunchScreen.xib */,
@@ -96,6 +104,7 @@
 		A7BDAA9C1AA109CB00E35518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA4B61171AB0C63700C3BDAB /* TopBarMap.jpg */,
 				A72A2D4B1AA8F8B30039D726 /* utensilIconCopy.png */,
 				A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */,
 				A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */,
@@ -207,6 +216,7 @@
 				A7BDAAA91AA109CB00E35518 /* LaunchScreen.xib in Resources */,
 				A7F7915E1AA64FD4001A88A2 /* douglasLibraryCopy.jpg in Resources */,
 				A7BDAAA61AA109CB00E35518 /* Images.xcassets in Resources */,
+				FA4B61181AB0C63700C3BDAB /* TopBarMap.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7BDAAA11AA109CB00E35518 /* ViewController.swift in Sources */,
+				FA0720441AAF60B2000F42FC /* Schedule.swift in Sources */,
+				FA0720461AAF75D6000F42FC /* DrivingMap.swift in Sources */,
+				A7BDAAA11AA109CB00E35518 /* Home page.swift in Sources */,
 				A7BDAA9F1AA109CB00E35518 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

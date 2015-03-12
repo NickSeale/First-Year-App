@@ -19,6 +19,8 @@
 		FA0720441AAF60B2000F42FC /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0720431AAF60B2000F42FC /* Schedule.swift */; };
 		FA0720461AAF75D6000F42FC /* DrivingMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0720451AAF75D6000F42FC /* DrivingMap.swift */; };
 		FA4B61181AB0C63700C3BDAB /* TopBarMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4B61171AB0C63700C3BDAB /* TopBarMap.jpg */; };
+		FA4B617E1AB0DAAD00C3BDAB /* WalkingMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B617D1AB0DAAD00C3BDAB /* WalkingMap.swift */; };
+		FA4B61841AB0DDBD00C3BDAB /* TransitMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B61831AB0DDBD00C3BDAB /* TransitMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		FA0720431AAF60B2000F42FC /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		FA0720451AAF75D6000F42FC /* DrivingMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrivingMap.swift; sourceTree = "<group>"; };
 		FA4B61171AB0C63700C3BDAB /* TopBarMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TopBarMap.jpg; sourceTree = "<group>"; };
+		FA4B617D1AB0DAAD00C3BDAB /* WalkingMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkingMap.swift; sourceTree = "<group>"; };
+		FA4B61831AB0DDBD00C3BDAB /* TransitMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				A7BDAAA01AA109CB00E35518 /* Home page.swift */,
 				FA0720451AAF75D6000F42FC /* DrivingMap.swift */,
 				FA0720431AAF60B2000F42FC /* Schedule.swift */,
+				FA4B61831AB0DDBD00C3BDAB /* TransitMap.swift */,
+				FA4B617D1AB0DAAD00C3BDAB /* WalkingMap.swift */,
 				A7BDAAA21AA109CB00E35518 /* Main.storyboard */,
 				A7BDAAA51AA109CB00E35518 /* Images.xcassets */,
 				A7BDAAA71AA109CB00E35518 /* LaunchScreen.xib */,
@@ -234,6 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4B61841AB0DDBD00C3BDAB /* TransitMap.swift in Sources */,
+				FA4B617E1AB0DAAD00C3BDAB /* WalkingMap.swift in Sources */,
 				FA0720441AAF60B2000F42FC /* Schedule.swift in Sources */,
 				FA0720461AAF75D6000F42FC /* DrivingMap.swift in Sources */,
 				A7BDAAA11AA109CB00E35518 /* Home page.swift in Sources */,

@@ -56,7 +56,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="RWO-Xx-7JP" kind="show" id="dzD-Dc-oqV"/>
+                                    <segue destination="RIz-xe-sWg" kind="show" id="Qkb-UT-6mW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMl-dw-myC">
@@ -220,6 +220,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="508" y="-386"/>
         </scene>
         <!--Driving Map-->
         <scene sceneID="jZj-wT-3ga">
@@ -233,34 +234,176 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SYc-Bf-U8u">
-                                <rect key="frame" x="0.0" y="44" width="600" height="548"/>
+                            <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4aW-dt-rdd">
+                                <rect key="frame" x="0.0" y="72" width="600" height="476"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
-                            <navigationBar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" shadowImage="TopBarMap.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QLF-5H-Kro">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nV4-vc-FDY">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="Prn-mk-ee3">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="vam-wa-c8l">
+                                    <navigationItem title="Title" id="hlt-LW-dpC">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="Tgc-dy-zkg">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="2c4-LM-9Gm"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="IV3-Ux-JGF"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RH9-AZ-XRl">
+                                <rect key="frame" x="5" y="548" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Walk" id="6X1-M1-CDZ">
+                                        <connections>
+                                            <segue destination="RIz-xe-sWg" kind="show" id="wiH-GQ-5Zy"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Transit" id="sXK-Xx-CZd">
+                                        <connections>
+                                            <segue destination="Ze8-di-YlH" kind="show" id="o0w-Fd-HHB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="4aW-dt-rdd" secondAttribute="trailing" constant="-16" id="2fs-Sy-3gg"/>
+                            <constraint firstItem="4aW-dt-rdd" firstAttribute="leading" secondItem="OkY-uf-XhW" secondAttribute="leadingMargin" constant="-16" id="Vye-CN-5gb"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="OJk-RD-VYO">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="MNc-lF-5dS"/>
+                    </navigationItem>
                     <connections>
-                        <outlet property="Webviewer" destination="SYc-Bf-U8u" id="V7F-o7-WlG"/>
+                        <outlet property="Webviewer" destination="4aW-dt-rdd" id="rF6-V7-GKD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dyj-sj-IcL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1209" y="293"/>
+            <point key="canvasLocation" x="1339" y="308"/>
+        </scene>
+        <!--Transit Map-->
+        <scene sceneID="tbp-0U-AMD">
+            <objects>
+                <viewController id="Ze8-di-YlH" customClass="TransitMap" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0We-3h-Ykn"/>
+                        <viewControllerLayoutGuide type="bottom" id="56L-Wv-opL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uXF-QO-vS8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ejf-Ks-sCg">
+                                <rect key="frame" x="0.0" y="64" width="600" height="484"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KKQ-hL-j7P">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="qU3-hS-OO7">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="cEq-1j-6ND">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="erz-eM-gCe"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="saD-BW-rVb">
+                                <rect key="frame" x="0.0" y="548" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Drive" id="LD9-Nb-pTm">
+                                        <connections>
+                                            <segue destination="RWO-Xx-7JP" kind="show" id="9Gq-1U-gHg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Walk" id="s5l-Mh-omM">
+                                        <connections>
+                                            <segue destination="RIz-xe-sWg" kind="show" id="83s-qS-RBQ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ejf-Ks-sCg" firstAttribute="leading" secondItem="uXF-QO-vS8" secondAttribute="leadingMargin" constant="-16" id="C5e-td-ULj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ejf-Ks-sCg" secondAttribute="trailing" constant="-16" id="exo-Oj-qqw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rCT-sn-6G7">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="8KT-2s-2iK"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="Webviewer" destination="ejf-Ks-sCg" id="K57-Vb-o42"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdh-hH-ZOu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1339" y="1018"/>
+        </scene>
+        <!--Walking Map-->
+        <scene sceneID="P17-ek-oe2">
+            <objects>
+                <viewController id="RIz-xe-sWg" customClass="WalkingMap" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xnr-zA-hWx"/>
+                        <viewControllerLayoutGuide type="bottom" id="LFy-Vr-rlz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JFt-CX-htb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OCF-Qe-0L3">
+                                <rect key="frame" x="0.0" y="64" width="600" height="484"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZBk-od-3wf">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="okb-uQ-nbV">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="g9i-9L-LEb">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="hb8-qI-mHj"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lIj-be-h0w">
+                                <rect key="frame" x="0.0" y="548" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Drive" id="w3T-gf-EeF">
+                                        <connections>
+                                            <segue destination="RWO-Xx-7JP" kind="show" id="ga6-lg-tAd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Transit" id="er0-iu-RuD">
+                                        <connections>
+                                            <segue destination="Ze8-di-YlH" kind="show" id="Wed-4n-EeJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OCF-Qe-0L3" firstAttribute="leading" secondItem="JFt-CX-htb" secondAttribute="leadingMargin" constant="-16" id="R0w-Um-3Va"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OCF-Qe-0L3" secondAttribute="trailing" constant="-16" id="nGg-2D-JXa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="QmE-IZ-RJj">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="OJd-Yi-TSG"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="Webviewer" destination="OCF-Qe-0L3" id="b75-N8-Rl4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fwH-V2-NL8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1339" y="-386"/>
         </scene>
         <!--Schedule-->
         <scene sceneID="h1v-kp-ZkQ">
@@ -275,11 +418,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="phx-IG-kL0">
-                                <rect key="frame" x="0.0" y="44" width="600" height="548"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="528"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                             <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q4z-fQ-NHm">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <items>
                                     <navigationItem title="Title" id="wLc-KY-Pmr">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="eRn-N6-eCx">
@@ -294,6 +437,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="phx-IG-kL0" firstAttribute="top" secondItem="Q4z-fQ-NHm" secondAttribute="bottom" id="6Qu-55-X2z"/>
+                            <constraint firstItem="Q4z-fQ-NHm" firstAttribute="leading" secondItem="ePw-yX-jye" secondAttribute="leadingMargin" constant="-16" id="6rN-Ob-l9o"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Q4z-fQ-NHm" secondAttribute="trailing" constant="-16" id="DHX-WK-NSj"/>
                             <constraint firstItem="phx-IG-kL0" firstAttribute="leading" secondItem="ePw-yX-jye" secondAttribute="leadingMargin" constant="-16" id="GKr-cc-Mfd"/>
                             <constraint firstItem="9zV-nH-6Pv" firstAttribute="top" secondItem="phx-IG-kL0" secondAttribute="bottom" constant="8" id="cSJ-g6-ssy"/>
                             <constraint firstItem="9zV-nH-6Pv" firstAttribute="top" secondItem="phx-IG-kL0" secondAttribute="bottom" id="pXK-qg-ZBZ"/>
@@ -309,15 +454,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mdL-7J-ihk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="318" y="1096"/>
+            <point key="canvasLocation" x="508" y="308"/>
         </scene>
     </scenes>
     <resources>
-        <image name="TopBarMap.jpg" width="639" height="72"/>
         <image name="douglasLibraryCopy.jpg" width="3008" height="2000"/>
         <image name="utensilIconCopy.png" width="56" height="40"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2c4-LM-9Gm"/>
+        <segue reference="83s-qS-RBQ"/>
+        <segue reference="Wed-4n-EeJ"/>
+        <segue reference="hb8-qI-mHj"/>
+        <segue reference="ga6-lg-tAd"/>
     </inferredMetricsTieBreakers>
 </document>

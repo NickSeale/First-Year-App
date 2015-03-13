@@ -1,17 +1,16 @@
 //
-//  Schedule.swift
+//  TheSchedule.swift
 //  First Year App
 //
-//  Created by Alex Seppala on 2015-03-10.
+//  Created by Alex Seppala on 2015-03-13.
 //  Copyright (c) 2015 Nicholas Seale. All rights reserved.
 //
-//links:http://tw80000.github.io/app/drivingmap
-//http://troywolters.com/app/schedule/
 
 import UIKit
 
-class Schedule: UIViewController {
-    @IBOutlet var Webviewer: UIWebView!
+class TheSchedule: UIViewController {
+    
+    @IBOutlet var ScheduleWebview: UIWebView!
     
     var URLPath = "http://troywolters.com/app/schedule/"
     
@@ -30,7 +29,7 @@ class Schedule: UIViewController {
     func loadAddressURL(){
         let requestURL = NSURL(string:URLPath)
         let request = NSURLRequest(URL: requestURL!)
-        Webviewer.loadRequest(request)
+        ScheduleWebview.loadRequest(request)
     }
     
 }

@@ -21,11 +21,11 @@
 		A7BDAAB51AA109CB00E35518 /* First_Year_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDAAB41AA109CB00E35518 /* First_Year_AppTests.swift */; };
 		A7F7915C1AA6476F001A88A2 /* douglasLibrary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */; };
 		A7F7915E1AA64FD4001A88A2 /* douglasLibraryCopy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */; };
-		FA0720441AAF60B2000F42FC /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0720431AAF60B2000F42FC /* Schedule.swift */; };
 		FA0720461AAF75D6000F42FC /* DrivingMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0720451AAF75D6000F42FC /* DrivingMap.swift */; };
 		FA4B61181AB0C63700C3BDAB /* TopBarMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4B61171AB0C63700C3BDAB /* TopBarMap.jpg */; };
 		FA4B617E1AB0DAAD00C3BDAB /* WalkingMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B617D1AB0DAAD00C3BDAB /* WalkingMap.swift */; };
 		FA4B61841AB0DDBD00C3BDAB /* TransitMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B61831AB0DDBD00C3BDAB /* TransitMap.swift */; };
+		FAB69DAC1AB3732800369216 /* TheSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB69DAB1AB3732800369216 /* TheSchedule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,11 +57,11 @@
 		A7BDAAB41AA109CB00E35518 /* First_Year_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_Year_AppTests.swift; sourceTree = "<group>"; };
 		A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = douglasLibrary.jpg; sourceTree = "<group>"; };
 		A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = douglasLibraryCopy.jpg; sourceTree = "<group>"; };
-		FA0720431AAF60B2000F42FC /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		FA0720451AAF75D6000F42FC /* DrivingMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrivingMap.swift; sourceTree = "<group>"; };
 		FA4B61171AB0C63700C3BDAB /* TopBarMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TopBarMap.jpg; sourceTree = "<group>"; };
 		FA4B617D1AB0DAAD00C3BDAB /* WalkingMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkingMap.swift; sourceTree = "<group>"; };
 		FA4B61831AB0DDBD00C3BDAB /* TransitMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitMap.swift; sourceTree = "<group>"; };
+		FAB69DAB1AB3732800369216 /* TheSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheSchedule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +105,11 @@
 			children = (
 				A73675BD1AB274770049F815 /* RetailFoodViewController.swift */,
 				A73675C31AB275D00049F815 /* Restaurants.swift */,
+				FAB69DAB1AB3732800369216 /* TheSchedule.swift */,
 				A73675BF1AB274AF0049F815 /* CustomCell.swift */,
 				A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */,
 				A7BDAAA01AA109CB00E35518 /* Home page.swift */,
 				FA0720451AAF75D6000F42FC /* DrivingMap.swift */,
-				FA0720431AAF60B2000F42FC /* Schedule.swift */,
 				FA4B61831AB0DDBD00C3BDAB /* TransitMap.swift */,
 				FA4B617D1AB0DAAD00C3BDAB /* WalkingMap.swift */,
 				A7BDAAA21AA109CB00E35518 /* Main.storyboard */,
@@ -257,10 +257,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB69DAC1AB3732800369216 /* TheSchedule.swift in Sources */,
 				A73675BE1AB274770049F815 /* RetailFoodViewController.swift in Sources */,
 				FA4B61841AB0DDBD00C3BDAB /* TransitMap.swift in Sources */,
 				FA4B617E1AB0DAAD00C3BDAB /* WalkingMap.swift in Sources */,
-				FA0720441AAF60B2000F42FC /* Schedule.swift in Sources */,
 				FA0720461AAF75D6000F42FC /* DrivingMap.swift in Sources */,
 				A7BDAAA11AA109CB00E35518 /* Home page.swift in Sources */,
 				A73675C01AB274AF0049F815 /* CustomCell.swift in Sources */,

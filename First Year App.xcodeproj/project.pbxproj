@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A72A2D4C1AA8F8B30039D726 /* utensilIconCopy.png in Resources */ = {isa = PBXBuildFile; fileRef = A72A2D4B1AA8F8B30039D726 /* utensilIconCopy.png */; };
+		A73675BE1AB274770049F815 /* RetailFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73675BD1AB274770049F815 /* RetailFoodViewController.swift */; };
+		A73675C01AB274AF0049F815 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73675BF1AB274AF0049F815 /* CustomCell.swift */; };
+		A73675C41AB275D00049F815 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73675C31AB275D00049F815 /* Restaurants.swift */; };
+		A778C8401AB2A55600175CE7 /* person1.png in Resources */ = {isa = PBXBuildFile; fileRef = A778C83E1AB2A55600175CE7 /* person1.png */; };
+		A778C8411AB2A55600175CE7 /* person2.png in Resources */ = {isa = PBXBuildFile; fileRef = A778C83F1AB2A55600175CE7 /* person2.png */; };
 		A7BDAA9F1AA109CB00E35518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */; };
 		A7BDAAA11AA109CB00E35518 /* Home page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDAAA01AA109CB00E35518 /* Home page.swift */; };
 		A7BDAAA41AA109CB00E35518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BDAAA21AA109CB00E35518 /* Main.storyboard */; };
@@ -35,6 +40,11 @@
 
 /* Begin PBXFileReference section */
 		A72A2D4B1AA8F8B30039D726 /* utensilIconCopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utensilIconCopy.png; sourceTree = "<group>"; };
+		A73675BD1AB274770049F815 /* RetailFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetailFoodViewController.swift; sourceTree = "<group>"; };
+		A73675BF1AB274AF0049F815 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		A73675C31AB275D00049F815 /* Restaurants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		A778C83E1AB2A55600175CE7 /* person1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person1.png; sourceTree = "<group>"; };
+		A778C83F1AB2A55600175CE7 /* person2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person2.png; sourceTree = "<group>"; };
 		A7BDAA991AA109CB00E35518 /* First Year App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Year App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BDAA9D1AA109CB00E35518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +103,9 @@
 		A7BDAA9B1AA109CB00E35518 /* First Year App */ = {
 			isa = PBXGroup;
 			children = (
+				A73675BD1AB274770049F815 /* RetailFoodViewController.swift */,
+				A73675C31AB275D00049F815 /* Restaurants.swift */,
+				A73675BF1AB274AF0049F815 /* CustomCell.swift */,
 				A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */,
 				A7BDAAA01AA109CB00E35518 /* Home page.swift */,
 				FA0720451AAF75D6000F42FC /* DrivingMap.swift */,
@@ -110,6 +123,8 @@
 		A7BDAA9C1AA109CB00E35518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A778C83E1AB2A55600175CE7 /* person1.png */,
+				A778C83F1AB2A55600175CE7 /* person2.png */,
 				FA4B61171AB0C63700C3BDAB /* TopBarMap.jpg */,
 				A72A2D4B1AA8F8B30039D726 /* utensilIconCopy.png */,
 				A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */,
@@ -216,12 +231,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A778C8411AB2A55600175CE7 /* person2.png in Resources */,
 				A72A2D4C1AA8F8B30039D726 /* utensilIconCopy.png in Resources */,
 				A7BDAAA41AA109CB00E35518 /* Main.storyboard in Resources */,
 				A7F7915C1AA6476F001A88A2 /* douglasLibrary.jpg in Resources */,
 				A7BDAAA91AA109CB00E35518 /* LaunchScreen.xib in Resources */,
 				A7F7915E1AA64FD4001A88A2 /* douglasLibraryCopy.jpg in Resources */,
 				A7BDAAA61AA109CB00E35518 /* Images.xcassets in Resources */,
+				A778C8401AB2A55600175CE7 /* person1.png in Resources */,
 				FA4B61181AB0C63700C3BDAB /* TopBarMap.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,11 +257,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73675BE1AB274770049F815 /* RetailFoodViewController.swift in Sources */,
 				FA4B61841AB0DDBD00C3BDAB /* TransitMap.swift in Sources */,
 				FA4B617E1AB0DAAD00C3BDAB /* WalkingMap.swift in Sources */,
 				FA0720441AAF60B2000F42FC /* Schedule.swift in Sources */,
 				FA0720461AAF75D6000F42FC /* DrivingMap.swift in Sources */,
 				A7BDAAA11AA109CB00E35518 /* Home page.swift in Sources */,
+				A73675C01AB274AF0049F815 /* CustomCell.swift in Sources */,
+				A73675C41AB275D00049F815 /* Restaurants.swift in Sources */,
 				A7BDAA9F1AA109CB00E35518 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

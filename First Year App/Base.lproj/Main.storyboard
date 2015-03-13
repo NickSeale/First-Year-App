@@ -6,6 +6,104 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="rUz-XP-saa">
+            <objects>
+                <viewController id="kdr-Nd-kT4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zcK-92-ccT"/>
+                        <viewControllerLayoutGuide type="bottom" id="hmU-Hx-FqP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9UY-lL-wT8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hx0-b3-2Kl">
+                                <rect key="frame" x="68" y="285" width="165" height="30"/>
+                                <state key="normal" title="Retail Food Outlets">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bq2-pi-j0q" kind="show" id="Wa4-YI-VFm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="55z-Gf-qVA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="516" y="-1056"/>
+        </scene>
+        <!--Retail Food View Controller-->
+        <scene sceneID="61B-vh-v6v">
+            <objects>
+                <viewController storyboardIdentifier="RetailFoodViewController" id="bq2-pi-j0q" customClass="RetailFoodViewController" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qXc-7s-Ral"/>
+                        <viewControllerLayoutGuide type="bottom" id="sV9-vX-4kr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b5l-sl-Z3v">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Retail Food Outlets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MV8-nC-OoS">
+                                <rect key="frame" x="16" y="20" width="288" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="67" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="tBY-Uc-SZq">
+                                <rect key="frame" x="0.0" y="49" width="600" height="551"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="Cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="67" id="Ocr-eo-rKu" customClass="CustomCell" customModule="First_Year_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ocr-eo-rKu" id="trJ-1M-0rq">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNX-nF-edb">
+                                                    <rect key="frame" x="8" y="15" width="222" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rud-0Y-srn">
+                                                    <rect key="frame" x="8" y="37" width="222" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bV1-nb-leM">
+                                                    <rect key="frame" x="238" y="8" width="50" height="50"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="locationLabel" destination="rud-0Y-srn" id="ZGy-W4-RRc"/>
+                                            <outlet property="myImageView" destination="bV1-nb-leM" id="gvx-GB-Ias"/>
+                                            <outlet property="nameLabel" destination="yNX-nF-edb" id="XqO-ep-Let"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="bq2-pi-j0q" id="0zi-yj-n8h"/>
+                                    <outlet property="delegate" destination="bq2-pi-j0q" id="Ksl-fq-Vib"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="myTableView" destination="tBY-Uc-SZq" id="4Sh-ag-o4D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qQG-Iu-r3t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1320" y="-1060"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -161,6 +259,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="kdr-Nd-kT4" kind="show" id="6uK-6U-86l"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="utensilIconCopy.png" translatesAutoresizingMaskIntoConstraints="NO" id="B9F-qz-lob">
                                 <rect key="frame" x="272" y="434" width="56" height="40"/>
@@ -462,9 +563,9 @@
         <image name="utensilIconCopy.png" width="56" height="40"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="83s-qS-RBQ"/>
-        <segue reference="Wed-4n-EeJ"/>
         <segue reference="hb8-qI-mHj"/>
+        <segue reference="Qkb-UT-6mW"/>
         <segue reference="ga6-lg-tAd"/>
+        <segue reference="Wed-4n-EeJ"/>
     </inferredMetricsTieBreakers>
 </document>

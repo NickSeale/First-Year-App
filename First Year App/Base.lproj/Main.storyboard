@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lgg-YM-x4W">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -33,7 +33,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="55z-Gf-qVA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="516" y="-1152"/>
+            <point key="canvasLocation" x="516" y="-1056"/>
         </scene>
         <!--Retail Food View Controller-->
         <scene sceneID="61B-vh-v6v">
@@ -101,40 +101,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qQG-Iu-r3t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="508" y="-1846"/>
-        </scene>
-        <!--The Schedule-->
-        <scene sceneID="TFd-NQ-y7d">
-            <objects>
-                <viewController id="ani-iQ-Yjn" customClass="TheSchedule" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Iea-Lk-EZn"/>
-                        <viewControllerLayoutGuide type="bottom" id="XEC-My-uz6"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="aZi-Uy-ECf">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4MQ-eT-pDq">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="4MQ-eT-pDq" firstAttribute="leading" secondItem="aZi-Uy-ECf" secondAttribute="leadingMargin" constant="-16" id="11b-cu-Lws"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="4MQ-eT-pDq" secondAttribute="trailing" constant="-16" id="2bV-5D-Axt"/>
-                            <constraint firstItem="4MQ-eT-pDq" firstAttribute="top" secondItem="aZi-Uy-ECf" secondAttribute="topMargin" id="ATr-Tq-wc3"/>
-                            <constraint firstItem="XEC-My-uz6" firstAttribute="top" secondItem="4MQ-eT-pDq" secondAttribute="bottom" id="plG-sk-Lxz"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="ScheduleWebview" destination="4MQ-eT-pDq" id="1cG-Ee-vC8"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hdl-UQ-i4p" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="516" y="398"/>
+            <point key="canvasLocation" x="1320" y="-1060"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="rjU-pm-EFk">
@@ -286,13 +253,13 @@
                                     <constraint firstAttribute="width" constant="600" id="QQP-GH-EIG"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Queens University" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t2i-V8-oZg">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Queens University" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t2i-V8-oZg">
                                 <rect key="frame" x="144" y="30" width="313" height="49"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="41"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="First Year App" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DF8-25-jsA">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="First Year App" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DF8-25-jsA">
                                 <rect key="frame" x="244" y="84" width="113" height="23"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="19"/>
@@ -318,7 +285,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="yzl-xh-8vP" kind="show" id="oS3-S1-Hn2"/>
+                                    <segue destination="RIz-xe-sWg" kind="show" id="Qkb-UT-6mW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMl-dw-myC">
@@ -361,7 +328,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="ani-iQ-Yjn" kind="show" id="ctq-DW-VsX"/>
+                                    <segue destination="E6d-pP-LwE" kind="show" id="2Xa-aO-0dm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="riQ-Vb-gfS">
@@ -424,7 +391,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="kdr-Nd-kT4" kind="show" id="UCt-I7-5gq"/>
+                                    <segue destination="kdr-Nd-kT4" kind="show" id="6uK-6U-86l"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="utensilIconCopy.png" translatesAutoresizingMaskIntoConstraints="NO" id="B9F-qz-lob">
@@ -482,13 +449,12 @@
                             <constraint firstItem="92E-K5-7Nv" firstAttribute="top" secondItem="SJG-wU-KAt" secondAttribute="top" constant="6" id="yJh-Om-kuI"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="SgJ-mJ-mBY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="516" y="-386"/>
+            <point key="canvasLocation" x="508" y="-386"/>
         </scene>
-        <!--Item-->
+        <!--Driving Map-->
         <scene sceneID="jZj-wT-3ga">
             <objects>
                 <viewController id="RWO-Xx-7JP" customClass="DrivingMap" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -504,6 +470,33 @@
                                 <rect key="frame" x="0.0" y="72" width="600" height="476"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nV4-vc-FDY">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="hlt-LW-dpC">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="Tgc-dy-zkg">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="IV3-Ux-JGF"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RH9-AZ-XRl">
+                                <rect key="frame" x="5" y="548" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Walk" id="6X1-M1-CDZ">
+                                        <connections>
+                                            <segue destination="RIz-xe-sWg" kind="show" id="wiH-GQ-5Zy"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Transit" id="sXK-Xx-CZd">
+                                        <connections>
+                                            <segue destination="Ze8-di-YlH" kind="show" id="o0w-Fd-HHB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -511,7 +504,6 @@
                             <constraint firstItem="4aW-dt-rdd" firstAttribute="leading" secondItem="OkY-uf-XhW" secondAttribute="leadingMargin" constant="-16" id="Vye-CN-5gb"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="wC3-oA-ZEk"/>
                     <navigationItem key="navigationItem" id="OJk-RD-VYO">
                         <barButtonItem key="leftBarButtonItem" title="Home" id="MNc-lF-5dS"/>
                     </navigationItem>
@@ -521,9 +513,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dyj-sj-IcL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2547" y="-1152"/>
+            <point key="canvasLocation" x="1339" y="308"/>
         </scene>
-        <!--Item-->
+        <!--Transit Map-->
         <scene sceneID="tbp-0U-AMD">
             <objects>
                 <viewController id="Ze8-di-YlH" customClass="TransitMap" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -539,6 +531,33 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="484"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KKQ-hL-j7P">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="qU3-hS-OO7">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="cEq-1j-6ND">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="erz-eM-gCe"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="saD-BW-rVb">
+                                <rect key="frame" x="0.0" y="548" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Drive" id="LD9-Nb-pTm">
+                                        <connections>
+                                            <segue destination="RWO-Xx-7JP" kind="show" id="9Gq-1U-gHg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Walk" id="s5l-Mh-omM">
+                                        <connections>
+                                            <segue destination="RIz-xe-sWg" kind="show" id="83s-qS-RBQ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -546,7 +565,6 @@
                             <constraint firstAttribute="trailingMargin" secondItem="ejf-Ks-sCg" secondAttribute="trailing" constant="-16" id="exo-Oj-qqw"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="0pj-M8-Jlg"/>
                     <navigationItem key="navigationItem" id="rCT-sn-6G7">
                         <barButtonItem key="leftBarButtonItem" title="Home" id="8KT-2s-2iK"/>
                     </navigationItem>
@@ -556,9 +574,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdh-hH-ZOu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1897" y="-1152"/>
+            <point key="canvasLocation" x="1339" y="1018"/>
         </scene>
-        <!--Item-->
+        <!--Walking Map-->
         <scene sceneID="P17-ek-oe2">
             <objects>
                 <viewController id="RIz-xe-sWg" customClass="WalkingMap" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -571,17 +589,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OCF-Qe-0L3">
-                                <rect key="frame" x="0.0" y="64" width="600" height="445"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="484"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZBk-od-3wf">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="okb-uQ-nbV">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="g9i-9L-LEb">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="hb8-qI-mHj"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lIj-be-h0w">
+                                <rect key="frame" x="0.0" y="548" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Drive" id="w3T-gf-EeF">
+                                        <connections>
+                                            <segue destination="RWO-Xx-7JP" kind="show" id="ga6-lg-tAd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Transit" id="er0-iu-RuD">
+                                        <connections>
+                                            <segue destination="Ze8-di-YlH" kind="show" id="Wed-4n-EeJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="OCF-Qe-0L3" firstAttribute="leading" secondItem="JFt-CX-htb" secondAttribute="leadingMargin" constant="-16" id="TkP-aP-7ME"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="OCF-Qe-0L3" secondAttribute="trailing" constant="-16" id="sVI-I2-JBn"/>
+                            <constraint firstItem="OCF-Qe-0L3" firstAttribute="leading" secondItem="JFt-CX-htb" secondAttribute="leadingMargin" constant="-16" id="R0w-Um-3Va"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OCF-Qe-0L3" secondAttribute="trailing" constant="-16" id="nGg-2D-JXa"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="F4X-S2-ek8"/>
                     <navigationItem key="navigationItem" id="QmE-IZ-RJj">
                         <barButtonItem key="leftBarButtonItem" title="Home" id="OJd-Yi-TSG"/>
                     </navigationItem>
@@ -591,49 +635,68 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fwH-V2-NL8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2547" y="-1846"/>
+            <point key="canvasLocation" x="1339" y="-386"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="zj0-ek-Uja">
+        <!--Schedule-->
+        <scene sceneID="h1v-kp-ZkQ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lgg-YM-x4W" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XHO-dW-FjU">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
+                <viewController id="E6d-pP-LwE" customClass="Schedule" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jNe-SB-07I"/>
+                        <viewControllerLayoutGuide type="bottom" id="9zV-nH-6Pv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ePw-yX-jye">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="phx-IG-kL0">
+                                <rect key="frame" x="0.0" y="64" width="600" height="528"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q4z-fQ-NHm">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="wLc-KY-Pmr">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="eRn-N6-eCx">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="8Cu-yr-Zie"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="phx-IG-kL0" firstAttribute="top" secondItem="Q4z-fQ-NHm" secondAttribute="bottom" id="6Qu-55-X2z"/>
+                            <constraint firstItem="Q4z-fQ-NHm" firstAttribute="leading" secondItem="ePw-yX-jye" secondAttribute="leadingMargin" constant="-16" id="6rN-Ob-l9o"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Q4z-fQ-NHm" secondAttribute="trailing" constant="-16" id="DHX-WK-NSj"/>
+                            <constraint firstItem="phx-IG-kL0" firstAttribute="leading" secondItem="ePw-yX-jye" secondAttribute="leadingMargin" constant="-16" id="GKr-cc-Mfd"/>
+                            <constraint firstItem="9zV-nH-6Pv" firstAttribute="top" secondItem="phx-IG-kL0" secondAttribute="bottom" constant="8" id="cSJ-g6-ssy"/>
+                            <constraint firstItem="9zV-nH-6Pv" firstAttribute="top" secondItem="phx-IG-kL0" secondAttribute="bottom" id="pXK-qg-ZBZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="phx-IG-kL0" secondAttribute="trailing" constant="-16" id="xbq-v9-JkZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="TPQ-xc-0aI">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="V0w-sN-XYH"/>
+                    </navigationItem>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZLf-Nm-yJp"/>
+                        <outlet property="Webviewer" destination="phx-IG-kL0" id="Ddg-ro-HWx"/>
                     </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="r80-1e-ejo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mdL-7J-ihk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-316" y="-386"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="r1h-n5-jNr">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="yzl-xh-8vP" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="pAh-B8-dcL">
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="RIz-xe-sWg" kind="relationship" relationship="viewControllers" id="0y6-7D-Ov4"/>
-                        <segue destination="RWO-Xx-7JP" kind="relationship" relationship="viewControllers" id="ZqC-nI-dqd"/>
-                        <segue destination="Ze8-di-YlH" kind="relationship" relationship="viewControllers" id="4y7-28-X8m"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xgA-R3-Kmp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1897" y="-1846"/>
+            <point key="canvasLocation" x="508" y="308"/>
         </scene>
     </scenes>
     <resources>
         <image name="douglasLibraryCopy.jpg" width="3008" height="2000"/>
         <image name="utensilIconCopy.png" width="56" height="40"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="hb8-qI-mHj"/>
+        <segue reference="Qkb-UT-6mW"/>
+        <segue reference="ga6-lg-tAd"/>
+        <segue reference="Wed-4n-EeJ"/>
+    </inferredMetricsTieBreakers>
 </document>

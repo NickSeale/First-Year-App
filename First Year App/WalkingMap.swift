@@ -4,7 +4,6 @@
 //
 //  Created by Alex Seppala on 2015-03-11.
 //  Copyright (c) 2015 Nicholas Seale. All rights reserved.
-//"http://troywolters.com/app/schedule/"
 //
 
 import UIKit

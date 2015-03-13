@@ -19,6 +19,7 @@
 		A7BDAAA61AA109CB00E35518 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BDAAA51AA109CB00E35518 /* Images.xcassets */; };
 		A7BDAAA91AA109CB00E35518 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7BDAAA71AA109CB00E35518 /* LaunchScreen.xib */; };
 		A7BDAAB51AA109CB00E35518 /* First_Year_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDAAB41AA109CB00E35518 /* First_Year_AppTests.swift */; };
+		A7E437A11AB36B3A0015B1CC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E437A01AB36B3A0015B1CC /* DetailViewController.swift */; };
 		A7F7915C1AA6476F001A88A2 /* douglasLibrary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */; };
 		A7F7915E1AA64FD4001A88A2 /* douglasLibraryCopy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */; };
 		FA0720441AAF60B2000F42FC /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0720431AAF60B2000F42FC /* Schedule.swift */; };
@@ -55,6 +56,7 @@
 		A7BDAAAE1AA109CB00E35518 /* First Year AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First Year AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BDAAB31AA109CB00E35518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7BDAAB41AA109CB00E35518 /* First_Year_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_Year_AppTests.swift; sourceTree = "<group>"; };
+		A7E437A01AB36B3A0015B1CC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = douglasLibrary.jpg; sourceTree = "<group>"; };
 		A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = douglasLibraryCopy.jpg; sourceTree = "<group>"; };
 		FA0720431AAF60B2000F42FC /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				A73675BD1AB274770049F815 /* RetailFoodViewController.swift */,
 				A73675C31AB275D00049F815 /* Restaurants.swift */,
+				A7E437A01AB36B3A0015B1CC /* DetailViewController.swift */,
 				A73675BF1AB274AF0049F815 /* CustomCell.swift */,
 				A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */,
 				A7BDAAA01AA109CB00E35518 /* Home page.swift */,
@@ -264,6 +267,7 @@
 				FA0720461AAF75D6000F42FC /* DrivingMap.swift in Sources */,
 				A7BDAAA11AA109CB00E35518 /* Home page.swift in Sources */,
 				A73675C01AB274AF0049F815 /* CustomCell.swift in Sources */,
+				A7E437A11AB36B3A0015B1CC /* DetailViewController.swift in Sources */,
 				A73675C41AB275D00049F815 /* Restaurants.swift in Sources */,
 				A7BDAA9F1AA109CB00E35518 /* AppDelegate.swift in Sources */,
 			);

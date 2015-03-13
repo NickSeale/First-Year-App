@@ -82,6 +82,29 @@ class RetailFoodViewController: UIViewController, UITableViewDataSource, UITable
         return cell
         
     }
+    
+    
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+         let restaurant = arrayOfRestaurants[indexPath.row]
+        
+        var detailedViewController:DetailViewController = self.storyboard?.instantiateViewControllerWithIdentifier("DetailViewController") as DetailViewController
+        
+        detailedViewController.restaurantNameString = restaurant.name
+        detailedViewController.restaurantLocationString = restaurant.location
+        detailedViewController.monHoursString = restaurant.monHours
+        detailedViewController.tuesHoursString = restaurant.tuesHours
+        detailedViewController.wedHoursString = restaurant.wedHours
+        detailedViewController.thursHoursString = restaurant.thursHours
+        detailedViewController.friHoursString = restaurant.friHours
+        detailedViewController.SatHoursString = restaurant.satHours
+        detailedViewController.SunHoursString = restaurant.sunHours
+        detailedViewController.myDetailedimageName = restaurant.imageName
+        
+        self.presentViewController(detailedViewController, animated: true, completion: nil)
+        self.myTableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+    }
     /*
     // MARK: - Navigation
 

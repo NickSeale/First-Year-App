@@ -39,6 +39,10 @@ class RetailFoodViewController: UIViewController, UITableViewDataSource, UITable
         var restaurant13 = Restaurant(name: "Gord's Café", location: "Gordon-Brockington House", imageName: "Gords Cafe.png", monHours: "7:30am-11:00pm", tuesHours: "7:30am-11:00pm", wedHours: "7:30am-11:00pm", thursHours: "7:30am-11:00pm ", friHours: "7:30am-11:00pm", satHours: "9:30am-11:00pm", sunHours: "9:30am-11:00pm")
         var restaurant14 = Restaurant(name: "Goode's Café", location: "Goode's Hall", imageName: "Goode's Cafe.png", monHours: "8:15am-1:15pm", tuesHours: "8:15am-1:15pm", wedHours: "8:15am-1:15pm", thursHours: "8:15am-1:15pm", friHours: "8:15am-1:15pm", satHours: "CLOSED", sunHours: "CLOSED")
         var restaurant15 = Restaurant(name: "Starbucks", location: "Goode's Hall", imageName: "Starbucks.png", monHours: "7:30am-10:00pm", tuesHours: "7:30am-10:00pm", wedHours: "7:30am-10:00pm", thursHours: "7:30am-10:00pm", friHours: "7:30am-7:00pm", satHours: "9:00am-7:00pm", sunHours: "9:00am-9:00pm")
+        var restaurant16 = Restaurant(name: "The Library Café", location: "Stauffer Library", imageName: "person1.png", monHours: "8:00am-4:30pm", tuesHours: "8:00am-4:30pm", wedHours: "8:00am-4:30pm", thursHours: "8:00am-4:30pm", friHours: "8:00am-4:30pm", satHours: "CLOSED", sunHours: "CLOSED")
+        var restaurant17 = Restaurant(name: "Tim Hortons", location: "Biosciences Complex", imageName: "Tim Hortons.png", monHours: "7:00am-7:00pm", tuesHours: "7:00am-7:00pm", wedHours: "7:00am-7:00pm", thursHours: "7:00am-7:00pm", friHours: "7:00am-4:00pm", satHours: "CLOSED", sunHours: "CLOSED")
+        var restaurant18 = Restaurant(name: "Fastlane", location: "New Medical Building", imageName: "person1.png", monHours: "8:30am-1:30pm", tuesHours: "8:30am-1:30pm", wedHours: "8:30am-1:30pm", thursHours: "8:30am-1:30pm", friHours: "8:30am-1:30pm", satHours: "CLOSED", sunHours: "CLOSED")
+        var restaurant19 = Restaurant(name: "Market Street", location: "Botterall Hall", imageName: "person2.png", monHours: "7:00am-3:00pm", tuesHours: "7:00am-3:00pm", wedHours: "7:00am-3:00pm", thursHours: "7:00am-3:00pm", friHours: "7:00am-3:00pm", satHours: "CLOSED", sunHours: "CLOSED")
         
         
         
@@ -57,6 +61,10 @@ class RetailFoodViewController: UIViewController, UITableViewDataSource, UITable
         arrayOfRestaurants.append(restaurant13)
         arrayOfRestaurants.append(restaurant14)
         arrayOfRestaurants.append(restaurant15)
+        arrayOfRestaurants.append(restaurant16)
+        arrayOfRestaurants.append(restaurant17)
+        arrayOfRestaurants.append(restaurant18)
+        arrayOfRestaurants.append(restaurant19)
         
     }
 

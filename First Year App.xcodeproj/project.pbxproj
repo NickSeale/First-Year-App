@@ -139,6 +139,7 @@
 		A7BDAA9B1AA109CB00E35518 /* First Year App */ = {
 			isa = PBXGroup;
 			children = (
+				A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */,
 				A73675C31AB275D00049F815 /* Restaurants.swift */,
 				A734F6E41AB3D6620075A603 /* Libraries.swift */,
 				A73675BD1AB274770049F815 /* RetailFoodViewController.swift */,
@@ -146,7 +147,6 @@
 				A7E437A01AB36B3A0015B1CC /* DetailViewController.swift */,
 				A73675BF1AB274AF0049F815 /* CustomCell.swift */,
 				A734F6E81AB3D7BB0075A603 /* LibraryCustomCell.swift */,
-				A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */,
 				A7BDAAA01AA109CB00E35518 /* Home page.swift */,
 				FA0720451AAF75D6000F42FC /* DrivingMap.swift */,
 				FA0720431AAF60B2000F42FC /* Schedule.swift */,

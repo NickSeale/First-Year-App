@@ -399,210 +399,91 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="douglasLibraryCopy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Tig-IZ-Kcr">
-                                <rect key="frame" x="0.0" y="5" width="600" height="413"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bookstore.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="BlQ-QN-iMH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="413" id="KLg-X6-v4S"/>
-                                    <constraint firstAttribute="width" constant="600" id="QQP-GH-EIG"/>
+                                    <constraint firstAttribute="width" secondItem="BlQ-QN-iMH" secondAttribute="height" multiplier="1:1" id="Iaj-kL-eC3"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Queens University" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t2i-V8-oZg">
-                                <rect key="frame" x="144" y="30" width="313" height="49"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Queens University" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t2i-V8-oZg">
+                                <rect key="frame" x="144" y="94" width="313" height="49"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="41"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="First Year App" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DF8-25-jsA">
-                                <rect key="frame" x="244" y="84" width="113" height="23"/>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92W-T8-qCd">
+                                <rect key="frame" x="148" y="515" width="100" height="65"/>
+                                <state key="normal" image="External Links.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nuo-2Z-w9E">
+                                <rect key="frame" x="148" y="448" width="100" height="65"/>
+                                <state key="normal" image="Schedule.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="E6d-pP-LwE" kind="show" id="7tP-vD-QUd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2Q-ke-38f">
+                                <rect key="frame" x="250" y="448" width="100" height="65"/>
+                                <state key="normal" image="Food Button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kdr-Nd-kT4" kind="show" id="efB-n7-rch"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8Z-yl-zb6">
+                                <rect key="frame" x="352" y="515" width="100" height="65"/>
+                                <state key="normal" image="Contacts.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="First Year App" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DF8-25-jsA">
+                                <rect key="frame" x="244" y="148" width="113" height="23"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hem-EJ-Lkm">
-                                <rect key="frame" x="255" y="510" width="90" height="80"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="3fC-yh-aJh"/>
-                                    <constraint firstAttribute="width" constant="90" id="M5i-O0-V2J"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="17"/>
-                                <state key="normal" title="MAP">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVZ-So-185">
+                                <rect key="frame" x="250" y="515" width="100" height="65"/>
+                                <state key="normal" image="Map.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="nMq-Pc-Wcp" kind="show" id="fAy-xH-REX"/>
+                                    <segue destination="nMq-Pc-Wcp" kind="show" id="wHf-Lf-R5S"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMl-dw-myC">
-                                <rect key="frame" x="255" y="428" width="90" height="80"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="97u-rb-6Yl"/>
-                                    <constraint firstAttribute="height" constant="80" id="qgc-CJ-TYQ"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="spz-yt-6mn"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="17"/>
-                                <state key="normal" title="HOURS">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="Lgu-iD-Ekp" kind="show" id="51B-F9-WEl"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJG-wU-KAt">
-                                <rect key="frame" x="16" y="428" width="90" height="80"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="R4B-aS-pLP"/>
-                                    <constraint firstAttribute="height" constant="80" id="SdP-Nz-DV9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="17"/>
-                                <state key="normal" title="SCHEDULE">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyi-Bl-cad">
+                                <rect key="frame" x="352" y="448" width="100" height="65"/>
+                                <state key="normal" image="Building Hours.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="E6d-pP-LwE" kind="show" id="2Xa-aO-0dm"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="riQ-Vb-gfS">
-                                <rect key="frame" x="16" y="510" width="90" height="80"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="7Ra-rU-biH"/>
-                                    <constraint firstAttribute="width" constant="90" id="i7t-YW-F6e"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="17"/>
-                                <state key="normal" title="LINKS">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLm-M4-gUv">
-                                <rect key="frame" x="494" y="510" width="90" height="80"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="5KS-Mz-ish"/>
-                                    <constraint firstAttribute="height" constant="80" id="e7h-Y3-c1m"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="17"/>
-                                <state key="normal" title="INFO">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DMe-Cc-5kz">
-                                <rect key="frame" x="494" y="428" width="90" height="80"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="HS8-j8-nBq"/>
-                                    <constraint firstAttribute="height" constant="80" id="qtL-OG-cxu"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="17"/>
-                                <state key="normal" title="FOOD">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="kdr-Nd-kT4" kind="show" id="6uK-6U-86l"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="utensilIconCopy.png" translatesAutoresizingMaskIntoConstraints="NO" id="B9F-qz-lob">
-                                <rect key="frame" x="272" y="434" width="56" height="40"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="utensilIconCopy.png" translatesAutoresizingMaskIntoConstraints="NO" id="tMe-Nm-Dbw">
-                                <rect key="frame" x="272" y="516" width="56" height="40"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="utensilIconCopy.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cy5-1r-uvU">
-                                <rect key="frame" x="511" y="434" width="56" height="40"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="utensilIconCopy.png" translatesAutoresizingMaskIntoConstraints="NO" id="92E-K5-7Nv">
-                                <rect key="frame" x="33" y="434" width="56" height="40"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="utensilIconCopy.png" translatesAutoresizingMaskIntoConstraints="NO" id="tWM-ey-Pl5">
-                                <rect key="frame" x="511" y="516" width="56" height="40"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="utensilIconCopy.png" translatesAutoresizingMaskIntoConstraints="NO" id="h9H-4t-5N8">
-                                <rect key="frame" x="33" y="516" width="56" height="40"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="xMl-dw-myC" firstAttribute="top" secondItem="Tig-IZ-Kcr" secondAttribute="bottom" constant="10" id="0G9-iA-1yq"/>
-                            <constraint firstAttribute="centerX" secondItem="Tig-IZ-Kcr" secondAttribute="centerX" id="7U3-dz-2Xo"/>
                             <constraint firstAttribute="centerX" secondItem="t2i-V8-oZg" secondAttribute="centerX" id="DQ3-FC-W0f"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="VLm-M4-gUv" secondAttribute="trailing" id="G9Z-hi-iIL"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="riQ-Vb-gfS" secondAttribute="bottom" constant="10" id="MjO-aS-PRK"/>
-                            <constraint firstItem="Hem-EJ-Lkm" firstAttribute="top" secondItem="xMl-dw-myC" secondAttribute="bottom" constant="2" id="ODk-JE-Yt9"/>
-                            <constraint firstItem="DF8-25-jsA" firstAttribute="top" secondItem="t2i-V8-oZg" secondAttribute="bottom" constant="5" id="OSu-gr-9th"/>
-                            <constraint firstItem="VLm-M4-gUv" firstAttribute="trailing" secondItem="DMe-Cc-5kz" secondAttribute="trailing" id="Ohd-sT-h7t"/>
-                            <constraint firstItem="t2i-V8-oZg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="QXp-hX-kgD"/>
-                            <constraint firstAttribute="centerX" secondItem="tMe-Nm-Dbw" secondAttribute="centerX" id="SGw-dO-jcH"/>
-                            <constraint firstItem="B9F-qz-lob" firstAttribute="top" secondItem="xMl-dw-myC" secondAttribute="top" constant="6" id="UQb-wR-gw2"/>
-                            <constraint firstItem="Cy5-1r-uvU" firstAttribute="centerX" secondItem="DMe-Cc-5kz" secondAttribute="centerX" id="W2y-lU-zyj"/>
-                            <constraint firstItem="xMl-dw-myC" firstAttribute="top" secondItem="DMe-Cc-5kz" secondAttribute="top" id="a7C-lD-B0b"/>
-                            <constraint firstItem="riQ-Vb-gfS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="acx-bV-bjq"/>
-                            <constraint firstItem="92E-K5-7Nv" firstAttribute="centerX" secondItem="SJG-wU-KAt" secondAttribute="centerX" id="afd-f5-8C5"/>
-                            <constraint firstItem="riQ-Vb-gfS" firstAttribute="top" secondItem="SJG-wU-KAt" secondAttribute="bottom" constant="2" id="azC-BN-QkM"/>
-                            <constraint firstItem="Cy5-1r-uvU" firstAttribute="top" secondItem="DMe-Cc-5kz" secondAttribute="top" constant="6" id="bJ5-OL-Mhk"/>
-                            <constraint firstItem="SJG-wU-KAt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bvJ-BT-qJ1"/>
-                            <constraint firstItem="DF8-25-jsA" firstAttribute="top" secondItem="t2i-V8-oZg" secondAttribute="bottom" constant="5" id="cDt-tA-AZ1"/>
-                            <constraint firstItem="tWM-ey-Pl5" firstAttribute="centerX" secondItem="VLm-M4-gUv" secondAttribute="centerX" id="cN9-dB-mlx"/>
-                            <constraint firstAttribute="centerX" secondItem="Hem-EJ-Lkm" secondAttribute="centerX" id="ezI-Se-C9p"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VLm-M4-gUv" secondAttribute="bottom" constant="10" id="hah-0G-Jkx"/>
+                            <constraint firstItem="BlQ-QN-iMH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="KwG-8s-pPK"/>
+                            <constraint firstItem="t2i-V8-oZg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="QXp-hX-kgD"/>
+                            <constraint firstItem="pVZ-So-185" firstAttribute="top" secondItem="92W-T8-qCd" secondAttribute="top" id="VvV-eU-Soo"/>
+                            <constraint firstItem="pVZ-So-185" firstAttribute="top" secondItem="d8Z-yl-zb6" secondAttribute="top" id="WIP-UN-Pfw"/>
+                            <constraint firstItem="xyi-Bl-cad" firstAttribute="leading" secondItem="c2Q-ke-38f" secondAttribute="trailing" constant="2" id="X8k-Mu-q1C"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pVZ-So-185" secondAttribute="bottom" constant="20" id="clv-c0-Dje"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BlQ-QN-iMH" secondAttribute="bottom" id="gUF-gx-B0s"/>
+                            <constraint firstItem="pVZ-So-185" firstAttribute="leading" secondItem="92W-T8-qCd" secondAttribute="trailing" constant="2" id="gdc-xS-ICV"/>
+                            <constraint firstItem="c2Q-ke-38f" firstAttribute="leading" secondItem="Nuo-2Z-w9E" secondAttribute="trailing" constant="2" id="h18-ip-bc8"/>
                             <constraint firstAttribute="centerX" secondItem="DF8-25-jsA" secondAttribute="centerX" id="hrE-I3-eDz"/>
                             <constraint firstItem="DF8-25-jsA" firstAttribute="top" secondItem="t2i-V8-oZg" secondAttribute="bottom" constant="5" id="i8O-SX-YSV"/>
-                            <constraint firstItem="tWM-ey-Pl5" firstAttribute="top" secondItem="VLm-M4-gUv" secondAttribute="top" constant="6" id="kE5-vP-m6q"/>
-                            <constraint firstAttribute="centerX" secondItem="B9F-qz-lob" secondAttribute="centerX" id="lKW-0M-YYq"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Hem-EJ-Lkm" secondAttribute="bottom" constant="10" id="mMx-G6-ePT"/>
-                            <constraint firstItem="riQ-Vb-gfS" firstAttribute="centerX" secondItem="h9H-4t-5N8" secondAttribute="centerX" id="oqr-kK-Maa"/>
-                            <constraint firstItem="tMe-Nm-Dbw" firstAttribute="top" secondItem="Hem-EJ-Lkm" secondAttribute="top" constant="6" id="qj8-ns-91w"/>
-                            <constraint firstAttribute="centerX" secondItem="xMl-dw-myC" secondAttribute="centerX" id="sT9-x4-9iC"/>
-                            <constraint firstItem="riQ-Vb-gfS" firstAttribute="top" secondItem="h9H-4t-5N8" secondAttribute="top" constant="-6" id="xWU-Qy-NlF"/>
-                            <constraint firstItem="92E-K5-7Nv" firstAttribute="top" secondItem="SJG-wU-KAt" secondAttribute="top" constant="6" id="yJh-Om-kuI"/>
+                            <constraint firstAttribute="centerX" secondItem="BlQ-QN-iMH" secondAttribute="centerX" id="lhz-sN-40z"/>
+                            <constraint firstItem="d8Z-yl-zb6" firstAttribute="leading" secondItem="pVZ-So-185" secondAttribute="trailing" constant="2" id="m7d-ci-rL4"/>
+                            <constraint firstItem="c2Q-ke-38f" firstAttribute="top" secondItem="xyi-Bl-cad" secondAttribute="top" id="n75-pd-CTU"/>
+                            <constraint firstItem="c2Q-ke-38f" firstAttribute="top" secondItem="Nuo-2Z-w9E" secondAttribute="top" id="oSi-0W-pUz"/>
+                            <constraint firstItem="pVZ-So-185" firstAttribute="top" secondItem="c2Q-ke-38f" secondAttribute="bottom" constant="2" id="pMy-jC-bA7"/>
+                            <constraint firstAttribute="centerX" secondItem="c2Q-ke-38f" secondAttribute="centerX" id="t3h-BR-P0Z"/>
+                            <constraint firstAttribute="centerX" secondItem="pVZ-So-185" secondAttribute="centerX" id="uVd-AE-Sgt"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XCl-Co-fg9"/>
@@ -821,7 +702,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n6U-aA-rGk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-335" y="-1199"/>
+            <point key="canvasLocation" x="-156" y="-1019"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tIX-yN-xey">
@@ -897,8 +778,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Bookstore.jpeg" width="3252" height="2236"/>
+        <image name="Building Hours.png" width="100" height="65"/>
+        <image name="Contacts.png" width="100" height="65"/>
+        <image name="External Links.png" width="100" height="65"/>
+        <image name="Food Button.png" width="100" height="65"/>
+        <image name="Map.png" width="100" height="65"/>
+        <image name="Schedule.png" width="100" height="65"/>
         <image name="bg2.png" width="600" height="600"/>
-        <image name="douglasLibraryCopy.jpg" width="3008" height="2000"/>
-        <image name="utensilIconCopy.png" width="56" height="40"/>
     </resources>
 </document>

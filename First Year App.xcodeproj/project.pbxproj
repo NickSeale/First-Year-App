@@ -41,6 +41,9 @@
 		FA4B61181AB0C63700C3BDAB /* TopBarMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4B61171AB0C63700C3BDAB /* TopBarMap.jpg */; };
 		FA4B617E1AB0DAAD00C3BDAB /* WalkingMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B617D1AB0DAAD00C3BDAB /* WalkingMap.swift */; };
 		FA4B61841AB0DDBD00C3BDAB /* TransitMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B61831AB0DDBD00C3BDAB /* TransitMap.swift */; };
+		FA6D8DB81ABA08EA00FE94B5 /* BanRigh.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D8DB71ABA08EA00FE94B5 /* BanRigh.swift */; };
+		FA6D8DBA1ABA0F1400FE94B5 /* Leonard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D8DB91ABA0F1400FE94B5 /* Leonard.swift */; };
+		FA6D8DBC1ABA103B00FE94B5 /* JeanRoyce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D8DBB1ABA103B00FE94B5 /* JeanRoyce.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +95,9 @@
 		FA4B61171AB0C63700C3BDAB /* TopBarMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TopBarMap.jpg; sourceTree = "<group>"; };
 		FA4B617D1AB0DAAD00C3BDAB /* WalkingMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkingMap.swift; sourceTree = "<group>"; };
 		FA4B61831AB0DDBD00C3BDAB /* TransitMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitMap.swift; sourceTree = "<group>"; };
+		FA6D8DB71ABA08EA00FE94B5 /* BanRigh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BanRigh.swift; sourceTree = "<group>"; };
+		FA6D8DB91ABA0F1400FE94B5 /* Leonard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leonard.swift; sourceTree = "<group>"; };
+		FA6D8DBB1ABA103B00FE94B5 /* JeanRoyce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JeanRoyce.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,12 +139,15 @@
 		A7BDAA9B1AA109CB00E35518 /* First Year App */ = {
 			isa = PBXGroup;
 			children = (
+				A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */,
 				A73675C31AB275D00049F815 /* Restaurants.swift */,
 				A73675BD1AB274770049F815 /* RetailFoodViewController.swift */,
 				A7E437A01AB36B3A0015B1CC /* DetailViewController.swift */,
 				A73675BF1AB274AF0049F815 /* CustomCell.swift */,
-				A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */,
 				A7BDAAA01AA109CB00E35518 /* Home page.swift */,
+				FA6D8DB71ABA08EA00FE94B5 /* BanRigh.swift */,
+				FA6D8DB91ABA0F1400FE94B5 /* Leonard.swift */,
+				FA6D8DBB1ABA103B00FE94B5 /* JeanRoyce.swift */,
 				FA0720451AAF75D6000F42FC /* DrivingMap.swift */,
 				FA0720431AAF60B2000F42FC /* Schedule.swift */,
 				FA4B61831AB0DDBD00C3BDAB /* TransitMap.swift */,
@@ -317,10 +326,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A73675BE1AB274770049F815 /* RetailFoodViewController.swift in Sources */,
+				FA6D8DBA1ABA0F1400FE94B5 /* Leonard.swift in Sources */,
 				FA4B61841AB0DDBD00C3BDAB /* TransitMap.swift in Sources */,
 				FA4B617E1AB0DAAD00C3BDAB /* WalkingMap.swift in Sources */,
 				FA0720441AAF60B2000F42FC /* Schedule.swift in Sources */,
 				FA0720461AAF75D6000F42FC /* DrivingMap.swift in Sources */,
+				FA6D8DB81ABA08EA00FE94B5 /* BanRigh.swift in Sources */,
+				FA6D8DBC1ABA103B00FE94B5 /* JeanRoyce.swift in Sources */,
 				A7BDAAA11AA109CB00E35518 /* Home page.swift in Sources */,
 				A73675C01AB274AF0049F815 /* CustomCell.swift in Sources */,
 				A7E437A11AB36B3A0015B1CC /* DetailViewController.swift in Sources */,

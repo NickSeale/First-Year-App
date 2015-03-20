@@ -1023,7 +1023,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsa-4u-Vic">
-                                <rect key="frame" x="147" y="426" width="124" height="30"/>
+                                <rect key="frame" x="177" y="476" width="124" height="30"/>
                                 <state key="normal" title="Check Your Meals">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>

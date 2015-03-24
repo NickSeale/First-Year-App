@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().tintColor = UIColor.purpleColor()
         //UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.purpleColor()]
         UINavigationBar.appearance().titleTextAttributes = [UIFontTextStyleHeadline : UIFont(name: "Times New Roman", size:20)!]
+        UIToolbar.appearance().tintColor = UIColor.purpleColor()
+        UITabBar.appearance().tintColor = UIColor.purpleColor()
         
         return true
     }

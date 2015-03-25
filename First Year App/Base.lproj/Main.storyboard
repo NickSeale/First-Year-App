@@ -88,45 +88,102 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hx0-b3-2Kl">
-                                <rect key="frame" x="68" y="285" width="165" height="30"/>
-                                <state key="normal" title="Retail Food Outlets">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="bq2-pi-j0q" kind="show" id="Wa4-YI-VFm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdi-5b-707">
-                                <rect key="frame" x="258" y="111" width="63" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdi-5b-707">
+                                <rect key="frame" x="175" y="114" width="250" height="80"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="4AZ-cv-laa"/>
+                                    <constraint firstAttribute="width" constant="250" id="g96-KC-isI"/>
+                                </constraints>
                                 <state key="normal" title="Ban Righ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="4Jd-rn-6MD" kind="show" id="mq4-vv-6CM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQC-S9-Wu0">
-                                <rect key="frame" x="266" y="159" width="57" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQC-S9-Wu0">
+                                <rect key="frame" x="175" y="214" width="250" height="80"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="M0T-6m-cHv"/>
+                                    <constraint firstAttribute="height" constant="80" id="Qfb-Lz-Ax2"/>
+                                </constraints>
                                 <state key="normal" title="Leonard">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="69o-z9-69k" kind="show" id="RAK-fM-4z8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixx-AJ-3qn">
-                                <rect key="frame" x="275" y="217" width="81" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixx-AJ-3qn">
+                                <rect key="frame" x="175" y="314" width="250" height="80"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="4ie-og-7ks"/>
+                                    <constraint firstAttribute="height" constant="80" id="gy1-ax-1JU"/>
+                                </constraints>
                                 <state key="normal" title="Jean Royce">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="FXW-Sh-L8V" kind="show" id="zcj-ty-bZy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hx0-b3-2Kl">
+                                <rect key="frame" x="175" y="414" width="250" height="80"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="6qm-Ar-YQ4"/>
+                                    <constraint firstAttribute="width" constant="250" id="kAm-Fb-brK"/>
+                                </constraints>
+                                <state key="normal" title="Retail Food Outlets">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="bq2-pi-j0q" kind="show" id="Wa4-YI-VFm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hx0-b3-2Kl" firstAttribute="top" secondItem="ixx-AJ-3qn" secondAttribute="bottom" constant="20" id="ABJ-Ze-EmB"/>
+                            <constraint firstAttribute="centerX" secondItem="ixx-AJ-3qn" secondAttribute="centerX" id="VDk-O3-mqm"/>
+                            <constraint firstAttribute="centerX" secondItem="vQC-S9-Wu0" secondAttribute="centerX" id="cc2-gK-908"/>
+                            <constraint firstAttribute="centerX" secondItem="Qdi-5b-707" secondAttribute="centerX" id="dV2-DH-Dac"/>
+                            <constraint firstItem="vQC-S9-Wu0" firstAttribute="top" secondItem="Qdi-5b-707" secondAttribute="bottom" constant="20" id="dc9-lo-QgS"/>
+                            <constraint firstItem="ixx-AJ-3qn" firstAttribute="top" secondItem="vQC-S9-Wu0" secondAttribute="bottom" constant="20" id="jpi-XZ-ufR"/>
+                            <constraint firstAttribute="centerX" secondItem="hx0-b3-2Kl" secondAttribute="centerX" id="mqI-6k-dcv"/>
+                            <constraint firstItem="Qdi-5b-707" firstAttribute="top" secondItem="zcK-92-ccT" secondAttribute="bottom" constant="50" id="sWr-Rq-AeB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="55z-Gf-qVA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -609,24 +666,28 @@
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
                                     <barButtonItem title="Item" systemItem="rewind" id="rQx-jX-cds">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="goBack" destination="3Js-X1-6Er" id="mTe-fP-jhp"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Bc7-0e-JWh"/>
                                     <barButtonItem systemItem="fastForward" id="y6f-7M-qWu">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="goForward" destination="3Js-X1-6Er" id="EtM-am-LU2"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="jKe-QL-Yq1"/>
                                     <barButtonItem title="Item" systemItem="refresh" id="9SJ-SZ-Amw">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="reload" destination="3Js-X1-6Er" id="XZ2-84-s1e"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Pb8-VT-Jo9"/>
                                     <barButtonItem systemItem="stop" id="SEZ-Zj-gSa">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="stopLoading" destination="3Js-X1-6Er" id="Vs1-aJ-Uxy"/>
                                         </connections>
@@ -838,24 +899,28 @@
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
                                     <barButtonItem title="Item" systemItem="rewind" id="vD6-aS-ZJJ">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="goBack" destination="VJj-fY-qIa" id="wNx-L9-bJI"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="GoX-OO-5Xi"/>
                                     <barButtonItem systemItem="fastForward" id="dSu-QR-YNK">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="goForward" destination="VJj-fY-qIa" id="X9z-ij-eX5"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="yie-Bc-gSs"/>
                                     <barButtonItem title="Item" systemItem="refresh" id="jgh-CH-9yy">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="reload" destination="VJj-fY-qIa" id="4qp-cY-nxi"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="6ZN-1f-6h3"/>
                                     <barButtonItem systemItem="stop" id="oYU-KQ-jwk">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="stopLoading" destination="VJj-fY-qIa" id="59A-oO-8El"/>
                                         </connections>
@@ -902,24 +967,28 @@
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
                                     <barButtonItem title="Item" systemItem="rewind" id="9Vw-4q-kDz">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="goBack" destination="4ck-XJ-pDr" id="LWy-ho-0iE"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="RfL-Js-GSz"/>
                                     <barButtonItem systemItem="fastForward" id="Ojp-JJ-gUP">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="goForward" destination="4ck-XJ-pDr" id="aXU-Sj-9uK"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="eJM-df-NNm"/>
                                     <barButtonItem title="Item" systemItem="refresh" id="cHL-x6-D3m">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="reload" destination="4ck-XJ-pDr" id="njv-mN-PyD"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="1Tk-SV-1Pr"/>
                                     <barButtonItem systemItem="stop" id="NQ8-UC-jzl">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="stopLoading" destination="4ck-XJ-pDr" id="8mJ-RZ-vCK"/>
                                         </connections>
@@ -966,24 +1035,28 @@
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
                                     <barButtonItem title="Item" systemItem="rewind" id="KsG-u1-4eo">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="goBack" destination="FIp-zh-Pej" id="gkk-Uh-iaM"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="6T8-xX-PqR"/>
                                     <barButtonItem systemItem="fastForward" id="kG6-5Q-rSU">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="goForward" destination="FIp-zh-Pej" id="5G2-m1-0F1"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="sgH-Wr-DmW"/>
                                     <barButtonItem title="Item" systemItem="refresh" id="irX-P2-ocn">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="reload" destination="FIp-zh-Pej" id="Uyf-wv-pRw"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="4QT-eD-bCQ"/>
                                     <barButtonItem systemItem="stop" id="4jP-lo-HPC">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="stopLoading" destination="FIp-zh-Pej" id="rh4-p0-b71"/>
                                         </connections>
@@ -1026,53 +1099,120 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0p-Xl-fdv">
-                                <rect key="frame" x="160" y="83" width="64" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0p-Xl-fdv">
+                                <rect key="frame" x="175" y="74" width="250" height="80"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="8HH-qp-eAx"/>
+                                    <constraint firstAttribute="height" constant="80" id="Ktd-YS-EL0"/>
+                                </constraints>
                                 <state key="normal" title="QueensU">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="0FN-yy-azo" kind="show" id="7IW-lO-zrk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBv-Ml-FKd">
-                                <rect key="frame" x="172" y="177" width="52" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBv-Ml-FKd">
+                                <rect key="frame" x="175" y="174" width="250" height="80"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Oz3-Pe-p5D"/>
+                                    <constraint firstAttribute="width" constant="250" id="u7p-U8-6Uq"/>
+                                </constraints>
                                 <state key="normal" title="Moodle">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="ZDT-vz-3KE" kind="show" id="Yvi-F2-1ep"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWO-Vc-0CJ">
-                                <rect key="frame" x="194" y="271" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWO-Vc-0CJ">
+                                <rect key="frame" x="175" y="274" width="250" height="80"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="xGS-Y9-9ke"/>
+                                    <constraint firstAttribute="height" constant="80" id="xej-6p-JmR"/>
+                                </constraints>
                                 <state key="normal" title="D2L">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="S95-cy-hny" kind="show" id="283-Bw-gkU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4h-9K-Oat">
-                                <rect key="frame" x="190" y="350" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4h-9K-Oat">
+                                <rect key="frame" x="175" y="374" width="250" height="80"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="YN0-3k-y6K"/>
+                                    <constraint firstAttribute="width" constant="250" id="rvk-1C-6Sw"/>
+                                </constraints>
                                 <state key="normal" title="Solus">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="DhE-TY-vZ6" kind="show" id="zVr-KT-gOw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsa-4u-Vic">
-                                <rect key="frame" x="147" y="426" width="124" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsa-4u-Vic">
+                                <rect key="frame" x="175" y="474" width="250" height="80"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="2Od-td-8WA"/>
+                                    <constraint firstAttribute="width" constant="250" id="hRU-nx-4pf"/>
+                                </constraints>
                                 <state key="normal" title="Check Your Meals">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="TDd-Ab-aAs" kind="show" id="SUJ-bh-5U8"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F4h-9K-Oat" firstAttribute="top" secondItem="EWO-Vc-0CJ" secondAttribute="bottom" constant="20" id="D91-a8-xp3"/>
+                            <constraint firstItem="rBv-Ml-FKd" firstAttribute="top" secondItem="s0p-Xl-fdv" secondAttribute="bottom" constant="20" id="E4m-hm-vp9"/>
+                            <constraint firstAttribute="centerX" secondItem="s0p-Xl-fdv" secondAttribute="centerX" id="KfR-Wf-gtB"/>
+                            <constraint firstAttribute="centerX" secondItem="F4h-9K-Oat" secondAttribute="centerX" id="PJv-jg-qwy"/>
+                            <constraint firstAttribute="centerX" secondItem="rBv-Ml-FKd" secondAttribute="centerX" id="VKo-45-Liw"/>
+                            <constraint firstItem="s0p-Xl-fdv" firstAttribute="top" secondItem="EEI-N7-3fU" secondAttribute="bottom" constant="10" id="YC9-NT-orT"/>
+                            <constraint firstItem="EWO-Vc-0CJ" firstAttribute="top" secondItem="rBv-Ml-FKd" secondAttribute="bottom" constant="20" id="bBt-Cp-rRu"/>
+                            <constraint firstAttribute="centerX" secondItem="EWO-Vc-0CJ" secondAttribute="centerX" id="fd3-qH-Iex"/>
+                            <constraint firstItem="Xsa-4u-Vic" firstAttribute="top" secondItem="F4h-9K-Oat" secondAttribute="bottom" constant="20" id="gu0-f0-k6F"/>
+                            <constraint firstAttribute="centerX" secondItem="Xsa-4u-Vic" secondAttribute="centerX" id="wZ0-Z8-Nkl"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="External Links" id="qV2-p3-Te0"/>
                 </viewController>
@@ -1096,24 +1236,28 @@
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
                                     <barButtonItem title="Item" systemItem="rewind" id="Td1-E3-PQB">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="goBack" destination="J5T-xW-uEc" id="4Jp-Fa-N6D"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="6ZG-tR-gnt"/>
                                     <barButtonItem systemItem="fastForward" id="Fzf-7u-Af8">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="goForward" destination="J5T-xW-uEc" id="9DW-AJ-Pw6"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="HDI-tC-jrH"/>
                                     <barButtonItem title="Item" systemItem="refresh" id="0Em-j7-MmI">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="reload" destination="J5T-xW-uEc" id="jIh-jB-CHo"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="vlW-ka-q6E"/>
                                     <barButtonItem systemItem="stop" id="6P3-on-7wK">
+                                        <color key="tintColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="stopLoading" destination="J5T-xW-uEc" id="r1g-N1-aph"/>
                                         </connections>
@@ -1198,23 +1342,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vxn-5j-Gpm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1223" y="-338"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="xeZ-A9-Ehk">
-            <objects>
-                <viewController id="tv4-7m-myX" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="HIM-lo-LoD"/>
-                        <viewControllerLayoutGuide type="bottom" id="Kwz-B5-EL4"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8zz-Hc-7Fr">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ev3-0b-eQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
     <resources>

@@ -2,7 +2,7 @@
 //  CustomCell.swift
 //  First Year App
 //
-//  Created by Kathryn Ohashi on 2015-03-12.
+//  Created by Nicholas Seale on 2015-03-12.
 //  Copyright (c) 2015 Nicholas Seale. All rights reserved.
 //
 

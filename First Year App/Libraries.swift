@@ -2,7 +2,7 @@
 //  Libraries.swift
 //  First Year App
 //
-//  Created by Kathryn Ohashi on 2015-03-24.
+//  Created by Nicholas Seale on 2015-03-24.
 //  Copyright (c) 2015 Nicholas Seale. All rights reserved.
 //
 
@@ -21,14 +21,11 @@ class Library {
     var sunHoursLibrary = "NonSun"
 
     
-    init(nameLibrary: String, locationLibrary:String,  monHoursLibrary:String, tuesHoursLibrary: String, wedHoursLibrary:String, thursHoursLibrary:String, friHoursLibrary:String, satHoursLibrary:String, sunHoursLibrary:String)
+    init(nameLibrary: String, locationLibrary:String,  monHoursLibrary:String, friHoursLibrary:String, satHoursLibrary:String, sunHoursLibrary:String)
     {
         self.nameLibrary = nameLibrary
         self.locationLibrary = locationLibrary
         self.monHoursLibrary = monHoursLibrary
-        self.tuesHoursLibrary = tuesHoursLibrary
-        self.wedHoursLibrary = wedHoursLibrary
-        self.thursHoursLibrary = thursHoursLibrary
         self.friHoursLibrary = friHoursLibrary
         self.satHoursLibrary = satHoursLibrary
         self.sunHoursLibrary = sunHoursLibrary

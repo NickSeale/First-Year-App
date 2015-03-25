@@ -2,7 +2,7 @@
 //  LibraryViewController.swift
 //  First Year App
 //
-//  Created by Kathryn Ohashi on 2015-03-24.
+//  Created by Nicholas Seale on 2015-03-24.
 //  Copyright (c) 2015 Nicholas Seale. All rights reserved.
 //
 
@@ -24,11 +24,18 @@ class LibraryViewController: UIViewController,UITableViewDataSource, UITableView
     }
 
     func setUpLibraries() {
-        var library1 = Library(nameLibrary: "Stauffer Library", locationLibrary: "99 University av", monHoursLibrary: "9:00am-9:00pm", tuesHoursLibrary: "9:00am-9:00pm", wedHoursLibrary: "9:00am-9:00pm", thursHoursLibrary: "9:00am-9:00pm", friHoursLibrary: "9:00am-9:00pm", satHoursLibrary: "9:00am-10:00pm", sunHoursLibrary: "9:00am-10:00pm")
-        var library2 = Library(nameLibrary: "Douglas Library", locationLibrary: "20 University av", monHoursLibrary: "9:00am-10:00pm", tuesHoursLibrary: "9:00am-10:00pm", wedHoursLibrary: "9:00am-10:00pm", thursHoursLibrary: "9:00am-10:00pm", friHoursLibrary: "9:00am-10:00pm", satHoursLibrary: "8:00am-10:00pm", sunHoursLibrary: "8:00am-10:00pm")
+        var library1 = Library(nameLibrary: "Joseph S. Stauffer Library", locationLibrary: "99 university Av", monHoursLibrary: "8:00am-2:00am", friHoursLibrary: "8:00am-2:00am", satHoursLibrary: "10:00am-2:00am", sunHoursLibrary: "10:00am-2:00am")
+        var library2 = Library(nameLibrary: "Douglas Library", locationLibrary: "20 University Av", monHoursLibrary: "8:30am-9:00pm", friHoursLibrary: "8:30am-9:00pm", satHoursLibrary: "10:00am-9:00pm", sunHoursLibrary: "10:00am-9:00pm")
+        var library3 = Library(nameLibrary: "Bracken Health Sciences Library", locationLibrary: "Botterall Hall", monHoursLibrary: "8:30am-11:00pm", friHoursLibrary: "8:30am-8:00pm", satHoursLibrary: "10:00am-5:00pm", sunHoursLibrary: "10:00am-8:00pm ")
+        var library4 = Library(nameLibrary: "Education Library", locationLibrary: "West Campus", monHoursLibrary: "8:15am-9:00pm", friHoursLibrary: "8:15am-5:00pm", satHoursLibrary: "12:30pm-5:00pm", sunHoursLibrary: "12:30pm-5:00pm")
+        var library5 = Library(nameLibrary: "Lederman Law Library", locationLibrary: "Mac-Corry Hall", monHoursLibrary: "8:30am-11:00pm", friHoursLibrary: "8:30am-4:30pm", satHoursLibrary: "9:00am-7:00pm", sunHoursLibrary: "10:00am-11:00pm")
+
         
         self.arrayOfLibraries.append(library1)
         self.arrayOfLibraries.append(library2)
+        self.arrayOfLibraries.append(library3)
+        self.arrayOfLibraries.append(library4)
+        self.arrayOfLibraries.append(library5)
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -52,8 +59,8 @@ class LibraryViewController: UIViewController,UITableViewDataSource, UITableView
         }
         let library = arrayOfLibraries[indexPath.row]
         
+        cell.setLibraryCell(library.nameLibrary, libraryLocationText: library.locationLibrary, monLibraryHoursText: library.monHoursLibrary, friLibraryHoursText: library.friHoursLibrary, satLibraryHoursText: library.satHoursLibrary, sunLibraryHoursText: library.sunHoursLibrary)
         
-        cell.setLibraryCell(library.nameLibrary, libraryLocationText: library.locationLibrary, monLibraryHoursText: library.monHoursLibrary, tuesLibraryHoursText: library.tuesHoursLibrary, wedLibraryHoursText: library.wedHoursLibrary, thursLibraryHoursText: library.thursHoursLibrary, friLibraryHoursText: library.friHoursLibrary, satLibraryHoursText: library.satHoursLibrary, sunLibraryHoursText: library.sunHoursLibrary)
         return cell
         
         

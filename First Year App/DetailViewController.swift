@@ -2,7 +2,7 @@
 //  DetailViewController.swift
 //  First Year App
 //
-//  Created by Kathryn Ohashi on 2015-03-13.
+//  Created by Nicholas Seale on 2015-03-13.
 //  Copyright (c) 2015 Nicholas Seale. All rights reserved.
 //
 

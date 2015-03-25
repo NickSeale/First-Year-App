@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  First Year App
 //
-//  Created by Kathryn Ohashi on 2015-02-27.
+//  Created by Nicholas Seale on 2015-02-27.
 //  Copyright (c) 2015 Nicholas Seale. All rights reserved.
 //
 

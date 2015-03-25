@@ -18,8 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         UINavigationBar.appearance().tintColor = UIColor.purpleColor()
         //UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.purpleColor()]
-        UINavigationBar.appearance().titleTextAttributes = [UIFontTextStyleHeadline : UIFont(name: "Times New Roman", size:20)!]
-        
+        //UINavigationBar.appearance().titleTextAttributes = [UIFontTextStyleHeadline : UIFont(name: "Times New Roman", size:20)!]
+        UIToolbar.appearance().tintColor = UIColor.purpleColor()
+        UITabBar.appearance().tintColor = UIColor.purpleColor()
         return true
     }
 

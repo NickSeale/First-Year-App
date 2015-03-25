@@ -467,16 +467,24 @@
                             </imageView>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92W-T8-qCd">
                                 <rect key="frame" x="148" y="515" width="100" height="65"/>
-                                <state key="normal" image="External Links.png">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="5k0-HT-ZKP"/>
+                                    <constraint firstAttribute="width" constant="100" id="WnB-hZ-9CB"/>
+                                </constraints>
+                                <state key="normal" image="newLinks.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="6x1-Zr-jCp" kind="show" id="VBI-i1-kbf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nuo-2Z-w9E">
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nuo-2Z-w9E">
                                 <rect key="frame" x="148" y="448" width="100" height="65"/>
-                                <state key="normal" image="Schedule.png">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="dMZ-Zy-SZF"/>
+                                    <constraint firstAttribute="height" constant="65" id="ve8-43-r49"/>
+                                </constraints>
+                                <state key="normal" image="newSchedule.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -485,7 +493,11 @@
                             </button>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2Q-ke-38f">
                                 <rect key="frame" x="250" y="448" width="100" height="65"/>
-                                <state key="normal" image="Food Button.png">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="gpg-4N-og4"/>
+                                    <constraint firstAttribute="height" constant="65" id="jU0-vh-e6Q"/>
+                                </constraints>
+                                <state key="normal" image="newFood.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -494,13 +506,21 @@
                             </button>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8Z-yl-zb6">
                                 <rect key="frame" x="352" y="515" width="100" height="65"/>
-                                <state key="normal" image="Contacts.png">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="8WX-jo-SEu"/>
+                                    <constraint firstAttribute="height" constant="65" id="cCf-1l-G3t"/>
+                                </constraints>
+                                <state key="normal" image="newContacts.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVZ-So-185">
                                 <rect key="frame" x="250" y="515" width="100" height="65"/>
-                                <state key="normal" image="Map.png">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="U2b-mL-ExB"/>
+                                    <constraint firstAttribute="height" constant="65" id="eBt-xq-0TS"/>
+                                </constraints>
+                                <state key="normal" image="newMap.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -509,7 +529,11 @@
                             </button>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyi-Bl-cad">
                                 <rect key="frame" x="352" y="448" width="100" height="65"/>
-                                <state key="normal" image="Building Hours.png">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="OCw-Zs-drQ"/>
+                                    <constraint firstAttribute="height" constant="65" id="U1r-Jy-KYr"/>
+                                </constraints>
+                                <state key="normal" image="newHours.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1346,14 +1370,14 @@
     </scenes>
     <resources>
         <image name="Bookstore.jpeg" width="3252" height="2236"/>
-        <image name="Building Hours.png" width="100" height="65"/>
         <image name="Bus.png" width="50" height="50"/>
-        <image name="Contacts.png" width="100" height="65"/>
-        <image name="External Links.png" width="100" height="65"/>
-        <image name="Food Button.png" width="100" height="65"/>
-        <image name="Map.png" width="100" height="65"/>
-        <image name="Schedule.png" width="100" height="65"/>
         <image name="Walking.png" width="50" height="50"/>
         <image name="car-2.png" width="50" height="50"/>
+        <image name="newContacts.jpg" width="422" height="270"/>
+        <image name="newFood.jpg" width="422" height="270"/>
+        <image name="newHours.jpg" width="422" height="270"/>
+        <image name="newLinks.jpg" width="422" height="270"/>
+        <image name="newMap.jpg" width="422" height="270"/>
+        <image name="newSchedule.jpg" width="422" height="270"/>
     </resources>
 </document>

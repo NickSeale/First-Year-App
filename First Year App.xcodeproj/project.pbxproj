@@ -21,6 +21,16 @@
 		A739C33C1ABA0FAA00D81458 /* Food Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A739C3361ABA0FAA00D81458 /* Food Button.png */; };
 		A739C33D1ABA0FAA00D81458 /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = A739C3371ABA0FAA00D81458 /* Map.png */; };
 		A739C33E1ABA0FAA00D81458 /* Schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = A739C3381ABA0FAA00D81458 /* Schedule.png */; };
+		A743D26F1AC2F3DB00875CC6 /* Fast Lane1.png in Resources */ = {isa = PBXBuildFile; fileRef = A743D26B1AC2F3DB00875CC6 /* Fast Lane1.png */; };
+		A743D2701AC2F3DB00875CC6 /* Market Street1.png in Resources */ = {isa = PBXBuildFile; fileRef = A743D26C1AC2F3DB00875CC6 /* Market Street1.png */; };
+		A743D2711AC2F3DB00875CC6 /* Stauffer Cafe1.png in Resources */ = {isa = PBXBuildFile; fileRef = A743D26D1AC2F3DB00875CC6 /* Stauffer Cafe1.png */; };
+		A743D2721AC2F3DB00875CC6 /* Tim Hortons1.png in Resources */ = {isa = PBXBuildFile; fileRef = A743D26E1AC2F3DB00875CC6 /* Tim Hortons1.png */; };
+		A743D27F1AC2F70300875CC6 /* newContacts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A743D2791AC2F70300875CC6 /* newContacts.jpg */; };
+		A743D2801AC2F70300875CC6 /* newFood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A743D27A1AC2F70300875CC6 /* newFood.jpg */; };
+		A743D2811AC2F70300875CC6 /* newHours.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A743D27B1AC2F70300875CC6 /* newHours.jpg */; };
+		A743D2821AC2F70300875CC6 /* newLinks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A743D27C1AC2F70300875CC6 /* newLinks.jpg */; };
+		A743D2831AC2F70300875CC6 /* newMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A743D27D1AC2F70300875CC6 /* newMap.jpg */; };
+		A743D2841AC2F70300875CC6 /* newSchedule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A743D27E1AC2F70300875CC6 /* newSchedule.jpg */; };
 		A7628EAC1AC1DDA20043D408 /* CustomLibraries.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7628EAB1AC1DDA20043D408 /* CustomLibraries.swift */; };
 		A7628EB41AC1E01D0043D408 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7628EB31AC1E01C0043D408 /* LibraryViewController.swift */; };
 		A7628EB61AC1E2160043D408 /* Libraries.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7628EB51AC1E2160043D408 /* Libraries.swift */; };
@@ -93,6 +103,16 @@
 		A739C3361ABA0FAA00D81458 /* Food Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Food Button.png"; sourceTree = "<group>"; };
 		A739C3371ABA0FAA00D81458 /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
 		A739C3381ABA0FAA00D81458 /* Schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Schedule.png; sourceTree = "<group>"; };
+		A743D26B1AC2F3DB00875CC6 /* Fast Lane1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fast Lane1.png"; sourceTree = "<group>"; };
+		A743D26C1AC2F3DB00875CC6 /* Market Street1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Market Street1.png"; sourceTree = "<group>"; };
+		A743D26D1AC2F3DB00875CC6 /* Stauffer Cafe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stauffer Cafe1.png"; sourceTree = "<group>"; };
+		A743D26E1AC2F3DB00875CC6 /* Tim Hortons1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tim Hortons1.png"; sourceTree = "<group>"; };
+		A743D2791AC2F70300875CC6 /* newContacts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newContacts.jpg; sourceTree = "<group>"; };
+		A743D27A1AC2F70300875CC6 /* newFood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newFood.jpg; sourceTree = "<group>"; };
+		A743D27B1AC2F70300875CC6 /* newHours.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newHours.jpg; sourceTree = "<group>"; };
+		A743D27C1AC2F70300875CC6 /* newLinks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newLinks.jpg; sourceTree = "<group>"; };
+		A743D27D1AC2F70300875CC6 /* newMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newMap.jpg; sourceTree = "<group>"; };
+		A743D27E1AC2F70300875CC6 /* newSchedule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newSchedule.jpg; sourceTree = "<group>"; };
 		A7628EAB1AC1DDA20043D408 /* CustomLibraries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLibraries.swift; sourceTree = "<group>"; };
 		A7628EB31AC1E01C0043D408 /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		A7628EB51AC1E2160043D408 /* Libraries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Libraries.swift; sourceTree = "<group>"; };
@@ -162,6 +182,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A743D2731AC2F53200875CC6 /* Old Files */ = {
+			isa = PBXGroup;
+			children = (
+				A739C32F1ABA098500D81458 /* ClarkHQ.jpeg */,
+				A739C32D1ABA077600D81458 /* HomePage3.png */,
+				A739C32B1ABA043300D81458 /* HomepageMenu2.jpg */,
+				A7B89D271AB620F700503A92 /* bg2.png */,
+				A778C83E1AB2A55600175CE7 /* person1.png */,
+				A778C83F1AB2A55600175CE7 /* person2.png */,
+				A72A2D4B1AA8F8B30039D726 /* utensilIconCopy.png */,
+				A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */,
+				A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */,
+			);
+			name = "Old Files";
+			sourceTree = "<group>";
+		};
+		A743D2751AC2F59F00875CC6 /* Food Page */ = {
+			isa = PBXGroup;
+			children = (
+				A743D26B1AC2F3DB00875CC6 /* Fast Lane1.png */,
+				A743D26C1AC2F3DB00875CC6 /* Market Street1.png */,
+				A743D26D1AC2F3DB00875CC6 /* Stauffer Cafe1.png */,
+				A743D26E1AC2F3DB00875CC6 /* Tim Hortons1.png */,
+				FAE0377E1ABCB6FC0098B353 /* ExternalLinks.png */,
+				A7E437BA1AB375190015B1CC /* Lazy.png */,
+				A7E437A21AB372220015B1CC /* Booster Juice.png */,
+				A7E437A31AB372220015B1CC /* CGC.png */,
+				A7E437A41AB372220015B1CC /* Goode's Cafe.png */,
+				A7E437A51AB372220015B1CC /* Gords Cafe.png */,
+				A7E437A61AB372220015B1CC /* Khao-Restaurant.png */,
+				A7E437A71AB372220015B1CC /* MC2.png */,
+				A7E437A81AB372220015B1CC /* Pita Pit.png */,
+				A7E437A91AB372220015B1CC /* Pizza Pizza.png */,
+				A7E437AA1AB372220015B1CC /* Quiznos.png */,
+				A7E437AB1AB372220015B1CC /* Starbucks.png */,
+				A7E437AC1AB372220015B1CC /* Teryaki.png */,
+				A7E437AD1AB372220015B1CC /* Tim Hortons.png */,
+			);
+			name = "Food Page";
+			sourceTree = "<group>";
+		};
+		A743D2761AC2F5D800875CC6 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				A743D2781AC2F6E800875CC6 /* 03/25 Buttons */,
+				A739C3331ABA0FAA00D81458 /* Building Hours.png */,
+				A739C3341ABA0FAA00D81458 /* Contacts.png */,
+				A739C3351ABA0FAA00D81458 /* External Links.png */,
+				A739C3361ABA0FAA00D81458 /* Food Button.png */,
+				A739C3371ABA0FAA00D81458 /* Map.png */,
+				A739C3381ABA0FAA00D81458 /* Schedule.png */,
+				A739C3311ABA0D6500D81458 /* Bookstore.jpeg */,
+			);
+			name = "Home Page";
+			sourceTree = "<group>";
+		};
+		A743D2781AC2F6E800875CC6 /* 03/25 Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A743D2791AC2F70300875CC6 /* newContacts.jpg */,
+				A743D27A1AC2F70300875CC6 /* newFood.jpg */,
+				A743D27B1AC2F70300875CC6 /* newHours.jpg */,
+				A743D27C1AC2F70300875CC6 /* newLinks.jpg */,
+				A743D27D1AC2F70300875CC6 /* newMap.jpg */,
+				A743D27E1AC2F70300875CC6 /* newSchedule.jpg */,
+			);
+			name = "03/25 Buttons";
+			sourceTree = "<group>";
+		};
+		A743D2851AC2FA2300875CC6 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				FADA5C441ABB76DD000F9F10 /* Bus.png */,
+				FAE037721ABCA9030098B353 /* car-2.png */,
+				FADA5C461ABB76DD000F9F10 /* Walking.png */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
 		A7628EAD1AC1DDAF0043D408 /* Retail Food */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,40 +362,11 @@
 		A7BDAA9C1AA109CB00E35518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FAE0377E1ABCB6FC0098B353 /* ExternalLinks.png */,
-				A739C3331ABA0FAA00D81458 /* Building Hours.png */,
-				A739C3341ABA0FAA00D81458 /* Contacts.png */,
-				A739C3351ABA0FAA00D81458 /* External Links.png */,
-				A739C3361ABA0FAA00D81458 /* Food Button.png */,
-				A739C3371ABA0FAA00D81458 /* Map.png */,
-				A739C3381ABA0FAA00D81458 /* Schedule.png */,
-				A739C3311ABA0D6500D81458 /* Bookstore.jpeg */,
-				A739C32F1ABA098500D81458 /* ClarkHQ.jpeg */,
-				A739C32D1ABA077600D81458 /* HomePage3.png */,
-				A739C32B1ABA043300D81458 /* HomepageMenu2.jpg */,
-				A7B89D271AB620F700503A92 /* bg2.png */,
-				FADA5C441ABB76DD000F9F10 /* Bus.png */,
-				FAE037721ABCA9030098B353 /* car-2.png */,
-				FADA5C461ABB76DD000F9F10 /* Walking.png */,
-				A7E437BA1AB375190015B1CC /* Lazy.png */,
-				A7E437A21AB372220015B1CC /* Booster Juice.png */,
-				A7E437A31AB372220015B1CC /* CGC.png */,
-				A7E437A41AB372220015B1CC /* Goode's Cafe.png */,
-				A7E437A51AB372220015B1CC /* Gords Cafe.png */,
-				A7E437A61AB372220015B1CC /* Khao-Restaurant.png */,
-				A7E437A71AB372220015B1CC /* MC2.png */,
-				A7E437A81AB372220015B1CC /* Pita Pit.png */,
-				A7E437A91AB372220015B1CC /* Pizza Pizza.png */,
-				A7E437AA1AB372220015B1CC /* Quiznos.png */,
-				A7E437AB1AB372220015B1CC /* Starbucks.png */,
-				A7E437AC1AB372220015B1CC /* Teryaki.png */,
-				A7E437AD1AB372220015B1CC /* Tim Hortons.png */,
-				A778C83E1AB2A55600175CE7 /* person1.png */,
-				A778C83F1AB2A55600175CE7 /* person2.png */,
+				A743D2851AC2FA2300875CC6 /* Map */,
+				A743D2761AC2F5D800875CC6 /* Home Page */,
+				A743D2751AC2F59F00875CC6 /* Food Page */,
+				A743D2731AC2F53200875CC6 /* Old Files */,
 				FA4B61171AB0C63700C3BDAB /* TopBarMap.jpg */,
-				A72A2D4B1AA8F8B30039D726 /* utensilIconCopy.png */,
-				A7F7915D1AA64FD4001A88A2 /* douglasLibraryCopy.jpg */,
-				A7F7915B1AA6476F001A88A2 /* douglasLibrary.jpg */,
 				A7BDAA9D1AA109CB00E35518 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -402,13 +472,16 @@
 				FAE0377F1ABCB6FC0098B353 /* ExternalLinks.png in Resources */,
 				A7B89D281AB620F800503A92 /* bg2.png in Resources */,
 				A7E437B71AB372230015B1CC /* Starbucks.png in Resources */,
+				A743D27F1AC2F70300875CC6 /* newContacts.jpg in Resources */,
 				A739C33A1ABA0FAA00D81458 /* Contacts.png in Resources */,
 				A739C3301ABA098500D81458 /* ClarkHQ.jpeg in Resources */,
 				A778C8411AB2A55600175CE7 /* person2.png in Resources */,
 				A7E437B61AB372230015B1CC /* Quiznos.png in Resources */,
 				A72A2D4C1AA8F8B30039D726 /* utensilIconCopy.png in Resources */,
+				A743D26F1AC2F3DB00875CC6 /* Fast Lane1.png in Resources */,
 				A7E437B51AB372230015B1CC /* Pizza Pizza.png in Resources */,
 				A7E437AF1AB372230015B1CC /* CGC.png in Resources */,
+				A743D2701AC2F3DB00875CC6 /* Market Street1.png in Resources */,
 				A7BDAAA41AA109CB00E35518 /* Main.storyboard in Resources */,
 				A7E437B81AB372230015B1CC /* Teryaki.png in Resources */,
 				A739C33B1ABA0FAA00D81458 /* External Links.png in Resources */,
@@ -418,23 +491,30 @@
 				A7BDAAA91AA109CB00E35518 /* LaunchScreen.xib in Resources */,
 				A7E437B91AB372230015B1CC /* Tim Hortons.png in Resources */,
 				A7E437B01AB372230015B1CC /* Goode's Cafe.png in Resources */,
+				A743D2811AC2F70300875CC6 /* newHours.jpg in Resources */,
+				A743D2711AC2F3DB00875CC6 /* Stauffer Cafe1.png in Resources */,
 				A739C33C1ABA0FAA00D81458 /* Food Button.png in Resources */,
 				FADA5C491ABB76DD000F9F10 /* Walking.png in Resources */,
 				A739C32C1ABA043300D81458 /* HomepageMenu2.jpg in Resources */,
 				A7F7915E1AA64FD4001A88A2 /* douglasLibraryCopy.jpg in Resources */,
 				A7E437AE1AB372220015B1CC /* Booster Juice.png in Resources */,
+				A743D2831AC2F70300875CC6 /* newMap.jpg in Resources */,
 				A7E437B31AB372230015B1CC /* MC2.png in Resources */,
 				A7E437B41AB372230015B1CC /* Pita Pit.png in Resources */,
 				FAE037731ABCA9030098B353 /* car-2.png in Resources */,
 				A739C33E1ABA0FAA00D81458 /* Schedule.png in Resources */,
+				A743D2801AC2F70300875CC6 /* newFood.jpg in Resources */,
 				A739C33D1ABA0FAA00D81458 /* Map.png in Resources */,
 				FADA5C471ABB76DD000F9F10 /* Bus.png in Resources */,
 				A7BDAAA61AA109CB00E35518 /* Images.xcassets in Resources */,
+				A743D2721AC2F3DB00875CC6 /* Tim Hortons1.png in Resources */,
+				A743D2841AC2F70300875CC6 /* newSchedule.jpg in Resources */,
 				A7E437BB1AB375190015B1CC /* Lazy.png in Resources */,
 				A7E437B11AB372230015B1CC /* Gords Cafe.png in Resources */,
 				A739C3391ABA0FAA00D81458 /* Building Hours.png in Resources */,
 				A778C8401AB2A55600175CE7 /* person1.png in Resources */,
 				FA4B61181AB0C63700C3BDAB /* TopBarMap.jpg in Resources */,
+				A743D2821AC2F70300875CC6 /* newLinks.jpg in Resources */,
 				A7E437B21AB372230015B1CC /* Khao-Restaurant.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

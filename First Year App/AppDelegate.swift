@@ -17,9 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         UINavigationBar.appearance().tintColor = UIColor.purpleColor()
-        //UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.purpleColor()]
-        UINavigationBar.appearance().titleTextAttributes = [UIFontTextStyleHeadline : UIFont(name: "Times New Roman", size:20)!]
-        
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.purpleColor()]
         return true
     }
 

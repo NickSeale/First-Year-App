@@ -54,15 +54,6 @@
 		FA6D8DB81ABA08EA00FE94B5 /* BanRigh.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D8DB71ABA08EA00FE94B5 /* BanRigh.swift */; };
 		FA6D8DBA1ABA0F1400FE94B5 /* Leonard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D8DB91ABA0F1400FE94B5 /* Leonard.swift */; };
 		FA6D8DBC1ABA103B00FE94B5 /* JeanRoyce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D8DBB1ABA103B00FE94B5 /* JeanRoyce.swift */; };
-		FADA5C471ABB76DD000F9F10 /* Bus.png in Resources */ = {isa = PBXBuildFile; fileRef = FADA5C441ABB76DD000F9F10 /* Bus.png */; };
-		FADA5C491ABB76DD000F9F10 /* Walking.png in Resources */ = {isa = PBXBuildFile; fileRef = FADA5C461ABB76DD000F9F10 /* Walking.png */; };
-		FAE037731ABCA9030098B353 /* car-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE037721ABCA9030098B353 /* car-2.png */; };
-		FAE037751ABCAABD0098B353 /* QueensU.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE037741ABCAABD0098B353 /* QueensU.swift */; };
-		FAE037771ABCAAD10098B353 /* Moodle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE037761ABCAAD10098B353 /* Moodle.swift */; };
-		FAE037791ABCAADC0098B353 /* D2L.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE037781ABCAADC0098B353 /* D2L.swift */; };
-		FAE0377B1ABCAAE40098B353 /* Solus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0377A1ABCAAE40098B353 /* Solus.swift */; };
-		FAE0377D1ABCAAF50098B353 /* CheckYourMeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0377C1ABCAAF50098B353 /* CheckYourMeals.swift */; };
-		FAE0377F1ABCB6FC0098B353 /* ExternalLinks.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE0377E1ABCB6FC0098B353 /* ExternalLinks.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,15 +118,6 @@
 		FA6D8DB71ABA08EA00FE94B5 /* BanRigh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BanRigh.swift; sourceTree = "<group>"; };
 		FA6D8DB91ABA0F1400FE94B5 /* Leonard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leonard.swift; sourceTree = "<group>"; };
 		FA6D8DBB1ABA103B00FE94B5 /* JeanRoyce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JeanRoyce.swift; sourceTree = "<group>"; };
-		FADA5C441ABB76DD000F9F10 /* Bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bus.png; sourceTree = "<group>"; };
-		FADA5C461ABB76DD000F9F10 /* Walking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Walking.png; sourceTree = "<group>"; };
-		FAE037721ABCA9030098B353 /* car-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car-2.png"; sourceTree = "<group>"; };
-		FAE037741ABCAABD0098B353 /* QueensU.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueensU.swift; sourceTree = "<group>"; };
-		FAE037761ABCAAD10098B353 /* Moodle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moodle.swift; sourceTree = "<group>"; };
-		FAE037781ABCAADC0098B353 /* D2L.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D2L.swift; sourceTree = "<group>"; };
-		FAE0377A1ABCAAE40098B353 /* Solus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solus.swift; sourceTree = "<group>"; };
-		FAE0377C1ABCAAF50098B353 /* CheckYourMeals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckYourMeals.swift; sourceTree = "<group>"; };
-		FAE0377E1ABCB6FC0098B353 /* ExternalLinks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExternalLinks.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,11 +165,6 @@
 				A7E437A01AB36B3A0015B1CC /* DetailViewController.swift */,
 				A73675BF1AB274AF0049F815 /* CustomCell.swift */,
 				A7BDAAA01AA109CB00E35518 /* Home page.swift */,
-				FAE037761ABCAAD10098B353 /* Moodle.swift */,
-				FAE037781ABCAADC0098B353 /* D2L.swift */,
-				FAE0377A1ABCAAE40098B353 /* Solus.swift */,
-				FAE0377C1ABCAAF50098B353 /* CheckYourMeals.swift */,
-				FAE037741ABCAABD0098B353 /* QueensU.swift */,
 				FA6D8DB71ABA08EA00FE94B5 /* BanRigh.swift */,
 				FA6D8DB91ABA0F1400FE94B5 /* Leonard.swift */,
 				FA6D8DBB1ABA103B00FE94B5 /* JeanRoyce.swift */,
@@ -206,7 +183,6 @@
 		A7BDAA9C1AA109CB00E35518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FAE0377E1ABCB6FC0098B353 /* ExternalLinks.png */,
 				A739C3331ABA0FAA00D81458 /* Building Hours.png */,
 				A739C3341ABA0FAA00D81458 /* Contacts.png */,
 				A739C3351ABA0FAA00D81458 /* External Links.png */,
@@ -218,9 +194,6 @@
 				A739C32D1ABA077600D81458 /* HomePage3.png */,
 				A739C32B1ABA043300D81458 /* HomepageMenu2.jpg */,
 				A7B89D271AB620F700503A92 /* bg2.png */,
-				FADA5C441ABB76DD000F9F10 /* Bus.png */,
-				FAE037721ABCA9030098B353 /* car-2.png */,
-				FADA5C461ABB76DD000F9F10 /* Walking.png */,
 				A7E437BA1AB375190015B1CC /* Lazy.png */,
 				A7E437A21AB372220015B1CC /* Booster Juice.png */,
 				A7E437A31AB372220015B1CC /* CGC.png */,
@@ -342,7 +315,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE0377F1ABCB6FC0098B353 /* ExternalLinks.png in Resources */,
 				A7B89D281AB620F800503A92 /* bg2.png in Resources */,
 				A7E437B71AB372230015B1CC /* Starbucks.png in Resources */,
 				A739C33A1ABA0FAA00D81458 /* Contacts.png in Resources */,
@@ -362,16 +334,13 @@
 				A7E437B91AB372230015B1CC /* Tim Hortons.png in Resources */,
 				A7E437B01AB372230015B1CC /* Goode's Cafe.png in Resources */,
 				A739C33C1ABA0FAA00D81458 /* Food Button.png in Resources */,
-				FADA5C491ABB76DD000F9F10 /* Walking.png in Resources */,
 				A739C32C1ABA043300D81458 /* HomepageMenu2.jpg in Resources */,
 				A7F7915E1AA64FD4001A88A2 /* douglasLibraryCopy.jpg in Resources */,
 				A7E437AE1AB372220015B1CC /* Booster Juice.png in Resources */,
 				A7E437B31AB372230015B1CC /* MC2.png in Resources */,
 				A7E437B41AB372230015B1CC /* Pita Pit.png in Resources */,
-				FAE037731ABCA9030098B353 /* car-2.png in Resources */,
 				A739C33E1ABA0FAA00D81458 /* Schedule.png in Resources */,
 				A739C33D1ABA0FAA00D81458 /* Map.png in Resources */,
-				FADA5C471ABB76DD000F9F10 /* Bus.png in Resources */,
 				A7BDAAA61AA109CB00E35518 /* Images.xcassets in Resources */,
 				A7E437BB1AB375190015B1CC /* Lazy.png in Resources */,
 				A7E437B11AB372230015B1CC /* Gords Cafe.png in Resources */,
@@ -396,14 +365,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE037751ABCAABD0098B353 /* QueensU.swift in Sources */,
 				A73675BE1AB274770049F815 /* RetailFoodViewController.swift in Sources */,
 				FA6D8DBA1ABA0F1400FE94B5 /* Leonard.swift in Sources */,
 				FA4B61841AB0DDBD00C3BDAB /* TransitMap.swift in Sources */,
 				FA4B617E1AB0DAAD00C3BDAB /* WalkingMap.swift in Sources */,
 				FA0720441AAF60B2000F42FC /* Schedule.swift in Sources */,
-				FAE0377D1ABCAAF50098B353 /* CheckYourMeals.swift in Sources */,
-				FAE037791ABCAADC0098B353 /* D2L.swift in Sources */,
 				FA0720461AAF75D6000F42FC /* DrivingMap.swift in Sources */,
 				FA6D8DB81ABA08EA00FE94B5 /* BanRigh.swift in Sources */,
 				FA6D8DBC1ABA103B00FE94B5 /* JeanRoyce.swift in Sources */,
@@ -412,8 +378,6 @@
 				A7E437A11AB36B3A0015B1CC /* DetailViewController.swift in Sources */,
 				A73675C41AB275D00049F815 /* Restaurants.swift in Sources */,
 				A7BDAA9F1AA109CB00E35518 /* AppDelegate.swift in Sources */,
-				FAE037771ABCAAD10098B353 /* Moodle.swift in Sources */,
-				FAE0377B1ABCAAE40098B353 /* Solus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

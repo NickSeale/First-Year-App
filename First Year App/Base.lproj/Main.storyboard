@@ -407,7 +407,7 @@
             </objects>
             <point key="canvasLocation" x="2458" y="-1213"/>
         </scene>
-        <!--Queen's University First Year App-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -436,9 +436,6 @@
                                 <state key="normal" image="External Links.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="6x1-Zr-jCp" kind="show" id="VBI-i1-kbf"/>
-                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nuo-2Z-w9E">
                                 <rect key="frame" x="148" y="448" width="100" height="65"/>
@@ -476,7 +473,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="CT5-pg-cca" kind="show" id="Lqe-Jl-pTr"/>
+                                    <segue destination="nMq-Pc-Wcp" kind="show" id="wHf-Lf-R5S"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyi-Bl-cad">
@@ -509,7 +506,7 @@
                             <constraint firstAttribute="centerX" secondItem="pVZ-So-185" secondAttribute="centerX" id="uVd-AE-Sgt"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Queen's University First Year App" id="kFf-Ej-b93"/>
+                    <navigationItem key="navigationItem" id="hKU-gY-GtU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -527,7 +524,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4aW-dt-rdd">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4aW-dt-rdd">
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
@@ -540,15 +537,14 @@
                             <constraint firstItem="4aW-dt-rdd" firstAttribute="leading" secondItem="OkY-uf-XhW" secondAttribute="leadingMargin" constant="-16" id="Vye-CN-5gb"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Drive" image="car-2.png" id="rYE-Th-Lpl"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="EQM-lu-YMl"/>
                     <connections>
                         <outlet property="Webviewer" destination="4aW-dt-rdd" id="rF6-V7-GKD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dyj-sj-IcL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1911" y="398"/>
+            <point key="canvasLocation" x="2759" y="540"/>
         </scene>
         <!--Transit-->
         <scene sceneID="tbp-0U-AMD">
@@ -562,7 +558,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ejf-Ks-sCg">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ejf-Ks-sCg">
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
@@ -575,15 +571,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="ejf-Ks-sCg" secondAttribute="trailing" constant="-16" id="exo-Oj-qqw"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Transit" image="Bus.png" id="pOo-oN-uAz"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="ikQ-WW-pmY"/>
                     <connections>
                         <outlet property="Webviewer" destination="ejf-Ks-sCg" id="K57-Vb-o42"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdh-hH-ZOu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1153" y="398"/>
+            <point key="canvasLocation" x="2001" y="540"/>
         </scene>
         <!--Walk-->
         <scene sceneID="P17-ek-oe2">
@@ -597,7 +592,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OCF-Qe-0L3">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OCF-Qe-0L3">
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
@@ -610,78 +605,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="OCF-Qe-0L3" secondAttribute="trailing" constant="-16" id="nGg-2D-JXa"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Walk" image="Walking.png" id="l3R-kf-teT"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="4WI-zg-36Z"/>
                     <connections>
                         <outlet property="Webviewer" destination="OCF-Qe-0L3" id="b75-N8-Rl4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fwH-V2-NL8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1931" y="-330"/>
-        </scene>
-        <!--Solus-->
-        <scene sceneID="tPH-Uo-xs7">
-            <objects>
-                <viewController id="DhE-TY-vZ6" customClass="Solus" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="w04-gZ-CuD"/>
-                        <viewControllerLayoutGuide type="bottom" id="RbP-0d-bzI"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kZb-RU-Mo7">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Js-X1-6Er">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FMR-xv-QhI">
-                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
-                                <items>
-                                    <barButtonItem title="Item" systemItem="rewind" id="rQx-jX-cds">
-                                        <connections>
-                                            <action selector="goBack" destination="3Js-X1-6Er" id="mTe-fP-jhp"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Bc7-0e-JWh"/>
-                                    <barButtonItem systemItem="fastForward" id="y6f-7M-qWu">
-                                        <connections>
-                                            <action selector="goForward" destination="3Js-X1-6Er" id="EtM-am-LU2"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="jKe-QL-Yq1"/>
-                                    <barButtonItem title="Item" systemItem="refresh" id="9SJ-SZ-Amw">
-                                        <connections>
-                                            <action selector="reload" destination="3Js-X1-6Er" id="XZ2-84-s1e"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Pb8-VT-Jo9"/>
-                                    <barButtonItem systemItem="stop" id="SEZ-Zj-gSa">
-                                        <connections>
-                                            <action selector="stopLoading" destination="3Js-X1-6Er" id="Vs1-aJ-Uxy"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="FMR-xv-QhI" firstAttribute="leading" secondItem="kZb-RU-Mo7" secondAttribute="leadingMargin" constant="-16" id="E1e-r0-UU4"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="FMR-xv-QhI" secondAttribute="trailing" constant="-16" id="PtD-8B-bHL"/>
-                            <constraint firstItem="RbP-0d-bzI" firstAttribute="top" secondItem="FMR-xv-QhI" secondAttribute="bottom" id="ZnO-Cz-aiU"/>
-                            <constraint firstItem="3Js-X1-6Er" firstAttribute="top" secondItem="kZb-RU-Mo7" secondAttribute="topMargin" id="crk-Lm-jAx"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="3Js-X1-6Er" secondAttribute="trailing" constant="-16" id="hOB-5p-En8"/>
-                            <constraint firstItem="FMR-xv-QhI" firstAttribute="top" secondItem="3Js-X1-6Er" secondAttribute="bottom" id="vPc-WZ-ySj"/>
-                            <constraint firstItem="3Js-X1-6Er" firstAttribute="leading" secondItem="kZb-RU-Mo7" secondAttribute="leadingMargin" constant="-16" id="yU2-5y-NFO"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="SolusWeb" destination="3Js-X1-6Er" id="q3F-h5-1zd"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qbP-pd-8Oq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1764" y="1583"/>
+            <point key="canvasLocation" x="2805" y="-162"/>
         </scene>
         <!--Schedule-->
         <scene sceneID="h1v-kp-ZkQ">
@@ -715,7 +646,27 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mdL-7J-ihk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="516" y="326"/>
+            <point key="canvasLocation" x="516" y="756"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="e18-YU-T8u">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="nMq-Pc-Wcp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Utj-Wx-i4X">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="RIz-xe-sWg" kind="relationship" relationship="viewControllers" id="eSA-1Y-PvY"/>
+                        <segue destination="RWO-Xx-7JP" kind="relationship" relationship="viewControllers" id="IjM-yP-FF0"/>
+                        <segue destination="Ze8-di-YlH" kind="relationship" relationship="viewControllers" id="FLq-gP-mLU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AGd-9Q-hHk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1993" y="-162"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5Jb-Ye-Lq9">
@@ -782,328 +733,6 @@
             </objects>
             <point key="canvasLocation" x="-272" y="-358"/>
         </scene>
-        <!--Check Your Meals-->
-        <scene sceneID="TPS-4F-eIJ">
-            <objects>
-                <viewController id="TDd-Ab-aAs" customClass="CheckYourMeals" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fc5-Bd-dhp"/>
-                        <viewControllerLayoutGuide type="bottom" id="PTf-FZ-EgC"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="9mR-84-Acb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NVu-LC-kkz">
-                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
-                                <items>
-                                    <barButtonItem title="Item" systemItem="rewind" id="vD6-aS-ZJJ">
-                                        <connections>
-                                            <action selector="goBack" destination="VJj-fY-qIa" id="wNx-L9-bJI"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="GoX-OO-5Xi"/>
-                                    <barButtonItem systemItem="fastForward" id="dSu-QR-YNK">
-                                        <connections>
-                                            <action selector="goForward" destination="VJj-fY-qIa" id="X9z-ij-eX5"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="yie-Bc-gSs"/>
-                                    <barButtonItem title="Item" systemItem="refresh" id="jgh-CH-9yy">
-                                        <connections>
-                                            <action selector="reload" destination="VJj-fY-qIa" id="4qp-cY-nxi"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="6ZN-1f-6h3"/>
-                                    <barButtonItem systemItem="stop" id="oYU-KQ-jwk">
-                                        <connections>
-                                            <action selector="stopLoading" destination="VJj-fY-qIa" id="59A-oO-8El"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJj-fY-qIa">
-                                <rect key="frame" x="0.0" y="64" width="600" height="492"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="VJj-fY-qIa" secondAttribute="trailing" constant="-16" id="0Rz-K4-g1v"/>
-                            <constraint firstItem="PTf-FZ-EgC" firstAttribute="top" secondItem="NVu-LC-kkz" secondAttribute="bottom" id="Mvf-iP-6qU"/>
-                            <constraint firstItem="NVu-LC-kkz" firstAttribute="leading" secondItem="9mR-84-Acb" secondAttribute="leadingMargin" constant="-16" id="ZyD-lq-my5"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="NVu-LC-kkz" secondAttribute="trailing" constant="-16" id="bKW-O0-DDo"/>
-                            <constraint firstItem="NVu-LC-kkz" firstAttribute="top" secondItem="VJj-fY-qIa" secondAttribute="bottom" id="kTf-lz-Q1N"/>
-                            <constraint firstItem="VJj-fY-qIa" firstAttribute="leading" secondItem="9mR-84-Acb" secondAttribute="leadingMargin" constant="-16" id="leL-pp-cOz"/>
-                            <constraint firstItem="VJj-fY-qIa" firstAttribute="top" secondItem="fc5-Bd-dhp" secondAttribute="bottom" id="xoq-g6-bm5"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="CheckYourMealsWeb" destination="VJj-fY-qIa" id="Ugu-YD-O6b"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LJe-c5-8ZE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-298" y="1623"/>
-        </scene>
-        <!--QueensU-->
-        <scene sceneID="oK0-dy-S3m">
-            <objects>
-                <viewController id="0FN-yy-azo" customClass="QueensU" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="9vg-II-zvp"/>
-                        <viewControllerLayoutGuide type="bottom" id="XTp-zI-sv8"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="I30-gJ-RLR">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gv3-e7-2au">
-                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
-                                <items>
-                                    <barButtonItem title="Item" systemItem="rewind" id="9Vw-4q-kDz">
-                                        <connections>
-                                            <action selector="goBack" destination="4ck-XJ-pDr" id="LWy-ho-0iE"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="RfL-Js-GSz"/>
-                                    <barButtonItem systemItem="fastForward" id="Ojp-JJ-gUP">
-                                        <connections>
-                                            <action selector="goForward" destination="4ck-XJ-pDr" id="aXU-Sj-9uK"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="eJM-df-NNm"/>
-                                    <barButtonItem title="Item" systemItem="refresh" id="cHL-x6-D3m">
-                                        <connections>
-                                            <action selector="reload" destination="4ck-XJ-pDr" id="njv-mN-PyD"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="1Tk-SV-1Pr"/>
-                                    <barButtonItem systemItem="stop" id="NQ8-UC-jzl">
-                                        <connections>
-                                            <action selector="stopLoading" destination="4ck-XJ-pDr" id="8mJ-RZ-vCK"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ck-XJ-pDr">
-                                <rect key="frame" x="0.0" y="64" width="600" height="492"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="4ck-XJ-pDr" firstAttribute="leading" secondItem="I30-gJ-RLR" secondAttribute="leadingMargin" constant="-16" id="4bb-y7-86I"/>
-                            <constraint firstItem="4ck-XJ-pDr" firstAttribute="top" secondItem="9vg-II-zvp" secondAttribute="bottom" id="Hne-pV-8p4"/>
-                            <constraint firstItem="gv3-e7-2au" firstAttribute="leading" secondItem="I30-gJ-RLR" secondAttribute="leadingMargin" constant="-16" id="Qd9-YL-OuP"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="4ck-XJ-pDr" secondAttribute="trailing" constant="-16" id="RQG-3X-Kgm"/>
-                            <constraint firstItem="gv3-e7-2au" firstAttribute="top" secondItem="4ck-XJ-pDr" secondAttribute="bottom" id="WfA-Fb-b6s"/>
-                            <constraint firstItem="XTp-zI-sv8" firstAttribute="top" secondItem="gv3-e7-2au" secondAttribute="bottom" id="Wih-7S-wnS"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gv3-e7-2au" secondAttribute="trailing" constant="-16" id="Z88-aF-OPi"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="QueensUWeb" destination="4ck-XJ-pDr" id="oT3-8y-vIx"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3Tu-5D-DLW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1012" y="1601"/>
-        </scene>
-        <!--D2L-->
-        <scene sceneID="cj3-MI-W9e">
-            <objects>
-                <viewController id="S95-cy-hny" customClass="D2L" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="a1Y-mZ-O6e"/>
-                        <viewControllerLayoutGuide type="bottom" id="768-lX-HI8"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fk6-vl-xj3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W31-hD-FqA">
-                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
-                                <items>
-                                    <barButtonItem title="Item" systemItem="rewind" id="KsG-u1-4eo">
-                                        <connections>
-                                            <action selector="goBack" destination="FIp-zh-Pej" id="gkk-Uh-iaM"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="6T8-xX-PqR"/>
-                                    <barButtonItem systemItem="fastForward" id="kG6-5Q-rSU">
-                                        <connections>
-                                            <action selector="goForward" destination="FIp-zh-Pej" id="5G2-m1-0F1"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="sgH-Wr-DmW"/>
-                                    <barButtonItem title="Item" systemItem="refresh" id="irX-P2-ocn">
-                                        <connections>
-                                            <action selector="reload" destination="FIp-zh-Pej" id="Uyf-wv-pRw"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="4QT-eD-bCQ"/>
-                                    <barButtonItem systemItem="stop" id="4jP-lo-HPC">
-                                        <connections>
-                                            <action selector="stopLoading" destination="FIp-zh-Pej" id="rh4-p0-b71"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FIp-zh-Pej">
-                                <rect key="frame" x="0.0" y="64" width="600" height="492"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="W31-hD-FqA" firstAttribute="top" secondItem="FIp-zh-Pej" secondAttribute="bottom" id="Efq-6y-UZ4"/>
-                            <constraint firstItem="FIp-zh-Pej" firstAttribute="top" secondItem="a1Y-mZ-O6e" secondAttribute="bottom" id="ICv-cI-xNJ"/>
-                            <constraint firstItem="W31-hD-FqA" firstAttribute="leading" secondItem="fk6-vl-xj3" secondAttribute="leadingMargin" constant="-16" id="Y4f-3I-Hkq"/>
-                            <constraint firstItem="FIp-zh-Pej" firstAttribute="leading" secondItem="fk6-vl-xj3" secondAttribute="leadingMargin" constant="-16" id="aBP-ye-7Ts"/>
-                            <constraint firstItem="768-lX-HI8" firstAttribute="top" secondItem="W31-hD-FqA" secondAttribute="bottom" id="kZs-qC-7B4"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="W31-hD-FqA" secondAttribute="trailing" constant="-16" id="lXS-PE-H8M"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="FIp-zh-Pej" secondAttribute="trailing" constant="-16" id="ziD-Id-uBL"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="D2LWeb" destination="FIp-zh-Pej" id="t6u-FL-eXe"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="swI-xe-aFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1744" y="905"/>
-        </scene>
-        <!--External Links-->
-        <scene sceneID="Phb-ep-8FC">
-            <objects>
-                <viewController id="6x1-Zr-jCp" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="EEI-N7-3fU"/>
-                        <viewControllerLayoutGuide type="bottom" id="tiI-Zq-MmZ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dQA-q9-KGn">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0p-Xl-fdv">
-                                <rect key="frame" x="160" y="83" width="64" height="30"/>
-                                <state key="normal" title="QueensU">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="0FN-yy-azo" kind="show" id="7IW-lO-zrk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBv-Ml-FKd">
-                                <rect key="frame" x="172" y="177" width="52" height="30"/>
-                                <state key="normal" title="Moodle">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="ZDT-vz-3KE" kind="show" id="Yvi-F2-1ep"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWO-Vc-0CJ">
-                                <rect key="frame" x="194" y="271" width="30" height="30"/>
-                                <state key="normal" title="D2L">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="S95-cy-hny" kind="show" id="283-Bw-gkU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4h-9K-Oat">
-                                <rect key="frame" x="190" y="350" width="39" height="30"/>
-                                <state key="normal" title="Solus">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="DhE-TY-vZ6" kind="show" id="zVr-KT-gOw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsa-4u-Vic">
-                                <rect key="frame" x="147" y="426" width="124" height="30"/>
-                                <state key="normal" title="Check Your Meals">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="TDd-Ab-aAs" kind="show" id="SUJ-bh-5U8"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="External Links" id="qV2-p3-Te0"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1yj-Gm-fRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1006" y="893"/>
-        </scene>
-        <!--Moodle-->
-        <scene sceneID="848-zJ-OZQ">
-            <objects>
-                <viewController id="ZDT-vz-3KE" customClass="Moodle" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="7h2-sR-tWX"/>
-                        <viewControllerLayoutGuide type="bottom" id="Dud-b6-wCW"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="VUP-fe-vSV">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="23T-Sg-PbF">
-                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
-                                <items>
-                                    <barButtonItem title="Item" systemItem="rewind" id="Td1-E3-PQB">
-                                        <connections>
-                                            <action selector="goBack" destination="J5T-xW-uEc" id="4Jp-Fa-N6D"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="6ZG-tR-gnt"/>
-                                    <barButtonItem systemItem="fastForward" id="Fzf-7u-Af8">
-                                        <connections>
-                                            <action selector="goForward" destination="J5T-xW-uEc" id="9DW-AJ-Pw6"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="HDI-tC-jrH"/>
-                                    <barButtonItem title="Item" systemItem="refresh" id="0Em-j7-MmI">
-                                        <connections>
-                                            <action selector="reload" destination="J5T-xW-uEc" id="jIh-jB-CHo"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="vlW-ka-q6E"/>
-                                    <barButtonItem systemItem="stop" id="6P3-on-7wK">
-                                        <connections>
-                                            <action selector="stopLoading" destination="J5T-xW-uEc" id="r1g-N1-aph"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J5T-xW-uEc">
-                                <rect key="frame" x="0.0" y="64" width="600" height="492"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Dud-b6-wCW" firstAttribute="top" secondItem="23T-Sg-PbF" secondAttribute="bottom" id="4qk-RA-Xob"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="J5T-xW-uEc" secondAttribute="trailing" constant="-16" id="a7H-S0-uku"/>
-                            <constraint firstItem="J5T-xW-uEc" firstAttribute="top" secondItem="7h2-sR-tWX" secondAttribute="bottom" id="cVA-p9-qmu"/>
-                            <constraint firstItem="23T-Sg-PbF" firstAttribute="top" secondItem="J5T-xW-uEc" secondAttribute="bottom" id="fBz-IV-OAg"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="23T-Sg-PbF" secondAttribute="trailing" constant="-16" id="kbW-ZJ-arw"/>
-                            <constraint firstItem="23T-Sg-PbF" firstAttribute="leading" secondItem="VUP-fe-vSV" secondAttribute="leadingMargin" constant="-16" id="ly8-bG-bpg"/>
-                            <constraint firstItem="J5T-xW-uEc" firstAttribute="leading" secondItem="VUP-fe-vSV" secondAttribute="leadingMargin" constant="-16" id="nUu-dE-JFB"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="MoodleWeb" destination="J5T-xW-uEc" id="Xxk-bC-r90"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xJk-r4-UGY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-282" y="929"/>
-        </scene>
         <!--Leonard-->
         <scene sceneID="lUr-MW-1Ze">
             <objects>
@@ -1139,38 +768,15 @@
             </objects>
             <point key="canvasLocation" x="676" y="-2663"/>
         </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="xw1-0d-Kb2">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="CT5-pg-cca" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="lyJ-cL-iHP">
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="RIz-xe-sWg" kind="relationship" relationship="viewControllers" id="k6d-Ne-nsz"/>
-                        <segue destination="Ze8-di-YlH" kind="relationship" relationship="viewControllers" id="EOo-bw-B85"/>
-                        <segue destination="RWO-Xx-7JP" kind="relationship" relationship="viewControllers" id="vbY-VC-ghc"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vxn-5j-Gpm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1223" y="-338"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Bookstore.jpeg" width="3252" height="2236"/>
         <image name="Building Hours.png" width="100" height="65"/>
-        <image name="Bus.png" width="50" height="50"/>
         <image name="Contacts.png" width="100" height="65"/>
         <image name="External Links.png" width="100" height="65"/>
         <image name="Food Button.png" width="100" height="65"/>
         <image name="Map.png" width="100" height="65"/>
         <image name="Schedule.png" width="100" height="65"/>
-        <image name="Walking.png" width="50" height="50"/>
         <image name="bg2.png" width="600" height="600"/>
-        <image name="car-2.png" width="50" height="50"/>
     </resources>
 </document>

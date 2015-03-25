@@ -67,6 +67,9 @@
 		FA6D8DB81ABA08EA00FE94B5 /* BanRigh.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D8DB71ABA08EA00FE94B5 /* BanRigh.swift */; };
 		FA6D8DBA1ABA0F1400FE94B5 /* Leonard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D8DB91ABA0F1400FE94B5 /* Leonard.swift */; };
 		FA6D8DBC1ABA103B00FE94B5 /* JeanRoyce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D8DBB1ABA103B00FE94B5 /* JeanRoyce.swift */; };
+		FA91C4B21AC33A8A004C13D9 /* NewBus.png in Resources */ = {isa = PBXBuildFile; fileRef = FA91C4AF1AC33A8A004C13D9 /* NewBus.png */; };
+		FA91C4B31AC33A8A004C13D9 /* Newcar-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA91C4B01AC33A8A004C13D9 /* Newcar-2.png */; };
+		FA91C4B41AC33A8A004C13D9 /* NewWalking.png in Resources */ = {isa = PBXBuildFile; fileRef = FA91C4B11AC33A8A004C13D9 /* NewWalking.png */; };
 		FADA5C471ABB76DD000F9F10 /* Bus.png in Resources */ = {isa = PBXBuildFile; fileRef = FADA5C441ABB76DD000F9F10 /* Bus.png */; };
 		FADA5C491ABB76DD000F9F10 /* Walking.png in Resources */ = {isa = PBXBuildFile; fileRef = FADA5C461ABB76DD000F9F10 /* Walking.png */; };
 		FAE037731ABCA9030098B353 /* car-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE037721ABCA9030098B353 /* car-2.png */; };
@@ -153,6 +156,9 @@
 		FA6D8DB71ABA08EA00FE94B5 /* BanRigh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BanRigh.swift; sourceTree = "<group>"; };
 		FA6D8DB91ABA0F1400FE94B5 /* Leonard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leonard.swift; sourceTree = "<group>"; };
 		FA6D8DBB1ABA103B00FE94B5 /* JeanRoyce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JeanRoyce.swift; sourceTree = "<group>"; };
+		FA91C4AF1AC33A8A004C13D9 /* NewBus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewBus.png; sourceTree = "<group>"; };
+		FA91C4B01AC33A8A004C13D9 /* Newcar-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Newcar-2.png"; sourceTree = "<group>"; };
+		FA91C4B11AC33A8A004C13D9 /* NewWalking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewWalking.png; sourceTree = "<group>"; };
 		FADA5C441ABB76DD000F9F10 /* Bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bus.png; sourceTree = "<group>"; };
 		FADA5C461ABB76DD000F9F10 /* Walking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Walking.png; sourceTree = "<group>"; };
 		FAE037721ABCA9030098B353 /* car-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car-2.png"; sourceTree = "<group>"; };
@@ -254,6 +260,9 @@
 		A743D2851AC2FA2300875CC6 /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				FA91C4AF1AC33A8A004C13D9 /* NewBus.png */,
+				FA91C4B01AC33A8A004C13D9 /* Newcar-2.png */,
+				FA91C4B11AC33A8A004C13D9 /* NewWalking.png */,
 				FADA5C441ABB76DD000F9F10 /* Bus.png */,
 				FAE037721ABCA9030098B353 /* car-2.png */,
 				FADA5C461ABB76DD000F9F10 /* Walking.png */,
@@ -485,7 +494,9 @@
 				A7BDAAA41AA109CB00E35518 /* Main.storyboard in Resources */,
 				A7E437B81AB372230015B1CC /* Teryaki.png in Resources */,
 				A739C33B1ABA0FAA00D81458 /* External Links.png in Resources */,
+				FA91C4B31AC33A8A004C13D9 /* Newcar-2.png in Resources */,
 				A739C3321ABA0D6500D81458 /* Bookstore.jpeg in Resources */,
+				FA91C4B41AC33A8A004C13D9 /* NewWalking.png in Resources */,
 				A7F7915C1AA6476F001A88A2 /* douglasLibrary.jpg in Resources */,
 				A739C32E1ABA077600D81458 /* HomePage3.png in Resources */,
 				A7BDAAA91AA109CB00E35518 /* LaunchScreen.xib in Resources */,
@@ -502,6 +513,7 @@
 				A7E437B31AB372230015B1CC /* MC2.png in Resources */,
 				A7E437B41AB372230015B1CC /* Pita Pit.png in Resources */,
 				FAE037731ABCA9030098B353 /* car-2.png in Resources */,
+				FA91C4B21AC33A8A004C13D9 /* NewBus.png in Resources */,
 				A739C33E1ABA0FAA00D81458 /* Schedule.png in Resources */,
 				A743D2801AC2F70300875CC6 /* newFood.jpg in Resources */,
 				A739C33D1ABA0FAA00D81458 /* Map.png in Resources */,

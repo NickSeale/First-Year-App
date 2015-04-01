@@ -6,6 +6,231 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Jean Royce Hours-->
+        <scene sceneID="3t3-yc-513">
+            <objects>
+                <viewController id="0tP-Ta-tfG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LuI-cL-eIT"/>
+                        <viewControllerLayoutGuide type="bottom" id="CZn-Nx-hxk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Hj-5g-B7y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Monday-Thursday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbh-gW-n1m">
+                                <rect key="frame" x="203" y="72" width="155" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dinner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgo-s8-KRA">
+                                <rect key="frame" x="133" y="159" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Lunch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PS1-SZ-luF">
+                                <rect key="frame" x="133" y="130" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="11:00am-2:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVK-xX-vff">
+                                <rect key="frame" x="335" y="130" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="4:30pm-7:30pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Xv-xC-fkE">
+                                <rect key="frame" x="335" y="159" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Friday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocQ-rB-Wo7">
+                                <rect key="frame" x="234" y="188" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Saturday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMo-iU-wfA">
+                                <rect key="frame" x="196" y="304" width="168" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dinner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZn-KH-MBs">
+                                <rect key="frame" x="133" y="389" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Brunch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uQp-CB-UEp">
+                                <rect key="frame" x="133" y="362" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="11:30am-2:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7t-6R-J4l">
+                                <rect key="frame" x="335" y="362" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="4:30pm-7:30pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMT-Cw-d5B">
+                                <rect key="frame" x="335" y="389" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Breakfast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUF-bj-ZhD">
+                                <rect key="frame" x="133" y="333" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="9:30pm-11:30pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23r-Uo-mMk">
+                                <rect key="frame" x="335" y="333" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Breakfast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASp-LU-1OP">
+                                <rect key="frame" x="133" y="101" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="7:30pm-9:30pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJH-Wy-Ekb">
+                                <rect key="frame" x="335" y="101" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Breakfast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfe-dJ-9RJ">
+                                <rect key="frame" x="133" y="217" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="7:30pm-9:30pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dD0-rn-54u">
+                                <rect key="frame" x="335" y="217" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Brunch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oy-GJ-wJM">
+                                <rect key="frame" x="133" y="476" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="11:30am-2:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WwK-zg-qjB">
+                                <rect key="frame" x="335" y="476" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Breakfast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2h-vK-rcy">
+                                <rect key="frame" x="133" y="447" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="9:30pm-11:30pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bab-Qg-iUy">
+                                <rect key="frame" x="335" y="447" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dinner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xaj-PM-CBx">
+                                <rect key="frame" x="133" y="275" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Lunch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08T-Sb-EL4">
+                                <rect key="frame" x="133" y="246" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="11:00am-2:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0O-Xf-e18">
+                                <rect key="frame" x="335" y="246" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="4:30pm-7:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOJ-xg-sxD">
+                                <rect key="frame" x="335" y="275" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Sunday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWR-BG-1HD">
+                                <rect key="frame" x="196" y="418" width="168" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uQp-CB-UEp" firstAttribute="top" secondItem="IUF-bj-ZhD" secondAttribute="bottom" constant="8" id="0cX-iE-YAq"/>
+                            <constraint firstAttribute="centerX" secondItem="ocQ-rB-Wo7" secondAttribute="centerX" id="1gC-C8-ipQ"/>
+                            <constraint firstAttribute="centerX" secondItem="0Xv-xC-fkE" secondAttribute="centerX" constant="-75" id="4MK-qT-Jde"/>
+                            <constraint firstAttribute="centerX" secondItem="VJH-Wy-Ekb" secondAttribute="centerX" constant="-75" id="5bn-AS-ehx"/>
+                            <constraint firstItem="Y7t-6R-J4l" firstAttribute="top" secondItem="23r-Uo-mMk" secondAttribute="bottom" constant="8" id="5rf-K4-Gfy"/>
+                            <constraint firstAttribute="centerX" secondItem="WwK-zg-qjB" secondAttribute="centerX" constant="-75" id="7Vo-DE-DB6"/>
+                            <constraint firstItem="08T-Sb-EL4" firstAttribute="top" secondItem="cfe-dJ-9RJ" secondAttribute="bottom" constant="8" id="9bk-7X-DDd"/>
+                            <constraint firstAttribute="centerX" secondItem="QMT-Cw-d5B" secondAttribute="centerX" constant="-75" id="A0u-dQ-UsY"/>
+                            <constraint firstAttribute="centerX" secondItem="Xaj-PM-CBx" secondAttribute="centerX" constant="75" id="B9D-sz-4uu"/>
+                            <constraint firstItem="0Xv-xC-fkE" firstAttribute="top" secondItem="BVK-xX-vff" secondAttribute="bottom" constant="8" id="C3Z-Lq-8wi"/>
+                            <constraint firstItem="PS1-SZ-luF" firstAttribute="top" secondItem="ASp-LU-1OP" secondAttribute="bottom" constant="8" id="CWS-E0-exb"/>
+                            <constraint firstAttribute="centerX" secondItem="Bab-Qg-iUy" secondAttribute="centerX" constant="-75" id="Cgz-6y-rAC"/>
+                            <constraint firstItem="BVK-xX-vff" firstAttribute="top" secondItem="VJH-Wy-Ekb" secondAttribute="bottom" constant="8" id="CpU-jg-a4y"/>
+                            <constraint firstItem="IUF-bj-ZhD" firstAttribute="top" secondItem="bMo-iU-wfA" secondAttribute="bottom" constant="8" id="D0Z-ke-UFp"/>
+                            <constraint firstAttribute="centerX" secondItem="dD0-rn-54u" secondAttribute="centerX" constant="-75" id="EpK-OV-uVT"/>
+                            <constraint firstItem="cgo-s8-KRA" firstAttribute="top" secondItem="PS1-SZ-luF" secondAttribute="bottom" constant="8" id="G0c-Vl-WnV"/>
+                            <constraint firstItem="aOJ-xg-sxD" firstAttribute="top" secondItem="a0O-Xf-e18" secondAttribute="bottom" constant="8" id="HS7-O8-bbh"/>
+                            <constraint firstAttribute="centerX" secondItem="fbh-gW-n1m" secondAttribute="centerX" id="Icg-xC-Opg"/>
+                            <constraint firstAttribute="centerX" secondItem="23r-Uo-mMk" secondAttribute="centerX" constant="-75" id="J4T-nU-vV7"/>
+                            <constraint firstAttribute="centerX" secondItem="08T-Sb-EL4" secondAttribute="centerX" constant="75" id="Kez-GE-fML"/>
+                            <constraint firstItem="Bab-Qg-iUy" firstAttribute="top" secondItem="NWR-BG-1HD" secondAttribute="bottom" constant="8" id="McH-Sr-qiv"/>
+                            <constraint firstAttribute="centerX" secondItem="BVK-xX-vff" secondAttribute="centerX" constant="-75" id="N2v-JT-ofC"/>
+                            <constraint firstAttribute="centerX" secondItem="8oy-GJ-wJM" secondAttribute="centerX" constant="75" id="N3k-vx-UA6"/>
+                            <constraint firstAttribute="centerX" secondItem="a0O-Xf-e18" secondAttribute="centerX" constant="-75" id="Nt9-2j-CMn"/>
+                            <constraint firstItem="a0O-Xf-e18" firstAttribute="top" secondItem="dD0-rn-54u" secondAttribute="bottom" constant="8" id="Q3A-44-qRU"/>
+                            <constraint firstAttribute="centerX" secondItem="q2h-vK-rcy" secondAttribute="centerX" constant="75" id="UR6-1Q-abZ"/>
+                            <constraint firstAttribute="centerX" secondItem="JZn-KH-MBs" secondAttribute="centerX" constant="75" id="W6C-MN-0Ti"/>
+                            <constraint firstAttribute="centerX" secondItem="bMo-iU-wfA" secondAttribute="centerX" id="WEE-bL-AzM"/>
+                            <constraint firstAttribute="centerX" secondItem="IUF-bj-ZhD" secondAttribute="centerX" constant="75" id="WRj-lc-Xwt"/>
+                            <constraint firstItem="QMT-Cw-d5B" firstAttribute="top" secondItem="Y7t-6R-J4l" secondAttribute="bottom" constant="8" id="Ws3-md-SGT"/>
+                            <constraint firstItem="ASp-LU-1OP" firstAttribute="top" secondItem="fbh-gW-n1m" secondAttribute="bottom" constant="8" id="acO-HV-xMy"/>
+                            <constraint firstAttribute="centerX" secondItem="cfe-dJ-9RJ" secondAttribute="centerX" constant="75" id="atz-0I-32u"/>
+                            <constraint firstAttribute="centerX" secondItem="NWR-BG-1HD" secondAttribute="centerX" id="e7A-E6-ODk"/>
+                            <constraint firstItem="23r-Uo-mMk" firstAttribute="top" secondItem="bMo-iU-wfA" secondAttribute="bottom" constant="8" id="eyk-sE-aD1"/>
+                            <constraint firstAttribute="centerX" secondItem="cgo-s8-KRA" secondAttribute="centerX" constant="75" id="gpe-wb-iPp"/>
+                            <constraint firstAttribute="centerX" secondItem="aOJ-xg-sxD" secondAttribute="centerX" constant="-75" id="gzk-dU-nG8"/>
+                            <constraint firstItem="8oy-GJ-wJM" firstAttribute="top" secondItem="q2h-vK-rcy" secondAttribute="bottom" constant="8" id="hh7-Lm-jP6"/>
+                            <constraint firstItem="q2h-vK-rcy" firstAttribute="top" secondItem="NWR-BG-1HD" secondAttribute="bottom" constant="8" id="iX7-pC-wsw"/>
+                            <constraint firstAttribute="centerX" secondItem="Y7t-6R-J4l" secondAttribute="centerX" constant="-75" id="ihl-O2-QIp"/>
+                            <constraint firstItem="JZn-KH-MBs" firstAttribute="top" secondItem="uQp-CB-UEp" secondAttribute="bottom" constant="8" id="nCW-zH-z13"/>
+                            <constraint firstAttribute="centerX" secondItem="PS1-SZ-luF" secondAttribute="centerX" constant="75" id="nh4-Ct-66e"/>
+                            <constraint firstAttribute="centerX" secondItem="ASp-LU-1OP" secondAttribute="centerX" constant="75" id="pLg-VH-EZC"/>
+                            <constraint firstAttribute="centerX" secondItem="uQp-CB-UEp" secondAttribute="centerX" constant="75" id="qL3-JS-oWJ"/>
+                            <constraint firstItem="WwK-zg-qjB" firstAttribute="top" secondItem="Bab-Qg-iUy" secondAttribute="bottom" constant="8" id="t2S-Cv-neN"/>
+                            <constraint firstItem="Xaj-PM-CBx" firstAttribute="top" secondItem="08T-Sb-EL4" secondAttribute="bottom" constant="8" id="vSH-EJ-9lD"/>
+                            <constraint firstItem="VJH-Wy-Ekb" firstAttribute="top" secondItem="fbh-gW-n1m" secondAttribute="bottom" constant="8" id="wBd-XL-saG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Jean Royce Hours" id="gkX-sU-mqk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hpT-rB-fla" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1480" y="-3346"/>
+        </scene>
         <!--Jean Royce-->
         <scene sceneID="poE-aD-eDP">
             <objects>
@@ -32,7 +257,13 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Rnm-kZ-w4e"/>
-                    <navigationItem key="navigationItem" title="Jean Royce" id="NLz-NZ-0dS"/>
+                    <navigationItem key="navigationItem" title="Jean Royce" id="NLz-NZ-0dS">
+                        <barButtonItem key="rightBarButtonItem" title="Hours" id="NFj-Ew-YPz">
+                            <connections>
+                                <segue destination="0tP-Ta-tfG" kind="show" id="dVV-Xs-3Vx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="JeanRoyceWeb" destination="beD-VE-DMc" id="C5H-vb-V0g"/>
                     </connections>
@@ -67,7 +298,13 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="D5Y-xb-Vif"/>
-                    <navigationItem key="navigationItem" title="Ban Righ" id="9H8-rn-g8Y"/>
+                    <navigationItem key="navigationItem" title="Ban Righ" id="9H8-rn-g8Y">
+                        <barButtonItem key="rightBarButtonItem" title="Hours" id="4Cd-wi-n9w">
+                            <connections>
+                                <segue destination="9xH-iu-lmc" kind="show" id="DrG-om-Zh5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="BanRighWeb" destination="6O6-Kc-uhS" id="3df-cQ-SOg"/>
                     </connections>
@@ -75,6 +312,97 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P2F-wf-wQU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1520" y="-1981"/>
+        </scene>
+        <!--Ban Righ Hours-->
+        <scene sceneID="s3k-S3-hLu">
+            <objects>
+                <viewController id="9xH-iu-lmc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iNX-fY-5UZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="93B-wT-Rhe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lW8-4d-OFf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Au9-J5-N1X">
+                                <rect key="frame" x="0.0" y="64" width="600" height="528"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dinner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yll-Wk-qbO">
+                                        <rect key="frame" x="213" y="292" width="43" height="19"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                        <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Monday-Friday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvp-Bc-vF1">
+                                        <rect key="frame" x="216" y="213" width="168" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                        <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:00am-3:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBv-mI-xAh">
+                                        <rect key="frame" x="315" y="265" width="120" height="19"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                        <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4:30pm-7:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLf-Re-ZFh">
+                                        <rect key="frame" x="315" y="292" width="112" height="19"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                        <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7:30pm-10:00am" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8SN-Rf-sX2">
+                                        <rect key="frame" x="315" y="238" width="120" height="19"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                        <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lunch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwh-UM-IFz">
+                                        <rect key="frame" x="214" y="265" width="42" height="19"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                        <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breakfast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYP-8K-aNq">
+                                        <rect key="frame" x="194" y="238" width="62" height="19"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                        <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="cLf-Re-ZFh" firstAttribute="leading" secondItem="pBv-mI-xAh" secondAttribute="leading" id="2Yl-E2-4iD"/>
+                                    <constraint firstAttribute="centerX" secondItem="Wvp-Bc-vF1" secondAttribute="centerX" id="8tC-Q8-8qD"/>
+                                    <constraint firstItem="LYP-8K-aNq" firstAttribute="top" secondItem="Wvp-Bc-vF1" secondAttribute="bottom" constant="2" id="AWp-M3-xnw"/>
+                                    <constraint firstAttribute="centerY" secondItem="Wvp-Bc-vF1" secondAttribute="centerY" constant="40.5" id="CK2-n7-BEm"/>
+                                    <constraint firstAttribute="centerX" secondItem="8SN-Rf-sX2" secondAttribute="centerX" constant="-75" id="Elw-zn-axK"/>
+                                    <constraint firstItem="8SN-Rf-sX2" firstAttribute="top" secondItem="Wvp-Bc-vF1" secondAttribute="bottom" constant="2" id="OLC-po-txX"/>
+                                    <constraint firstItem="fwh-UM-IFz" firstAttribute="top" secondItem="LYP-8K-aNq" secondAttribute="bottom" constant="8" id="RCN-WM-4Xm"/>
+                                    <constraint firstItem="fwh-UM-IFz" firstAttribute="trailing" secondItem="LYP-8K-aNq" secondAttribute="trailing" id="c6z-hI-Qjx"/>
+                                    <constraint firstItem="yll-Wk-qbO" firstAttribute="top" secondItem="fwh-UM-IFz" secondAttribute="bottom" constant="8" id="cKY-cq-S8d"/>
+                                    <constraint firstItem="fwh-UM-IFz" firstAttribute="trailing" secondItem="yll-Wk-qbO" secondAttribute="trailing" id="jyI-WW-VF6"/>
+                                    <constraint firstAttribute="centerX" secondItem="LYP-8K-aNq" secondAttribute="centerX" constant="75" id="pEb-Zd-coF"/>
+                                    <constraint firstItem="cLf-Re-ZFh" firstAttribute="top" secondItem="pBv-mI-xAh" secondAttribute="bottom" constant="8" id="u48-cx-8sy"/>
+                                    <constraint firstItem="cLf-Re-ZFh" firstAttribute="leading" secondItem="8SN-Rf-sX2" secondAttribute="leading" id="wwW-Rz-iGm"/>
+                                    <constraint firstItem="pBv-mI-xAh" firstAttribute="top" secondItem="8SN-Rf-sX2" secondAttribute="bottom" constant="8" id="yrf-16-aCk"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Au9-J5-N1X" firstAttribute="leading" secondItem="lW8-4d-OFf" secondAttribute="leadingMargin" constant="-16" id="bRb-o1-4dj"/>
+                            <constraint firstItem="Au9-J5-N1X" firstAttribute="top" secondItem="iNX-fY-5UZ" secondAttribute="bottom" id="uUe-hx-YDh"/>
+                            <constraint firstItem="93B-wT-Rhe" firstAttribute="top" secondItem="Au9-J5-N1X" secondAttribute="bottom" constant="8" id="wyS-Cp-89Y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Au9-J5-N1X" secondAttribute="trailing" constant="-16" id="xSn-LY-Gc5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ban Righ Hours" id="Y8E-Sc-yFq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1W9-PQ-lkI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2188" y="-1986"/>
         </scene>
         <!--Food-->
         <scene sceneID="rUz-XP-saa">
@@ -1387,6 +1715,162 @@
             </objects>
             <point key="canvasLocation" x="-282" y="929"/>
         </scene>
+        <!--Leonard Hours-->
+        <scene sceneID="Uu9-rf-tcB">
+            <objects>
+                <viewController id="TGe-oT-lLb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3gn-HS-dMu"/>
+                        <viewControllerLayoutGuide type="bottom" id="QLp-Pj-p57"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NiA-yW-VkV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Monday-Thursday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEW-m1-3x3">
+                                <rect key="frame" x="203" y="130" width="155" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.49019607843137253" green="0.074509803921568626" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Friday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UO8-tT-qFu">
+                                <rect key="frame" x="234" y="246" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Saturday &amp; Sunday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2b-nC-m6Z">
+                                <rect key="frame" x="196" y="362" width="168" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dinner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hj3-GJ-TLm">
+                                <rect key="frame" x="133" y="449" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Brunch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcT-3f-no2">
+                                <rect key="frame" x="133" y="420" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="11:30am-3:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZ4-7s-T3n">
+                                <rect key="frame" x="335" y="420" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="4:30pm-7:30pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faO-Kv-TUn">
+                                <rect key="frame" x="335" y="447" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Breakfast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boD-x0-vDB">
+                                <rect key="frame" x="133" y="391" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="9:30pm-11:30pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcH-lN-VRS">
+                                <rect key="frame" x="335" y="391" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dinner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axm-zQ-HVK">
+                                <rect key="frame" x="133" y="304" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Lunch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hr8-IO-gZK">
+                                <rect key="frame" x="133" y="275" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="11:00am-2:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrB-XK-5V6">
+                                <rect key="frame" x="335" y="275" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="4:30pm-7:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwL-5j-lw0">
+                                <rect key="frame" x="335" y="304" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dinner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZi-Nb-S3m">
+                                <rect key="frame" x="133" y="188" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Lunch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T35-wm-CWQ">
+                                <rect key="frame" x="133" y="159" width="93" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="11:00am-2:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUi-vE-1kz">
+                                <rect key="frame" x="335" y="159" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="4:30pm-8:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDL-rf-g2U">
+                                <rect key="frame" x="335" y="188" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="faO-Kv-TUn" secondAttribute="centerX" constant="-75" id="1Rm-UD-cJW"/>
+                            <constraint firstItem="rZ4-7s-T3n" firstAttribute="top" secondItem="qcH-lN-VRS" secondAttribute="bottom" constant="8" id="3fy-rc-yXF"/>
+                            <constraint firstAttribute="centerX" secondItem="boD-x0-vDB" secondAttribute="centerX" constant="75" id="4Gq-Un-mCq"/>
+                            <constraint firstItem="gcT-3f-no2" firstAttribute="top" secondItem="boD-x0-vDB" secondAttribute="bottom" constant="8" id="52A-Pa-ZsX"/>
+                            <constraint firstItem="hr8-IO-gZK" firstAttribute="top" secondItem="XZi-Nb-S3m" secondAttribute="bottom" constant="66" id="6t9-16-w2b"/>
+                            <constraint firstAttribute="centerX" secondItem="qrB-XK-5V6" secondAttribute="centerX" constant="-75" id="7K1-9M-sfz"/>
+                            <constraint firstItem="boD-x0-vDB" firstAttribute="top" secondItem="k2b-nC-m6Z" secondAttribute="bottom" constant="8" id="9OX-Pa-vTa"/>
+                            <constraint firstItem="XZi-Nb-S3m" firstAttribute="top" secondItem="T35-wm-CWQ" secondAttribute="bottom" constant="8" id="Ahf-Vi-fbx"/>
+                            <constraint firstItem="DDL-rf-g2U" firstAttribute="top" secondItem="WUi-vE-1kz" secondAttribute="bottom" constant="8" id="DfH-Oz-E7R"/>
+                            <constraint firstAttribute="centerX" secondItem="WUi-vE-1kz" secondAttribute="centerX" constant="-75" id="G7h-LE-RGa"/>
+                            <constraint firstAttribute="centerX" secondItem="axm-zQ-HVK" secondAttribute="centerX" constant="75" id="G8u-Iu-HVi"/>
+                            <constraint firstItem="gwL-5j-lw0" firstAttribute="top" secondItem="qrB-XK-5V6" secondAttribute="bottom" constant="8" id="GIy-AX-zSG"/>
+                            <constraint firstAttribute="centerX" secondItem="gwL-5j-lw0" secondAttribute="centerX" constant="-75" id="HNb-aM-iyM"/>
+                            <constraint firstAttribute="centerX" secondItem="gcT-3f-no2" secondAttribute="centerX" constant="75" id="IOp-YD-9GJ"/>
+                            <constraint firstAttribute="centerX" secondItem="oEW-m1-3x3" secondAttribute="centerX" id="KNE-hT-rEn"/>
+                            <constraint firstAttribute="centerX" secondItem="qcH-lN-VRS" secondAttribute="centerX" constant="-75" id="LfI-Zo-ZWC"/>
+                            <constraint firstAttribute="centerX" secondItem="rZ4-7s-T3n" secondAttribute="centerX" constant="-75" id="Lgc-cu-KPZ"/>
+                            <constraint firstAttribute="centerX" secondItem="hr8-IO-gZK" secondAttribute="centerX" constant="75" id="Wca-gE-8Eo"/>
+                            <constraint firstAttribute="centerX" secondItem="XZi-Nb-S3m" secondAttribute="centerX" constant="75" id="YTQ-8L-cBZ"/>
+                            <constraint firstItem="qcH-lN-VRS" firstAttribute="top" secondItem="k2b-nC-m6Z" secondAttribute="bottom" constant="8" id="aJf-U7-6B1"/>
+                            <constraint firstAttribute="centerX" secondItem="DDL-rf-g2U" secondAttribute="centerX" constant="-75" id="bv8-UB-KXg"/>
+                            <constraint firstItem="qrB-XK-5V6" firstAttribute="top" secondItem="DDL-rf-g2U" secondAttribute="bottom" constant="66" id="c1L-FU-g3n"/>
+                            <constraint firstAttribute="centerX" secondItem="UO8-tT-qFu" secondAttribute="centerX" id="ca2-ba-WwY"/>
+                            <constraint firstItem="T35-wm-CWQ" firstAttribute="top" secondItem="oEW-m1-3x3" secondAttribute="bottom" constant="8" id="eOX-fn-LIZ"/>
+                            <constraint firstAttribute="centerX" secondItem="k2b-nC-m6Z" secondAttribute="centerX" id="g0f-Ng-eOi"/>
+                            <constraint firstItem="WUi-vE-1kz" firstAttribute="top" secondItem="oEW-m1-3x3" secondAttribute="bottom" constant="8" id="gft-zI-oPQ"/>
+                            <constraint firstAttribute="centerX" secondItem="Hj3-GJ-TLm" secondAttribute="centerX" constant="75" id="lmg-oh-2gV"/>
+                            <constraint firstItem="Hj3-GJ-TLm" firstAttribute="top" secondItem="gcT-3f-no2" secondAttribute="bottom" constant="8" id="lws-GJ-sPy"/>
+                            <constraint firstItem="faO-Kv-TUn" firstAttribute="top" secondItem="rZ4-7s-T3n" secondAttribute="bottom" constant="6" id="o2f-Zk-DXn"/>
+                            <constraint firstAttribute="centerX" secondItem="T35-wm-CWQ" secondAttribute="centerX" constant="75" id="oHr-fG-bqH"/>
+                            <constraint firstItem="axm-zQ-HVK" firstAttribute="top" secondItem="hr8-IO-gZK" secondAttribute="bottom" constant="8" id="qKd-3J-t2E"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Leonard Hours" id="GWf-xS-UNp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="db1-j6-tEV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670" y="-3348"/>
+        </scene>
         <!--Leonard-->
         <scene sceneID="lUr-MW-1Ze">
             <objects>
@@ -1413,7 +1897,13 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="6Ww-iJ-4wt"/>
-                    <navigationItem key="navigationItem" title="Leonard" id="9TT-jW-nDy"/>
+                    <navigationItem key="navigationItem" title="Leonard" id="9TT-jW-nDy">
+                        <barButtonItem key="rightBarButtonItem" title="Hours" id="6Ek-mJ-qlh">
+                            <connections>
+                                <segue destination="TGe-oT-lLb" kind="show" id="83o-w2-Obk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="LeonardWeb" destination="2Kb-ze-l8y" id="W4y-Ec-e6m"/>
                     </connections>

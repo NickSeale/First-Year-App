@@ -79,6 +79,9 @@
 		FAE0377B1ABCAAE40098B353 /* Solus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0377A1ABCAAE40098B353 /* Solus.swift */; };
 		FAE0377D1ABCAAF50098B353 /* CheckYourMeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0377C1ABCAAF50098B353 /* CheckYourMeals.swift */; };
 		FAE0377F1ABCB6FC0098B353 /* ExternalLinks.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE0377E1ABCB6FC0098B353 /* ExternalLinks.png */; };
+		FF2BC5F31AC9FBC000CE3EBB /* ContactsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BC5F21AC9FBC000CE3EBB /* ContactsCustomCell.swift */; };
+		FF2BC5F51AC9FD5100CE3EBB /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BC5F41AC9FD5100CE3EBB /* ContactsViewController.swift */; };
+		FF2BC5F71AC9FF6A00CE3EBB /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BC5F61AC9FF6A00CE3EBB /* Contacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +171,9 @@
 		FAE0377A1ABCAAE40098B353 /* Solus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solus.swift; sourceTree = "<group>"; };
 		FAE0377C1ABCAAF50098B353 /* CheckYourMeals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckYourMeals.swift; sourceTree = "<group>"; };
 		FAE0377E1ABCB6FC0098B353 /* ExternalLinks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExternalLinks.png; sourceTree = "<group>"; };
+		FF2BC5F21AC9FBC000CE3EBB /* ContactsCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsCustomCell.swift; path = ../ContactsCustomCell.swift; sourceTree = "<group>"; };
+		FF2BC5F41AC9FD5100CE3EBB /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsViewController.swift; path = ../ContactsViewController.swift; sourceTree = "<group>"; };
+		FF2BC5F61AC9FF6A00CE3EBB /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contacts.swift; path = ../Contacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -361,6 +367,9 @@
 				A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */,
 				A7BDAAA01AA109CB00E35518 /* Home page.swift */,
 				A7BDAAA21AA109CB00E35518 /* Main.storyboard */,
+				FF2BC5F41AC9FD5100CE3EBB /* ContactsViewController.swift */,
+				FF2BC5F21AC9FBC000CE3EBB /* ContactsCustomCell.swift */,
+				FF2BC5F61AC9FF6A00CE3EBB /* Contacts.swift */,
 				A7BDAAA51AA109CB00E35518 /* Images.xcassets */,
 				A7BDAAA71AA109CB00E35518 /* LaunchScreen.xib */,
 				A7BDAA9C1AA109CB00E35518 /* Supporting Files */,
@@ -546,11 +555,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE037751ABCAABD0098B353 /* QueensU.swift in Sources */,
+				FF2BC5F51AC9FD5100CE3EBB /* ContactsViewController.swift in Sources */,
 				A7628EAC1AC1DDA20043D408 /* CustomLibraries.swift in Sources */,
 				A73675BE1AB274770049F815 /* RetailFoodViewController.swift in Sources */,
 				FA6D8DBA1ABA0F1400FE94B5 /* Leonard.swift in Sources */,
+				FF2BC5F31AC9FBC000CE3EBB /* ContactsCustomCell.swift in Sources */,
 				FA4B61841AB0DDBD00C3BDAB /* TransitMap.swift in Sources */,
 				FA4B617E1AB0DAAD00C3BDAB /* WalkingMap.swift in Sources */,
+				FF2BC5F71AC9FF6A00CE3EBB /* Contacts.swift in Sources */,
 				A7628EB41AC1E01D0043D408 /* LibraryViewController.swift in Sources */,
 				FA0720441AAF60B2000F42FC /* Schedule.swift in Sources */,
 				FAE0377D1ABCAAF50098B353 /* CheckYourMeals.swift in Sources */,

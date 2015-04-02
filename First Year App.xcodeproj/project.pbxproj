@@ -364,12 +364,10 @@
 				A7628EB21AC1DE250043D408 /* Schedule */,
 				A7628EB01AC1DDFF0043D408 /* Maps */,
 				A7628EB11AC1DE0F0043D408 /* Menus */,
-				A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */,
+				A7CDE0881ACCD0BE003E2E47 /* Contacts */,
 				A7BDAAA01AA109CB00E35518 /* Home page.swift */,
+				A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */,
 				A7BDAAA21AA109CB00E35518 /* Main.storyboard */,
-				FF2BC5F41AC9FD5100CE3EBB /* ContactsViewController.swift */,
-				FF2BC5F21AC9FBC000CE3EBB /* ContactsCustomCell.swift */,
-				FF2BC5F61AC9FF6A00CE3EBB /* Contacts.swift */,
 				A7BDAAA51AA109CB00E35518 /* Images.xcassets */,
 				A7BDAAA71AA109CB00E35518 /* LaunchScreen.xib */,
 				A7BDAA9C1AA109CB00E35518 /* Supporting Files */,
@@ -405,6 +403,16 @@
 				A7BDAAB31AA109CB00E35518 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7CDE0881ACCD0BE003E2E47 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				FF2BC5F21AC9FBC000CE3EBB /* ContactsCustomCell.swift */,
+				FF2BC5F61AC9FF6A00CE3EBB /* Contacts.swift */,
+				FF2BC5F41AC9FD5100CE3EBB /* ContactsViewController.swift */,
+			);
+			name = Contacts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

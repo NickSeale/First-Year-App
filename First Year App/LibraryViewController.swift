@@ -61,15 +61,17 @@ class LibraryViewController: UIViewController,UITableViewDataSource, UITableView
         
         cell.setLibraryCell(library.nameLibrary, libraryLocationText: library.locationLibrary, monLibraryHoursText: library.monHoursLibrary, friLibraryHoursText: library.friHoursLibrary, satLibraryHoursText: library.satHoursLibrary, sunLibraryHoursText: library.sunHoursLibrary)
         
+        
+        
+        self.myLibraryTableView.allowsSelection = false
         return cell
-        
-        
     }
     
+    /*
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         self.myLibraryTableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
-    
+    */
     
     /*
     // MARK: - Navigation

@@ -21,6 +21,8 @@
 		A739C33C1ABA0FAA00D81458 /* Food Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A739C3361ABA0FAA00D81458 /* Food Button.png */; };
 		A739C33D1ABA0FAA00D81458 /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = A739C3371ABA0FAA00D81458 /* Map.png */; };
 		A739C33E1ABA0FAA00D81458 /* Schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = A739C3381ABA0FAA00D81458 /* Schedule.png */; };
+		A73CF4BE1AD03AEC003E0E14 /* Homecoming Flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73CF4BD1AD03AEC003E0E14 /* Homecoming Flag.jpg */; };
+		A73CF4C01AD04068003E0E14 /* theArc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73CF4BF1AD04068003E0E14 /* theArc.jpg */; };
 		A743D26F1AC2F3DB00875CC6 /* Fast Lane1.png in Resources */ = {isa = PBXBuildFile; fileRef = A743D26B1AC2F3DB00875CC6 /* Fast Lane1.png */; };
 		A743D2701AC2F3DB00875CC6 /* Market Street1.png in Resources */ = {isa = PBXBuildFile; fileRef = A743D26C1AC2F3DB00875CC6 /* Market Street1.png */; };
 		A743D2711AC2F3DB00875CC6 /* Stauffer Cafe1.png in Resources */ = {isa = PBXBuildFile; fileRef = A743D26D1AC2F3DB00875CC6 /* Stauffer Cafe1.png */; };
@@ -110,6 +112,8 @@
 		A739C3361ABA0FAA00D81458 /* Food Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Food Button.png"; sourceTree = "<group>"; };
 		A739C3371ABA0FAA00D81458 /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
 		A739C3381ABA0FAA00D81458 /* Schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Schedule.png; sourceTree = "<group>"; };
+		A73CF4BD1AD03AEC003E0E14 /* Homecoming Flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Homecoming Flag.jpg"; sourceTree = "<group>"; };
+		A73CF4BF1AD04068003E0E14 /* theArc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theArc.jpg; sourceTree = "<group>"; };
 		A743D26B1AC2F3DB00875CC6 /* Fast Lane1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fast Lane1.png"; sourceTree = "<group>"; };
 		A743D26C1AC2F3DB00875CC6 /* Market Street1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Market Street1.png"; sourceTree = "<group>"; };
 		A743D26D1AC2F3DB00875CC6 /* Stauffer Cafe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stauffer Cafe1.png"; sourceTree = "<group>"; };
@@ -381,6 +385,8 @@
 		A7BDAA9C1AA109CB00E35518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A73CF4BF1AD04068003E0E14 /* theArc.jpg */,
+				A73CF4BD1AD03AEC003E0E14 /* Homecoming Flag.jpg */,
 				A743D2851AC2FA2300875CC6 /* Map */,
 				A743D2761AC2F5D800875CC6 /* Home Page */,
 				A743D2751AC2F59F00875CC6 /* Food Page */,
@@ -514,8 +520,10 @@
 				A7BDAAA41AA109CB00E35518 /* Main.storyboard in Resources */,
 				A7E437B81AB372230015B1CC /* Teryaki.png in Resources */,
 				A739C33B1ABA0FAA00D81458 /* External Links.png in Resources */,
+				A73CF4C01AD04068003E0E14 /* theArc.jpg in Resources */,
 				FA91C4B31AC33A8A004C13D9 /* Newcar-2.png in Resources */,
 				A739C3321ABA0D6500D81458 /* Bookstore.jpeg in Resources */,
+				A73CF4BE1AD03AEC003E0E14 /* Homecoming Flag.jpg in Resources */,
 				FA91C4B41AC33A8A004C13D9 /* NewWalking.png in Resources */,
 				A7F7915C1AA6476F001A88A2 /* douglasLibrary.jpg in Resources */,
 				A739C32E1ABA077600D81458 /* HomePage3.png in Resources */,

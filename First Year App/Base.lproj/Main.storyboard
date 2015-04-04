@@ -191,102 +191,97 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" alpha="0.89999999999999991" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdi-5b-707">
-                                <rect key="frame" x="175" y="84" width="250" height="80"/>
-                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="theArc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="W9P-PB-zY2">
+                                <rect key="frame" x="-240" y="0.0" width="900" height="600"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="4AZ-cv-laa"/>
-                                    <constraint firstAttribute="width" constant="250" id="g96-KC-isI"/>
+                                    <constraint firstAttribute="width" secondItem="W9P-PB-zY2" secondAttribute="height" multiplier="1400:933" id="irh-2R-30L"/>
                                 </constraints>
-                                <state key="normal" title="Ban Righ">
+                            </imageView>
+                            <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="RaQ-dX-K9s">
+                                <rect key="frame" x="301" y="515" width="100" height="65"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="0h6-6O-gPy"/>
+                                    <constraint firstAttribute="height" constant="65" id="jKC-YQ-q2l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Light" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="FLEX">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="4Jd-rn-6MD" kind="show" id="mq4-vv-6CM"/>
+                                    <segue destination="bq2-pi-j0q" kind="show" id="q94-8F-Q5l"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.89999999999999991" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQC-S9-Wu0">
-                                <rect key="frame" x="175" y="184" width="250" height="80"/>
-                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAY-pZ-wDx">
+                                <rect key="frame" x="199" y="515" width="100" height="65"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="M0T-6m-cHv"/>
-                                    <constraint firstAttribute="height" constant="80" id="Qfb-Lz-Ax2"/>
+                                    <constraint firstAttribute="width" constant="100" id="RXi-yC-TKo"/>
+                                    <constraint firstAttribute="height" constant="65" id="sjm-kv-xHc"/>
                                 </constraints>
-                                <state key="normal" title="Leonard">
+                                <fontDescription key="fontDescription" name="Copperplate-Light" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="JEAN ROYCE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="69o-z9-69k" kind="show" id="RAK-fM-4z8"/>
+                                    <segue destination="FXW-Sh-L8V" kind="show" id="H5E-Jy-1qq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.89999999999999991" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixx-AJ-3qn">
-                                <rect key="frame" x="175" y="284" width="250" height="80"/>
-                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcE-Te-TgZ">
+                                <rect key="frame" x="199" y="448" width="100" height="65"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="4ie-og-7ks"/>
-                                    <constraint firstAttribute="height" constant="80" id="gy1-ax-1JU"/>
+                                    <constraint firstAttribute="width" constant="100" id="F3Q-yp-Pdr"/>
+                                    <constraint firstAttribute="height" constant="65" id="lII-04-91Y"/>
                                 </constraints>
-                                <state key="normal" title="Jean Royce">
+                                <fontDescription key="fontDescription" name="Copperplate-Light" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="LEONARD">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="FXW-Sh-L8V" kind="show" id="zcj-ty-bZy"/>
+                                    <segue destination="69o-z9-69k" kind="show" id="bgp-RS-CG5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.89999999999999991" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hx0-b3-2Kl">
-                                <rect key="frame" x="175" y="384" width="250" height="80"/>
-                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HzT-WW-dtQ">
+                                <rect key="frame" x="301" y="448" width="100" height="65"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="6qm-Ar-YQ4"/>
-                                    <constraint firstAttribute="width" constant="250" id="kAm-Fb-brK"/>
+                                    <constraint firstAttribute="width" constant="100" id="mEI-SU-YZw"/>
+                                    <constraint firstAttribute="height" constant="65" id="mQu-vP-rHE"/>
                                 </constraints>
-                                <state key="normal" title="Retail Food Outlets">
+                                <fontDescription key="fontDescription" name="Copperplate-Light" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="BAN RIGH">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="bq2-pi-j0q" kind="show" id="Wa4-YI-VFm"/>
+                                    <segue destination="4Jd-rn-6MD" kind="show" id="8QX-BO-QWQ"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="hx0-b3-2Kl" firstAttribute="top" secondItem="ixx-AJ-3qn" secondAttribute="bottom" constant="20" id="ABJ-Ze-EmB"/>
-                            <constraint firstAttribute="centerX" secondItem="ixx-AJ-3qn" secondAttribute="centerX" id="VDk-O3-mqm"/>
-                            <constraint firstAttribute="centerX" secondItem="vQC-S9-Wu0" secondAttribute="centerX" id="cc2-gK-908"/>
-                            <constraint firstAttribute="centerX" secondItem="Qdi-5b-707" secondAttribute="centerX" id="dV2-DH-Dac"/>
-                            <constraint firstItem="vQC-S9-Wu0" firstAttribute="top" secondItem="Qdi-5b-707" secondAttribute="bottom" constant="20" id="dc9-lo-QgS"/>
-                            <constraint firstItem="ixx-AJ-3qn" firstAttribute="top" secondItem="vQC-S9-Wu0" secondAttribute="bottom" constant="20" id="jpi-XZ-ufR"/>
-                            <constraint firstAttribute="centerX" secondItem="hx0-b3-2Kl" secondAttribute="centerX" id="mqI-6k-dcv"/>
-                            <constraint firstItem="Qdi-5b-707" firstAttribute="top" secondItem="zcK-92-ccT" secondAttribute="bottom" constant="20" id="sWr-Rq-AeB"/>
+                            <constraint firstItem="bAY-pZ-wDx" firstAttribute="trailing" secondItem="PcE-Te-TgZ" secondAttribute="trailing" id="1xX-aV-EzA"/>
+                            <constraint firstItem="W9P-PB-zY2" firstAttribute="top" secondItem="9UY-lL-wT8" secondAttribute="topMargin" id="ENa-vI-nAK"/>
+                            <constraint firstItem="HzT-WW-dtQ" firstAttribute="leading" secondItem="RaQ-dX-K9s" secondAttribute="leading" id="N1h-tE-fel"/>
+                            <constraint firstAttribute="centerX" secondItem="W9P-PB-zY2" secondAttribute="centerX" constant="90" id="P9J-EZ-jOc"/>
+                            <constraint firstItem="RaQ-dX-K9s" firstAttribute="top" secondItem="HzT-WW-dtQ" secondAttribute="bottom" constant="2" id="XTH-AW-cxy"/>
+                            <constraint firstItem="bAY-pZ-wDx" firstAttribute="top" secondItem="PcE-Te-TgZ" secondAttribute="bottom" constant="2" id="aue-Om-gfi"/>
+                            <constraint firstAttribute="centerY" secondItem="RaQ-dX-K9s" secondAttribute="centerY" id="ffF-xc-Qlv"/>
+                            <constraint firstItem="hmU-Hx-FqP" firstAttribute="top" secondItem="RaQ-dX-K9s" secondAttribute="bottom" constant="20" id="ing-eQ-xiM"/>
+                            <constraint firstAttribute="centerX" secondItem="bAY-pZ-wDx" secondAttribute="centerX" constant="51" id="pkh-Hm-b5U"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="W9P-PB-zY2" secondAttribute="bottom" id="rB4-fe-NrY"/>
+                            <constraint firstAttribute="centerX" secondItem="RaQ-dX-K9s" secondAttribute="centerX" constant="-51" id="txp-f1-44B"/>
+                            <constraint firstItem="bAY-pZ-wDx" firstAttribute="top" secondItem="RaQ-dX-K9s" secondAttribute="top" id="voD-w3-Yhm"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ffF-xc-Qlv"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="55z-Gf-qVA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1301,120 +1296,115 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0p-Xl-fdv">
-                                <rect key="frame" x="175" y="74" width="250" height="80"/>
-                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Homecoming Flag.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="K6y-iz-YeZ">
+                                <rect key="frame" x="-118" y="64" width="1006" height="536"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="8HH-qp-eAx"/>
-                                    <constraint firstAttribute="height" constant="80" id="Ktd-YS-EL0"/>
+                                    <constraint firstAttribute="width" secondItem="K6y-iz-YeZ" secondAttribute="height" multiplier="15:8" id="Gbs-4O-hoY"/>
                                 </constraints>
-                                <state key="normal" title="QueensU">
+                            </imageView>
+                            <button opaque="NO" alpha="0.79999999999999993" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vC2-Rb-HTk">
+                                <rect key="frame" x="250" y="515" width="100" height="65"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="noN-2x-pDd"/>
+                                    <constraint firstAttribute="height" constant="65" id="zA0-v2-qSm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Light" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="QUEENSU">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="0FN-yy-azo" kind="show" id="7IW-lO-zrk"/>
+                                    <segue destination="0FN-yy-azo" kind="show" id="OUG-Ih-595"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBv-Ml-FKd">
-                                <rect key="frame" x="175" y="174" width="250" height="80"/>
-                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" alpha="0.79999999999999993" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4t-Cp-HZq">
+                                <rect key="frame" x="352" y="515" width="100" height="65"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="Oz3-Pe-p5D"/>
-                                    <constraint firstAttribute="width" constant="250" id="u7p-U8-6Uq"/>
+                                    <constraint firstAttribute="width" constant="100" id="fMJ-VW-JPa"/>
+                                    <constraint firstAttribute="height" constant="65" id="og9-MT-0Jy"/>
                                 </constraints>
-                                <state key="normal" title="Moodle">
+                                <fontDescription key="fontDescription" name="Copperplate-Light" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="MEALS">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="ZDT-vz-3KE" kind="show" id="Yvi-F2-1ep"/>
+                                    <segue destination="TDd-Ab-aAs" kind="show" id="qxO-bz-Hnw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWO-Vc-0CJ">
-                                <rect key="frame" x="175" y="274" width="250" height="80"/>
-                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" alpha="0.79999999999999993" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0e-AN-mYk">
+                                <rect key="frame" x="148" y="515" width="100" height="65"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="xGS-Y9-9ke"/>
-                                    <constraint firstAttribute="height" constant="80" id="xej-6p-JmR"/>
+                                    <constraint firstAttribute="width" constant="100" id="VZb-th-bWV"/>
+                                    <constraint firstAttribute="height" constant="65" id="kxa-SQ-T1q"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Light" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="SOLUS">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DhE-TY-vZ6" kind="show" id="xlg-vf-ycF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.79999999999999993" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9g-QL-8cu">
+                                <rect key="frame" x="199" y="448" width="100" height="65"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="9dZ-PA-U4q"/>
+                                    <constraint firstAttribute="width" constant="100" id="wj1-pZ-BTE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Light" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="MOODLE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZDT-vz-3KE" kind="show" id="6ow-m4-4Bz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.79999999999999993" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b51-VE-2BM">
+                                <rect key="frame" x="301" y="448" width="100" height="65"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="UwD-NI-5L5"/>
+                                    <constraint firstAttribute="height" constant="65" id="m77-tx-oQ2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Light" family="Copperplate" pointSize="15"/>
                                 <state key="normal" title="D2L">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="S95-cy-hny" kind="show" id="283-Bw-gkU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4h-9K-Oat">
-                                <rect key="frame" x="175" y="374" width="250" height="80"/>
-                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="YN0-3k-y6K"/>
-                                    <constraint firstAttribute="width" constant="250" id="rvk-1C-6Sw"/>
-                                </constraints>
-                                <state key="normal" title="Solus">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="DhE-TY-vZ6" kind="show" id="zVr-KT-gOw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsa-4u-Vic">
-                                <rect key="frame" x="175" y="474" width="250" height="80"/>
-                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="2Od-td-8WA"/>
-                                    <constraint firstAttribute="width" constant="250" id="hRU-nx-4pf"/>
-                                </constraints>
-                                <state key="normal" title="Check Your Meals">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="TDd-Ab-aAs" kind="show" id="SUJ-bh-5U8"/>
+                                    <segue destination="S95-cy-hny" kind="show" id="Drq-7b-T4v"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="F4h-9K-Oat" firstAttribute="top" secondItem="EWO-Vc-0CJ" secondAttribute="bottom" constant="20" id="D91-a8-xp3"/>
-                            <constraint firstItem="rBv-Ml-FKd" firstAttribute="top" secondItem="s0p-Xl-fdv" secondAttribute="bottom" constant="20" id="E4m-hm-vp9"/>
-                            <constraint firstAttribute="centerX" secondItem="s0p-Xl-fdv" secondAttribute="centerX" id="KfR-Wf-gtB"/>
-                            <constraint firstAttribute="centerX" secondItem="F4h-9K-Oat" secondAttribute="centerX" id="PJv-jg-qwy"/>
-                            <constraint firstAttribute="centerX" secondItem="rBv-Ml-FKd" secondAttribute="centerX" id="VKo-45-Liw"/>
-                            <constraint firstItem="s0p-Xl-fdv" firstAttribute="top" secondItem="EEI-N7-3fU" secondAttribute="bottom" constant="10" id="YC9-NT-orT"/>
-                            <constraint firstItem="EWO-Vc-0CJ" firstAttribute="top" secondItem="rBv-Ml-FKd" secondAttribute="bottom" constant="20" id="bBt-Cp-rRu"/>
-                            <constraint firstAttribute="centerX" secondItem="EWO-Vc-0CJ" secondAttribute="centerX" id="fd3-qH-Iex"/>
-                            <constraint firstItem="Xsa-4u-Vic" firstAttribute="top" secondItem="F4h-9K-Oat" secondAttribute="bottom" constant="20" id="gu0-f0-k6F"/>
-                            <constraint firstAttribute="centerX" secondItem="Xsa-4u-Vic" secondAttribute="centerX" id="wZ0-Z8-Nkl"/>
+                            <constraint firstItem="vC2-Rb-HTk" firstAttribute="top" secondItem="f0e-AN-mYk" secondAttribute="top" id="3B6-CP-HvY"/>
+                            <constraint firstAttribute="centerX" secondItem="vC2-Rb-HTk" secondAttribute="centerX" id="3VU-Yd-TlI"/>
+                            <constraint firstItem="vC2-Rb-HTk" firstAttribute="leading" secondItem="f0e-AN-mYk" secondAttribute="trailing" constant="2" id="BoH-nA-Y1L"/>
+                            <constraint firstItem="vC2-Rb-HTk" firstAttribute="top" secondItem="V4t-Cp-HZq" secondAttribute="top" id="Fdp-K1-ARH"/>
+                            <constraint firstAttribute="centerX" secondItem="b51-VE-2BM" secondAttribute="centerX" constant="-51" id="O1g-nv-KsV"/>
+                            <constraint firstItem="V4t-Cp-HZq" firstAttribute="leading" secondItem="vC2-Rb-HTk" secondAttribute="trailing" constant="2" id="Vce-4q-sPx"/>
+                            <constraint firstItem="tiI-Zq-MmZ" firstAttribute="top" secondItem="vC2-Rb-HTk" secondAttribute="bottom" constant="20" id="WuW-q2-cI3"/>
+                            <constraint firstItem="vC2-Rb-HTk" firstAttribute="top" secondItem="K6y-iz-YeZ" secondAttribute="bottom" id="b2p-yX-3Ty"/>
+                            <constraint firstAttribute="centerX" secondItem="K6y-iz-YeZ" secondAttribute="centerX" constant="-85" id="bDV-tF-c80"/>
+                            <constraint firstItem="K6y-iz-YeZ" firstAttribute="top" secondItem="EEI-N7-3fU" secondAttribute="bottom" id="cEW-Yj-YWF"/>
+                            <constraint firstItem="tiI-Zq-MmZ" firstAttribute="top" secondItem="K6y-iz-YeZ" secondAttribute="bottom" id="da0-m8-5Mu"/>
+                            <constraint firstItem="f0e-AN-mYk" firstAttribute="top" secondItem="V9g-QL-8cu" secondAttribute="bottom" constant="2" id="fhA-3H-OeJ"/>
+                            <constraint firstAttribute="centerX" secondItem="V9g-QL-8cu" secondAttribute="centerX" constant="51" id="hyq-X6-yC2"/>
+                            <constraint firstItem="V4t-Cp-HZq" firstAttribute="top" secondItem="b51-VE-2BM" secondAttribute="bottom" constant="2" id="mUQ-Ok-Hge"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="b2p-yX-3Ty"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="External Links" id="qV2-p3-Te0"/>
                 </viewController>
@@ -2006,6 +1996,7 @@
     </scenes>
     <resources>
         <image name="Bookstore.jpeg" width="3252" height="2236"/>
+        <image name="Homecoming Flag.jpg" width="1200" height="800"/>
         <image name="NewBus.png" width="32" height="32"/>
         <image name="NewWalking.png" width="30" height="30"/>
         <image name="Newcar-2.png" width="30" height="30"/>
@@ -2015,5 +2006,6 @@
         <image name="newLinks.jpg" width="422" height="270"/>
         <image name="newMap.jpg" width="422" height="270"/>
         <image name="newSchedule.jpg" width="422" height="270"/>
+        <image name="theArc.jpg" width="1400" height="933"/>
     </resources>
 </document>

@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="beD-VE-DMc">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="592"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
@@ -28,7 +28,7 @@
                             <constraint firstItem="beD-VE-DMc" firstAttribute="top" secondItem="UVz-GC-1qZ" secondAttribute="topMargin" id="O2Q-fj-fuS"/>
                             <constraint firstItem="beD-VE-DMc" firstAttribute="leading" secondItem="UVz-GC-1qZ" secondAttribute="leadingMargin" constant="-16" id="OKL-6f-VqZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="beD-VE-DMc" secondAttribute="trailing" constant="-16" id="aJA-os-e3F"/>
-                            <constraint firstItem="pCc-1K-3OW" firstAttribute="top" secondItem="beD-VE-DMc" secondAttribute="bottom" constant="8" id="ods-by-hT8"/>
+                            <constraint firstItem="pCc-1K-3OW" firstAttribute="top" secondItem="beD-VE-DMc" secondAttribute="bottom" id="ods-by-hT8"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Rnm-kZ-w4e"/>
@@ -60,7 +60,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6O6-Kc-uhS">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="592"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
@@ -69,7 +69,7 @@
                             <constraint firstItem="6O6-Kc-uhS" firstAttribute="top" secondItem="FOl-ez-rk6" secondAttribute="topMargin" id="95H-Gh-Bvd"/>
                             <constraint firstItem="6O6-Kc-uhS" firstAttribute="leading" secondItem="FOl-ez-rk6" secondAttribute="leadingMargin" constant="-16" id="ORz-9R-VAs"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6O6-Kc-uhS" secondAttribute="trailing" constant="-16" id="bfV-jY-0wY"/>
-                            <constraint firstItem="gAA-KK-pTb" firstAttribute="top" secondItem="6O6-Kc-uhS" secondAttribute="bottom" constant="8" id="lr1-KC-iSl"/>
+                            <constraint firstItem="gAA-KK-pTb" firstAttribute="top" secondItem="6O6-Kc-uhS" secondAttribute="bottom" id="lr1-KC-iSl"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="D5Y-xb-Vif"/>
@@ -110,9 +110,8 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday-Friday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvp-Bc-vF1">
-                                        <rect key="frame" x="238" y="212" width="124" height="24"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                                        <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="232" y="212" width="136" height="24"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:00am-3:00pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBv-mI-xAh">
@@ -179,10 +178,10 @@
             </objects>
             <point key="canvasLocation" x="2188" y="-1986"/>
         </scene>
-        <!--Food-->
+        <!--Dining Information-->
         <scene sceneID="rUz-XP-saa">
             <objects>
-                <viewController title="Food" id="kdr-Nd-kT4" sceneMemberID="viewController">
+                <viewController title="Dining Information" id="kdr-Nd-kT4" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zcK-92-ccT"/>
                         <viewControllerLayoutGuide type="bottom" id="hmU-Hx-FqP"/>
@@ -375,24 +374,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUT-us-Zqe">
-                                <rect key="frame" x="226" y="40" width="149" height="25"/>
+                                <rect key="frame" x="226" y="25" width="149" height="25"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qpe-WU-kAr">
-                                <rect key="frame" x="270" y="75" width="60" height="21"/>
+                                <rect key="frame" x="270" y="60" width="60" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3aO-bV-YCz">
-                                <rect key="frame" x="250" y="98" width="100" height="100"/>
+                                <rect key="frame" x="250" y="83" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="H4v-z9-jKJ"/>
                                     <constraint firstAttribute="height" constant="100" id="HJb-L1-jrb"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hc5-Dv-ZdT">
-                                <rect key="frame" x="0.0" y="208" width="600" height="392"/>
+                                <rect key="frame" x="0.0" y="193" width="600" height="407"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Cz-Db-zAq">
                                         <rect key="frame" x="30" y="20" width="65" height="21"/>
@@ -516,7 +515,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="hc5-Dv-ZdT" secondAttribute="trailing" constant="-16" id="561-FY-kbm"/>
-                            <constraint firstItem="RUT-us-Zqe" firstAttribute="top" secondItem="qD8-ad-1b3" secondAttribute="bottom" constant="20" id="FCi-wE-Ham"/>
+                            <constraint firstItem="RUT-us-Zqe" firstAttribute="top" secondItem="qD8-ad-1b3" secondAttribute="bottom" constant="5" id="FCi-wE-Ham"/>
                             <constraint firstItem="IHO-c9-E3N" firstAttribute="top" secondItem="hc5-Dv-ZdT" secondAttribute="bottom" id="Fpd-N0-45B"/>
                             <constraint firstItem="hc5-Dv-ZdT" firstAttribute="leading" secondItem="vVo-MD-EK7" secondAttribute="leadingMargin" constant="-16" id="FwX-jW-M4m"/>
                             <constraint firstItem="3aO-bV-YCz" firstAttribute="top" secondItem="Qpe-WU-kAr" secondAttribute="bottom" constant="2" id="SEL-p7-WVT"/>
@@ -914,7 +913,7 @@
         <!--Schedule-->
         <scene sceneID="h1v-kp-ZkQ">
             <objects>
-                <viewController id="E6d-pP-LwE" customClass="Schedule" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Schedule" id="E6d-pP-LwE" customClass="Schedule" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jNe-SB-07I"/>
                         <viewControllerLayoutGuide type="bottom" id="9zV-nH-6Pv"/>
@@ -924,19 +923,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="phx-IG-kL0">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="592"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="9zV-nH-6Pv" firstAttribute="top" secondItem="phx-IG-kL0" secondAttribute="bottom" constant="8" id="7Xh-qJ-ibB"/>
+                            <constraint firstItem="9zV-nH-6Pv" firstAttribute="top" secondItem="phx-IG-kL0" secondAttribute="bottom" id="7Xh-qJ-ibB"/>
                             <constraint firstItem="phx-IG-kL0" firstAttribute="leading" secondItem="ePw-yX-jye" secondAttribute="leadingMargin" constant="-16" id="GKr-cc-Mfd"/>
                             <constraint firstItem="phx-IG-kL0" firstAttribute="top" secondItem="ePw-yX-jye" secondAttribute="topMargin" id="cma-yx-Io7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="phx-IG-kL0" secondAttribute="trailing" constant="-16" id="xbq-v9-JkZ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Schedule" id="ogL-en-gGV"/>
                     <connections>
                         <outlet property="Webviewer" destination="phx-IG-kL0" id="Ddg-ro-HWx"/>
                     </connections>
@@ -1493,15 +1491,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday-Thursday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEW-m1-3x3">
-                                <rect key="frame" x="226" y="74" width="149" height="24"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                                <color key="textColor" red="0.49019607843137253" green="0.074509803921568626" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="218" y="74" width="164" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UO8-tT-qFu">
-                                <rect key="frame" x="276" y="172" width="49" height="24"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="272" y="172" width="56" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dinner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hj3-GJ-TLm">
@@ -1589,9 +1585,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday &amp; Sunday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2b-nC-m6Z">
-                                <rect key="frame" x="220" y="270" width="160" height="24"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                                <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="214" y="270" width="172" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1663,27 +1658,23 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday-Thursday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FLr-ug-cZa">
-                                        <rect key="frame" x="226" y="20" width="149" height="24"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                                        <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="218" y="20" width="164" height="24"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RB9-4X-eCd">
-                                        <rect key="frame" x="276" y="145" width="49" height="24"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                                        <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="272" y="145" width="56" height="24"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NrC-IY-sHk">
-                                        <rect key="frame" x="263" y="270" width="74" height="24"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                                        <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="260" y="270" width="81" height="24"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKk-ti-dNo">
-                                        <rect key="frame" x="268" y="395" width="64" height="24"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                                        <color key="textColor" red="0.49019607840000001" green="0.074509803920000006" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="266" y="395" width="68" height="24"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dinner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1w-C9-HzD">
@@ -1945,13 +1936,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Kb-ze-l8y">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="592"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Ria-Mu-S0e" firstAttribute="top" secondItem="2Kb-ze-l8y" secondAttribute="bottom" constant="8" id="RYQ-3w-FPt"/>
+                            <constraint firstItem="Ria-Mu-S0e" firstAttribute="top" secondItem="2Kb-ze-l8y" secondAttribute="bottom" id="RYQ-3w-FPt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2Kb-ze-l8y" secondAttribute="trailing" constant="-16" id="SmQ-r3-5n8"/>
                             <constraint firstItem="2Kb-ze-l8y" firstAttribute="top" secondItem="pAP-3c-jP1" secondAttribute="topMargin" id="bfi-ll-OeS"/>
                             <constraint firstItem="2Kb-ze-l8y" firstAttribute="leading" secondItem="pAP-3c-jP1" secondAttribute="leadingMargin" constant="-16" id="cPY-8v-mLJ"/>
@@ -1973,10 +1964,10 @@
             </objects>
             <point key="canvasLocation" x="676" y="-2663"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Map-->
         <scene sceneID="xw1-0d-Kb2">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="CT5-pg-cca" sceneMemberID="viewController">
+                <tabBarController title="Map" automaticallyAdjustsScrollViewInsets="NO" id="CT5-pg-cca" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="lyJ-cL-iHP">

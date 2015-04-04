@@ -47,6 +47,16 @@
 		A7BDAAA61AA109CB00E35518 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BDAAA51AA109CB00E35518 /* Images.xcassets */; };
 		A7BDAAA91AA109CB00E35518 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7BDAAA71AA109CB00E35518 /* LaunchScreen.xib */; };
 		A7BDAAB51AA109CB00E35518 /* First_Year_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BDAAB41AA109CB00E35518 /* First_Year_AppTests.swift */; };
+		A7D934581AD06FBA004F558E /* logo29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9344E1AD06FBA004F558E /* logo29@1x.png */; };
+		A7D934591AD06FBA004F558E /* logo29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9344F1AD06FBA004F558E /* logo29@2x.png */; };
+		A7D9345A1AD06FBA004F558E /* logo29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D934501AD06FBA004F558E /* logo29@3x.png */; };
+		A7D9345B1AD06FBA004F558E /* logo40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D934511AD06FBA004F558E /* logo40@1x.png */; };
+		A7D9345C1AD06FBA004F558E /* logo40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D934521AD06FBA004F558E /* logo40@2x.png */; };
+		A7D9345D1AD06FBA004F558E /* logo40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D934531AD06FBA004F558E /* logo40@3x.png */; };
+		A7D9345E1AD06FBA004F558E /* logo60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D934541AD06FBA004F558E /* logo60@2x.png */; };
+		A7D9345F1AD06FBA004F558E /* logo60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D934551AD06FBA004F558E /* logo60@3x.png */; };
+		A7D934601AD06FBA004F558E /* logo76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D934561AD06FBA004F558E /* logo76@1x.png */; };
+		A7D934611AD06FBA004F558E /* logo76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D934571AD06FBA004F558E /* logo76@2x.png */; };
 		A7E437A11AB36B3A0015B1CC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E437A01AB36B3A0015B1CC /* DetailViewController.swift */; };
 		A7E437AE1AB372220015B1CC /* Booster Juice.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E437A21AB372220015B1CC /* Booster Juice.png */; };
 		A7E437AF1AB372230015B1CC /* CGC.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E437A31AB372220015B1CC /* CGC.png */; };
@@ -143,6 +153,16 @@
 		A7BDAAAE1AA109CB00E35518 /* First Year AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First Year AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BDAAB31AA109CB00E35518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7BDAAB41AA109CB00E35518 /* First_Year_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_Year_AppTests.swift; sourceTree = "<group>"; };
+		A7D9344E1AD06FBA004F558E /* logo29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo29@1x.png"; sourceTree = "<group>"; };
+		A7D9344F1AD06FBA004F558E /* logo29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo29@2x.png"; sourceTree = "<group>"; };
+		A7D934501AD06FBA004F558E /* logo29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo29@3x.png"; sourceTree = "<group>"; };
+		A7D934511AD06FBA004F558E /* logo40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo40@1x.png"; sourceTree = "<group>"; };
+		A7D934521AD06FBA004F558E /* logo40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo40@2x.png"; sourceTree = "<group>"; };
+		A7D934531AD06FBA004F558E /* logo40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo40@3x.png"; sourceTree = "<group>"; };
+		A7D934541AD06FBA004F558E /* logo60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo60@2x.png"; sourceTree = "<group>"; };
+		A7D934551AD06FBA004F558E /* logo60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo60@3x.png"; sourceTree = "<group>"; };
+		A7D934561AD06FBA004F558E /* logo76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo76@1x.png"; sourceTree = "<group>"; };
+		A7D934571AD06FBA004F558E /* logo76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo76@2x.png"; sourceTree = "<group>"; };
 		A7E437A01AB36B3A0015B1CC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A7E437A21AB372220015B1CC /* Booster Juice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Booster Juice.png"; sourceTree = "<group>"; };
 		A7E437A31AB372220015B1CC /* CGC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CGC.png; sourceTree = "<group>"; };
@@ -387,6 +407,7 @@
 		A7BDAA9C1AA109CB00E35518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A7D9344D1AD06FA6004F558E /* logos */,
 				A750D60C1AD05672002C0EE0 /* loadingScreen.png */,
 				A73CF4BF1AD04068003E0E14 /* theArc.jpg */,
 				A73CF4BD1AD03AEC003E0E14 /* Homecoming Flag.jpg */,
@@ -425,6 +446,23 @@
 				FF2BC5F41AC9FD5100CE3EBB /* ContactsViewController.swift */,
 			);
 			name = Contacts;
+			sourceTree = "<group>";
+		};
+		A7D9344D1AD06FA6004F558E /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				A7D9344E1AD06FBA004F558E /* logo29@1x.png */,
+				A7D9344F1AD06FBA004F558E /* logo29@2x.png */,
+				A7D934501AD06FBA004F558E /* logo29@3x.png */,
+				A7D934511AD06FBA004F558E /* logo40@1x.png */,
+				A7D934521AD06FBA004F558E /* logo40@2x.png */,
+				A7D934531AD06FBA004F558E /* logo40@3x.png */,
+				A7D934541AD06FBA004F558E /* logo60@2x.png */,
+				A7D934551AD06FBA004F558E /* logo60@3x.png */,
+				A7D934561AD06FBA004F558E /* logo76@1x.png */,
+				A7D934571AD06FBA004F558E /* logo76@2x.png */,
+			);
+			name = logos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -511,16 +549,20 @@
 				A7B89D281AB620F800503A92 /* bg2.png in Resources */,
 				A7E437B71AB372230015B1CC /* Starbucks.png in Resources */,
 				A743D27F1AC2F70300875CC6 /* newContacts.jpg in Resources */,
+				A7D9345F1AD06FBA004F558E /* logo60@3x.png in Resources */,
 				A739C33A1ABA0FAA00D81458 /* Contacts.png in Resources */,
 				A739C3301ABA098500D81458 /* ClarkHQ.jpeg in Resources */,
+				A7D934601AD06FBA004F558E /* logo76@1x.png in Resources */,
 				A778C8411AB2A55600175CE7 /* person2.png in Resources */,
 				A7E437B61AB372230015B1CC /* Quiznos.png in Resources */,
+				A7D934591AD06FBA004F558E /* logo29@2x.png in Resources */,
 				A72A2D4C1AA8F8B30039D726 /* utensilIconCopy.png in Resources */,
 				A743D26F1AC2F3DB00875CC6 /* Fast Lane1.png in Resources */,
 				A7E437B51AB372230015B1CC /* Pizza Pizza.png in Resources */,
 				A7E437AF1AB372230015B1CC /* CGC.png in Resources */,
 				A743D2701AC2F3DB00875CC6 /* Market Street1.png in Resources */,
 				A7BDAAA41AA109CB00E35518 /* Main.storyboard in Resources */,
+				A7D9345C1AD06FBA004F558E /* logo40@2x.png in Resources */,
 				A7E437B81AB372230015B1CC /* Teryaki.png in Resources */,
 				A739C33B1ABA0FAA00D81458 /* External Links.png in Resources */,
 				A73CF4C01AD04068003E0E14 /* theArc.jpg in Resources */,
@@ -530,13 +572,16 @@
 				FA91C4B41AC33A8A004C13D9 /* NewWalking.png in Resources */,
 				A7F7915C1AA6476F001A88A2 /* douglasLibrary.jpg in Resources */,
 				A739C32E1ABA077600D81458 /* HomePage3.png in Resources */,
+				A7D9345D1AD06FBA004F558E /* logo40@3x.png in Resources */,
 				A750D60D1AD05672002C0EE0 /* loadingScreen.png in Resources */,
 				A7BDAAA91AA109CB00E35518 /* LaunchScreen.xib in Resources */,
 				A7E437B91AB372230015B1CC /* Tim Hortons.png in Resources */,
+				A7D9345E1AD06FBA004F558E /* logo60@2x.png in Resources */,
 				A7E437B01AB372230015B1CC /* Goode's Cafe.png in Resources */,
 				A743D2811AC2F70300875CC6 /* newHours.jpg in Resources */,
 				A743D2711AC2F3DB00875CC6 /* Stauffer Cafe1.png in Resources */,
 				A739C33C1ABA0FAA00D81458 /* Food Button.png in Resources */,
+				A7D9345A1AD06FBA004F558E /* logo29@3x.png in Resources */,
 				FADA5C491ABB76DD000F9F10 /* Walking.png in Resources */,
 				A739C32C1ABA043300D81458 /* HomepageMenu2.jpg in Resources */,
 				A7F7915E1AA64FD4001A88A2 /* douglasLibraryCopy.jpg in Resources */,
@@ -544,10 +589,12 @@
 				A743D2831AC2F70300875CC6 /* newMap.jpg in Resources */,
 				A7E437B31AB372230015B1CC /* MC2.png in Resources */,
 				A7E437B41AB372230015B1CC /* Pita Pit.png in Resources */,
+				A7D9345B1AD06FBA004F558E /* logo40@1x.png in Resources */,
 				FAE037731ABCA9030098B353 /* car-2.png in Resources */,
 				FA91C4B21AC33A8A004C13D9 /* NewBus.png in Resources */,
 				A739C33E1ABA0FAA00D81458 /* Schedule.png in Resources */,
 				A743D2801AC2F70300875CC6 /* newFood.jpg in Resources */,
+				A7D934581AD06FBA004F558E /* logo29@1x.png in Resources */,
 				A739C33D1ABA0FAA00D81458 /* Map.png in Resources */,
 				FADA5C471ABB76DD000F9F10 /* Bus.png in Resources */,
 				A7BDAAA61AA109CB00E35518 /* Images.xcassets in Resources */,
@@ -556,6 +603,7 @@
 				A7E437BB1AB375190015B1CC /* Lazy.png in Resources */,
 				A7E437B11AB372230015B1CC /* Gords Cafe.png in Resources */,
 				A739C3391ABA0FAA00D81458 /* Building Hours.png in Resources */,
+				A7D934611AD06FBA004F558E /* logo76@2x.png in Resources */,
 				A778C8401AB2A55600175CE7 /* person1.png in Resources */,
 				FA4B61181AB0C63700C3BDAB /* TopBarMap.jpg in Resources */,
 				A743D2821AC2F70300875CC6 /* newLinks.jpg in Resources */,

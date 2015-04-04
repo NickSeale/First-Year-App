@@ -33,6 +33,7 @@
 		A743D2821AC2F70300875CC6 /* newLinks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A743D27C1AC2F70300875CC6 /* newLinks.jpg */; };
 		A743D2831AC2F70300875CC6 /* newMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A743D27D1AC2F70300875CC6 /* newMap.jpg */; };
 		A743D2841AC2F70300875CC6 /* newSchedule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A743D27E1AC2F70300875CC6 /* newSchedule.jpg */; };
+		A750D60D1AD05672002C0EE0 /* loadingScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = A750D60C1AD05672002C0EE0 /* loadingScreen.png */; };
 		A7628EAC1AC1DDA20043D408 /* CustomLibraries.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7628EAB1AC1DDA20043D408 /* CustomLibraries.swift */; };
 		A7628EB41AC1E01D0043D408 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7628EB31AC1E01C0043D408 /* LibraryViewController.swift */; };
 		A7628EB61AC1E2160043D408 /* Libraries.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7628EB51AC1E2160043D408 /* Libraries.swift */; };
@@ -124,6 +125,7 @@
 		A743D27C1AC2F70300875CC6 /* newLinks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newLinks.jpg; sourceTree = "<group>"; };
 		A743D27D1AC2F70300875CC6 /* newMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newMap.jpg; sourceTree = "<group>"; };
 		A743D27E1AC2F70300875CC6 /* newSchedule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newSchedule.jpg; sourceTree = "<group>"; };
+		A750D60C1AD05672002C0EE0 /* loadingScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingScreen.png; sourceTree = "<group>"; };
 		A7628EAB1AC1DDA20043D408 /* CustomLibraries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLibraries.swift; sourceTree = "<group>"; };
 		A7628EB31AC1E01C0043D408 /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		A7628EB51AC1E2160043D408 /* Libraries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Libraries.swift; sourceTree = "<group>"; };
@@ -385,6 +387,7 @@
 		A7BDAA9C1AA109CB00E35518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A750D60C1AD05672002C0EE0 /* loadingScreen.png */,
 				A73CF4BF1AD04068003E0E14 /* theArc.jpg */,
 				A73CF4BD1AD03AEC003E0E14 /* Homecoming Flag.jpg */,
 				A743D2851AC2FA2300875CC6 /* Map */,
@@ -527,6 +530,7 @@
 				FA91C4B41AC33A8A004C13D9 /* NewWalking.png in Resources */,
 				A7F7915C1AA6476F001A88A2 /* douglasLibrary.jpg in Resources */,
 				A739C32E1ABA077600D81458 /* HomePage3.png in Resources */,
+				A750D60D1AD05672002C0EE0 /* loadingScreen.png in Resources */,
 				A7BDAAA91AA109CB00E35518 /* LaunchScreen.xib in Resources */,
 				A7E437B91AB372230015B1CC /* Tim Hortons.png in Resources */,
 				A7E437B01AB372230015B1CC /* Goode's Cafe.png in Resources */,

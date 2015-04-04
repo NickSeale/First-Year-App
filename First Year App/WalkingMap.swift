@@ -13,6 +13,7 @@ class WalkingMap: UIViewController {
     
     @IBOutlet var Webviewer: UIWebView!
     
+    @IBOutlet weak var activity: UIActivityIndicatorView!
     var URLPath = "http://tw80000.github.io/app/walkingmap"
     
     
@@ -20,7 +21,6 @@ class WalkingMap: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         loadAddressURL()
-        
     }
     
     override func didReceiveMemoryWarning() {
@@ -32,5 +32,14 @@ class WalkingMap: UIViewController {
         let request = NSURLRequest(URL: requestURL!)
         Webviewer.loadRequest(request)
     }
+    
+    func webViewDidStartLoad (_:UIWebView) {
+            activity.startAnimating()
+    }
+    
+    func webViewDidFinishLoad (_:UIWebView) {
+           activity.stopAnimating()
+    }
+    
     
 }

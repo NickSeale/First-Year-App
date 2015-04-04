@@ -13,6 +13,7 @@ class TransitMap: UIViewController {
     
     @IBOutlet var Webviewer: UIWebView!
     
+    @IBOutlet weak var activity: UIActivityIndicatorView!
     
     var URLPath = "http://tw80000.github.io/app/transitmap"
     
@@ -32,6 +33,14 @@ class TransitMap: UIViewController {
         let requestURL = NSURL(string:URLPath)
         let request = NSURLRequest(URL: requestURL!)
         Webviewer.loadRequest(request)
+    }
+    
+    func webViewDidStartLoad (_:UIWebView) {
+        activity.startAnimating()
+    }
+    
+    func webViewDidFinishLoad (_:UIWebView) {
+        activity.stopAnimating()
     }
     
 }

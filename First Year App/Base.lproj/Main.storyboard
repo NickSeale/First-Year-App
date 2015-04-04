@@ -681,13 +681,22 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4aW-dt-rdd">
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="RWO-Xx-7JP" id="76p-vg-ho7"/>
+                                </connections>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="AQu-YK-C3X">
+                                <rect key="frame" x="282" y="282" width="37" height="37"/>
+                                <color key="color" red="0.52549019610000003" green="0.0" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4aW-dt-rdd" firstAttribute="top" secondItem="Zb5-Fg-0Yx" secondAttribute="bottom" id="1xk-aS-jBj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4aW-dt-rdd" secondAttribute="trailing" constant="-16" id="2fs-Sy-3gg"/>
+                            <constraint firstAttribute="centerY" secondItem="AQu-YK-C3X" secondAttribute="centerY" id="34D-Vl-Fad"/>
                             <constraint firstItem="NNY-9C-g5X" firstAttribute="top" secondItem="4aW-dt-rdd" secondAttribute="bottom" id="6hf-MK-JI9"/>
+                            <constraint firstAttribute="centerX" secondItem="AQu-YK-C3X" secondAttribute="centerX" id="JXI-r8-dOb"/>
                             <constraint firstItem="4aW-dt-rdd" firstAttribute="leading" secondItem="OkY-uf-XhW" secondAttribute="leadingMargin" constant="-16" id="Vye-CN-5gb"/>
                         </constraints>
                     </view>
@@ -695,6 +704,7 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="Webviewer" destination="4aW-dt-rdd" id="rF6-V7-GKD"/>
+                        <outlet property="activity" destination="AQu-YK-C3X" id="vD6-A9-aoe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dyj-sj-IcL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -716,20 +726,30 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ejf-Ks-sCg">
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Ze8-di-YlH" id="xtQ-SO-hbP"/>
+                                </connections>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="XQ9-g3-f5i">
+                                <rect key="frame" x="282" y="282" width="37" height="37"/>
+                                <color key="color" red="0.52549019610000003" green="0.0" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="56L-Wv-opL" firstAttribute="top" secondItem="ejf-Ks-sCg" secondAttribute="bottom" id="9Xp-DC-N4C"/>
                             <constraint firstItem="ejf-Ks-sCg" firstAttribute="leading" secondItem="uXF-QO-vS8" secondAttribute="leadingMargin" constant="-16" id="C5e-td-ULj"/>
                             <constraint firstItem="ejf-Ks-sCg" firstAttribute="top" secondItem="0We-3h-Ykn" secondAttribute="bottom" id="IRj-1n-bPF"/>
+                            <constraint firstAttribute="centerX" secondItem="XQ9-g3-f5i" secondAttribute="centerX" id="Icu-K4-KIs"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ejf-Ks-sCg" secondAttribute="trailing" constant="-16" id="exo-Oj-qqw"/>
+                            <constraint firstAttribute="centerY" secondItem="XQ9-g3-f5i" secondAttribute="centerY" id="hVK-D3-8rc"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Transit" image="NewBus.png" id="pOo-oN-uAz"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="Webviewer" destination="ejf-Ks-sCg" id="K57-Vb-o42"/>
+                        <outlet property="activity" destination="XQ9-g3-f5i" id="aMi-HU-cmB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdh-hH-ZOu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -823,19 +843,29 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OCF-Qe-0L3">
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="RIz-xe-sWg" id="Ts2-SW-DyQ"/>
+                                </connections>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="3UM-CE-yYg">
+                                <rect key="frame" x="282" y="282" width="37" height="37"/>
+                                <color key="color" red="0.52549019610000003" green="0.0" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="OCF-Qe-0L3" firstAttribute="top" secondItem="Xnr-zA-hWx" secondAttribute="bottom" id="9Pp-Lb-6dO"/>
                             <constraint firstItem="LFy-Vr-rlz" firstAttribute="top" secondItem="OCF-Qe-0L3" secondAttribute="bottom" id="FaP-Ys-N9K"/>
                             <constraint firstItem="OCF-Qe-0L3" firstAttribute="leading" secondItem="JFt-CX-htb" secondAttribute="leadingMargin" constant="-16" id="R0w-Um-3Va"/>
+                            <constraint firstAttribute="centerX" secondItem="3UM-CE-yYg" secondAttribute="centerX" id="VxE-GV-TsQ"/>
+                            <constraint firstAttribute="centerY" secondItem="3UM-CE-yYg" secondAttribute="centerY" id="gy5-ht-3Rk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="OCF-Qe-0L3" secondAttribute="trailing" constant="-16" id="nGg-2D-JXa"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Walk" image="NewWalking.png" id="l3R-kf-teT"/>
                     <connections>
                         <outlet property="Webviewer" destination="OCF-Qe-0L3" id="b75-N8-Rl4"/>
+                        <outlet property="activity" destination="3UM-CE-yYg" id="QB2-XO-ZFL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fwH-V2-NL8" userLabel="First Responder" sceneMemberID="firstResponder"/>

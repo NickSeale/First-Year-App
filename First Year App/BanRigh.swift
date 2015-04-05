@@ -11,7 +11,7 @@ import UIKit
 class BanRigh: UIViewController {
     
     @IBOutlet var BanRighWeb: UIWebView!
-    
+
     var URLPath = "http://troywolters.com/app/menu/BanRigh"
     
     

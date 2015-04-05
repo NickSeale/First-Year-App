@@ -30,8 +30,8 @@ class ContactsViewController: UIViewController, UITableViewDataSource, UITableVi
     {
 
         var contact1  = Contacts (name: "Queen's Emergency Line",               number: "1-613-533-6111")
-        var contact2  = Contacts (name: "Campus Security and Emergency Services",number: "1-613-533-6733")
-        var contact3  = Contacts (name: "Fire-Police-Ambulance-Emergencies only",number: "911")
+        var contact2  = Contacts (name: "Campus Security",number: "1-613-533-6733")
+        var contact3  = Contacts (name: "Fire-Police-Ambulance",number: "911")
         var contact4  = Contacts (name: "AMS Peer Support Centre",              number: "1-613-533-6000; 75111")
         var contact5  = Contacts (name: "Campus Observation Room (COR)",        number: "1-613-533-6911")
         var contact6  = Contacts (name: "Frontenac Mental Health Services ",    number: "1-613-544-4229")
@@ -70,7 +70,7 @@ class ContactsViewController: UIViewController, UITableViewDataSource, UITableVi
         var contact40 = Contacts (name: "Facilities Control Centre",            number: "1-613-533-3155")
         var contact41 = Contacts (name: "Visitor and Information Centre",       number: "1-613-533-2794")
         var contact42 = Contacts (name: "Campus Tours",                         number: "1-613-533-2217")
-        var contact43 = Contacts (name: "Isabel Bader Centre for the Performing Arts", number: "1-613-533-2424")
+        var contact43 = Contacts (name: "Isabel Bader Centre",                  number: "1-613-533-2424")
         var contact44 = Contacts (name: "Agnes Etherington Art Centre",         number: "1-613-533-2190")
         var contact45 = Contacts (name: "Brockington House Front Desk",         number: "1-613-533-3183")
         var contact46 = Contacts (name: "Chown Hall Front Desk",                number: "1-613-533-3183")

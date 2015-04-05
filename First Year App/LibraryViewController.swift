@@ -24,11 +24,11 @@ class LibraryViewController: UIViewController,UITableViewDataSource, UITableView
     }
 
     func setUpLibraries() {
-        var library1 = Library(nameLibrary: "Joseph S. Stauffer Library", locationLibrary: "99 university Av", monHoursLibrary: "8:00am-2:00am", friHoursLibrary: "8:00am-2:00am", satHoursLibrary: "10:00am-2:00am", sunHoursLibrary: "10:00am-2:00am")
-        var library2 = Library(nameLibrary: "Douglas Library", locationLibrary: "20 University Av", monHoursLibrary: "8:30am-9:00pm", friHoursLibrary: "8:30am-9:00pm", satHoursLibrary: "10:00am-9:00pm", sunHoursLibrary: "10:00am-9:00pm")
+        var library1 = Library(nameLibrary: "Joseph S. Stauffer Library", locationLibrary: "101 Union Street", monHoursLibrary: "8:00am-2:00am", friHoursLibrary: "8:00am-2:00am", satHoursLibrary: "10:00am-2:00am", sunHoursLibrary: "10:00am-2:00am")
+        var library2 = Library(nameLibrary: "Douglas Library", locationLibrary: "93 University Avenue", monHoursLibrary: "8:30am-9:00pm", friHoursLibrary: "8:30am-9:00pm", satHoursLibrary: "10:00am-9:00pm", sunHoursLibrary: "10:00am-9:00pm")
         var library3 = Library(nameLibrary: "Bracken Health Sciences Library", locationLibrary: "Botterall Hall", monHoursLibrary: "8:30am-11:00pm", friHoursLibrary: "8:30am-8:00pm", satHoursLibrary: "10:00am-5:00pm", sunHoursLibrary: "10:00am-8:00pm ")
-        var library4 = Library(nameLibrary: "Education Library", locationLibrary: "West Campus", monHoursLibrary: "8:15am-9:00pm", friHoursLibrary: "8:15am-5:00pm", satHoursLibrary: "12:30pm-5:00pm", sunHoursLibrary: "12:30pm-5:00pm")
-        var library5 = Library(nameLibrary: "Lederman Law Library", locationLibrary: "Mac-Corry Hall", monHoursLibrary: "8:30am-11:00pm", friHoursLibrary: "8:30am-4:30pm", satHoursLibrary: "9:00am-7:00pm", sunHoursLibrary: "10:00am-11:00pm")
+        var library4 = Library(nameLibrary: "Education Library", locationLibrary: "93 University Avenue", monHoursLibrary: "8:15am-9:00pm", friHoursLibrary: "8:15am-5:00pm", satHoursLibrary: "12:30pm-5:00pm", sunHoursLibrary: "12:30pm-5:00pm")
+        var library5 = Library(nameLibrary: "Lederman Law Library", locationLibrary: "128 Union Street", monHoursLibrary: "8:30am-11:00pm", friHoursLibrary: "8:30am-4:30pm", satHoursLibrary: "9:00am-7:00pm", sunHoursLibrary: "10:00am-11:00pm")
 
         
         self.arrayOfLibraries.append(library1)

@@ -13,6 +13,7 @@ import UIKit
 class Schedule: UIViewController {
     @IBOutlet var Webviewer: UIWebView!
     
+    @IBOutlet weak var activity: UIActivityIndicatorView!
     var URLPath = "http://troywolters.com/app/schedule/"
     
     
@@ -33,4 +34,12 @@ class Schedule: UIViewController {
         Webviewer.loadRequest(request)
     }
     
+    func webViewDidStartLoad (_:UIWebView) {
+        activity.startAnimating()
+    }
+    
+    func webViewDidFinishLoad (_:UIWebView) {
+        activity.stopAnimating()
+    }
+
 }

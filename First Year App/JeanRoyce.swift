@@ -12,6 +12,8 @@ class JeanRoyce: UIViewController {
  
     @IBOutlet var JeanRoyceWeb: UIWebView!
     
+    @IBOutlet weak var activity: UIActivityIndicatorView!
+
     var URLPath = "http://troywolters.com/app/menu/JeanRoyce"
     
     
@@ -31,5 +33,14 @@ class JeanRoyce: UIViewController {
         let request = NSURLRequest(URL: requestURL!)
         JeanRoyceWeb.loadRequest(request)
     }
+
+    func webViewDidStartLoad (_:UIWebView) {
+        activity.startAnimating()
+    }
     
+    func webViewDidFinishLoad (_:UIWebView) {
+        activity.stopAnimating()
+    }
+    
+
 }

@@ -12,6 +12,7 @@ class BanRigh: UIViewController {
     
     @IBOutlet var BanRighWeb: UIWebView!
 
+    @IBOutlet weak var activity: UIActivityIndicatorView!
     var URLPath = "http://troywolters.com/app/menu/BanRigh"
     
     
@@ -32,4 +33,11 @@ class BanRigh: UIViewController {
         BanRighWeb.loadRequest(request)
     }
     
+    func webViewDidStartLoad (_:UIWebView) {
+        activity.startAnimating()
+    }
+    
+    func webViewDidFinishLoad (_:UIWebView) {
+        activity.stopAnimating()
+    }
 }

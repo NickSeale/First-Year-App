@@ -21,13 +21,22 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="beD-VE-DMc">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="FXW-Sh-L8V" id="6fX-BM-AMO"/>
+                                </connections>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="0qk-SZ-3un">
+                                <rect key="frame" x="282" y="282" width="37" height="37"/>
+                                <color key="color" red="0.52549019610000003" green="0.0" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerY" secondItem="0qk-SZ-3un" secondAttribute="centerY" id="3TU-cd-LVA"/>
                             <constraint firstItem="beD-VE-DMc" firstAttribute="top" secondItem="UVz-GC-1qZ" secondAttribute="topMargin" id="O2Q-fj-fuS"/>
                             <constraint firstItem="beD-VE-DMc" firstAttribute="leading" secondItem="UVz-GC-1qZ" secondAttribute="leadingMargin" constant="-16" id="OKL-6f-VqZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="beD-VE-DMc" secondAttribute="trailing" constant="-16" id="aJA-os-e3F"/>
+                            <constraint firstAttribute="centerX" secondItem="0qk-SZ-3un" secondAttribute="centerX" id="iJl-Wd-hyU"/>
                             <constraint firstItem="pCc-1K-3OW" firstAttribute="top" secondItem="beD-VE-DMc" secondAttribute="bottom" id="ods-by-hT8"/>
                         </constraints>
                     </view>
@@ -41,6 +50,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="JeanRoyceWeb" destination="beD-VE-DMc" id="C5H-vb-V0g"/>
+                        <outlet property="activity" destination="0qk-SZ-3un" id="wXE-PT-AQM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1wm-UU-0IH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -62,7 +72,14 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6O6-Kc-uhS">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="4Jd-rn-6MD" id="X0r-o7-95T"/>
+                                </connections>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Pxz-a0-g10">
+                                <rect key="frame" x="282" y="282" width="37" height="37"/>
+                                <color key="color" red="0.52549019610000003" green="0.0" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="07v-V2-W2H">
                                 <rect key="frame" x="10" y="10" width="37" height="37"/>
                                 <color key="color" red="0.52549019610000003" green="0.0" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -70,10 +87,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerY" secondItem="Pxz-a0-g10" secondAttribute="centerY" id="1BE-Lv-HCK"/>
                             <constraint firstItem="6O6-Kc-uhS" firstAttribute="top" secondItem="FOl-ez-rk6" secondAttribute="topMargin" id="95H-Gh-Bvd"/>
                             <constraint firstItem="6O6-Kc-uhS" firstAttribute="leading" secondItem="FOl-ez-rk6" secondAttribute="leadingMargin" constant="-16" id="ORz-9R-VAs"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6O6-Kc-uhS" secondAttribute="trailing" constant="-16" id="bfV-jY-0wY"/>
                             <constraint firstItem="gAA-KK-pTb" firstAttribute="top" secondItem="6O6-Kc-uhS" secondAttribute="bottom" id="lr1-KC-iSl"/>
+                            <constraint firstAttribute="centerX" secondItem="Pxz-a0-g10" secondAttribute="centerX" id="nki-S2-O58"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="D5Y-xb-Vif"/>
@@ -86,6 +105,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="BanRighWeb" destination="6O6-Kc-uhS" id="3df-cQ-SOg"/>
+                        <outlet property="activity" destination="Pxz-a0-g10" id="eIg-Qe-V5m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P2F-wf-wQU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -963,17 +983,24 @@
                                     <outlet property="delegate" destination="E6d-pP-LwE" id="aiE-Uc-weG"/>
                                 </connections>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="erC-v2-1au">
+                                <rect key="frame" x="282" y="282" width="37" height="37"/>
+                                <color key="color" red="0.52549019610000003" green="0.0" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="9zV-nH-6Pv" firstAttribute="top" secondItem="phx-IG-kL0" secondAttribute="bottom" id="7Xh-qJ-ibB"/>
                             <constraint firstItem="phx-IG-kL0" firstAttribute="leading" secondItem="ePw-yX-jye" secondAttribute="leadingMargin" constant="-16" id="GKr-cc-Mfd"/>
+                            <constraint firstAttribute="centerX" secondItem="erC-v2-1au" secondAttribute="centerX" id="K37-M1-YkH"/>
                             <constraint firstItem="phx-IG-kL0" firstAttribute="top" secondItem="ePw-yX-jye" secondAttribute="topMargin" id="cma-yx-Io7"/>
+                            <constraint firstAttribute="centerY" secondItem="erC-v2-1au" secondAttribute="centerY" id="e8f-2T-YgR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="phx-IG-kL0" secondAttribute="trailing" constant="-16" id="xbq-v9-JkZ"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="Webviewer" destination="phx-IG-kL0" id="Ddg-ro-HWx"/>
+                        <outlet property="activity" destination="erC-v2-1au" id="gTV-HD-Pc8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mdL-7J-ihk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -993,7 +1020,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="182" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="YTY-X5-tsP">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="182" id="NS1-xr-ULX" customClass="CustomLibraries" customModule="First_Year_App" customModuleProvider="target">
@@ -1083,7 +1110,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="YTY-X5-tsP" firstAttribute="leading" secondItem="YUh-e5-U85" secondAttribute="leadingMargin" constant="-16" id="NSs-ax-N26"/>
-                            <constraint firstItem="e1J-Lx-kKC" firstAttribute="top" secondItem="YTY-X5-tsP" secondAttribute="bottom" id="QKP-zJ-BLZ"/>
+                            <constraint firstItem="e1J-Lx-kKC" firstAttribute="top" secondItem="YTY-X5-tsP" secondAttribute="bottom" constant="-1" id="QKP-zJ-BLZ"/>
                             <constraint firstItem="YTY-X5-tsP" firstAttribute="top" secondItem="YUh-e5-U85" secondAttribute="topMargin" id="RFq-FT-nKY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YTY-X5-tsP" secondAttribute="trailing" constant="-16" id="eGw-Se-UnV"/>
                         </constraints>
@@ -1975,12 +2002,21 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Kb-ze-l8y">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="69o-z9-69k" id="DaT-1r-wwr"/>
+                                </connections>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="F9V-XE-0aC">
+                                <rect key="frame" x="282" y="282" width="37" height="37"/>
+                                <color key="color" red="0.52549019610000003" green="0.0" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Ria-Mu-S0e" firstAttribute="top" secondItem="2Kb-ze-l8y" secondAttribute="bottom" id="RYQ-3w-FPt"/>
+                            <constraint firstAttribute="centerY" secondItem="F9V-XE-0aC" secondAttribute="centerY" id="S1u-8a-DQm"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2Kb-ze-l8y" secondAttribute="trailing" constant="-16" id="SmQ-r3-5n8"/>
+                            <constraint firstAttribute="centerX" secondItem="F9V-XE-0aC" secondAttribute="centerX" id="TCt-uc-Xy0"/>
                             <constraint firstItem="2Kb-ze-l8y" firstAttribute="top" secondItem="pAP-3c-jP1" secondAttribute="topMargin" id="bfi-ll-OeS"/>
                             <constraint firstItem="2Kb-ze-l8y" firstAttribute="leading" secondItem="pAP-3c-jP1" secondAttribute="leadingMargin" constant="-16" id="cPY-8v-mLJ"/>
                         </constraints>
@@ -1995,6 +2031,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="LeonardWeb" destination="2Kb-ze-l8y" id="W4y-Ec-e6m"/>
+                        <outlet property="activity" destination="F9V-XE-0aC" id="6zR-XQ-NvD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eWV-mI-EOd" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -29,13 +29,14 @@ class LibraryViewController: UIViewController,UITableViewDataSource, UITableView
         var library3 = Library(nameLibrary: "Bracken Health Sciences Library", locationLibrary: "Botterall Hall", monHoursLibrary: "8:30am-11:00pm", friHoursLibrary: "8:30am-8:00pm", satHoursLibrary: "10:00am-5:00pm", sunHoursLibrary: "10:00am-8:00pm ")
         var library4 = Library(nameLibrary: "Education Library", locationLibrary: "93 University Avenue", monHoursLibrary: "8:15am-9:00pm", friHoursLibrary: "8:15am-5:00pm", satHoursLibrary: "12:30pm-5:00pm", sunHoursLibrary: "12:30pm-5:00pm")
         var library5 = Library(nameLibrary: "Lederman Law Library", locationLibrary: "128 Union Street", monHoursLibrary: "8:30am-11:00pm", friHoursLibrary: "8:30am-4:30pm", satHoursLibrary: "9:00am-7:00pm", sunHoursLibrary: "10:00am-11:00pm")
-
+        var library6 = Library(nameLibrary: "Atheltics and Recreation Centre (ARC)", locationLibrary: "284 Earl Street", monHoursLibrary: "6:00am-12:30am", friHoursLibrary: "6:00am-10:30pm", satHoursLibrary: "8:00am-10:30am", sunHoursLibrary: "9:00am-12:30am")
         
         self.arrayOfLibraries.append(library1)
         self.arrayOfLibraries.append(library2)
         self.arrayOfLibraries.append(library3)
         self.arrayOfLibraries.append(library4)
         self.arrayOfLibraries.append(library5)
+        self.arrayOfLibraries.append(library6)
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -67,20 +68,4 @@ class LibraryViewController: UIViewController,UITableViewDataSource, UITableView
         return cell
     }
     
-    /*
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        self.myLibraryTableView.deselectRowAtIndexPath(indexPath, animated: true)
-    }
-    */
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

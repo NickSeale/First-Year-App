@@ -35,14 +35,15 @@ class RetailFoodViewController: UIViewController, UITableViewDataSource, UITable
         var restaurant9 = Restaurant(name: "Booster Juice", location: "ARC", imageName: "Booster Juice.png", monHours: "8:30am-8:00pm", tuesHours: "8:30am-8:00pm", wedHours: "8:30am-8:00pm", thursHours: "8:30am-8:00pm", friHours: "8:30am-8:00pm", satHours: "10:00am-6:00pm", sunHours: "10:00am-6:00pm")
         var restaurant10 = Restaurant(name: "Tim Hortons", location: "ARC", imageName: "Tim Hortons1.png", monHours: "8:30am-11:00pm", tuesHours: "8:30am-11:00pm", wedHours: "8:30am-11:00pm", thursHours: "8:30am-11:00pm", friHours: "8:30am-11:00pm", satHours: "8:00am-7:00pm", sunHours: "8:00am-7:00pm")
         var restaurant11 = Restaurant(name: "KHAO", location: "JDUC", imageName: "Khao-Restaurant.png", monHours: "11:00am-9:00pm", tuesHours: "11:00am-9:00pm", wedHours: "11:00am-9:00pm", thursHours: "11:00am-9:00pm", friHours: "11:00am-9:00pm", satHours: "11:00am-9:00pm", sunHours: "3:00pm-9:00pm")
-        var restaurant12 = Restaurant(name: "Quiznos", location: "JDUC", imageName: "Quiznos.png", monHours: "10:30am-6:00pm", tuesHours: "10:30am-6:00pm", wedHours: "10:30am-6:00pm", thursHours: "10:30am-6:00pm", friHours: "10:30am-11:00pm", satHours: "10:30am-11:00pm", sunHours: "CLOSED")
+        var restaurant12 = Restaurant(name: "Market Street", location: "Botterall Hall", imageName: "Market Street1.png", monHours: "7:00am-3:00pm", tuesHours: "7:00am-3:00pm", wedHours: "7:00am-3:00pm", thursHours: "7:00am-3:00pm", friHours: "7:00am-3:00pm", satHours: "CLOSED", sunHours: "CLOSED")
         var restaurant13 = Restaurant(name: "Gord's Café", location: "Gordon-Brockington House", imageName: "Gords Cafe.png", monHours: "7:30am-11:00pm", tuesHours: "7:30am-11:00pm", wedHours: "7:30am-11:00pm", thursHours: "7:30am-11:00pm ", friHours: "7:30am-11:00pm", satHours: "9:30am-11:00pm", sunHours: "9:30am-11:00pm")
-        var restaurant14 = Restaurant(name: "Goode's Café", location: "Goode's Hall", imageName: "Goode's Cafe.png", monHours: "8:15am-1:15pm", tuesHours: "8:15am-1:15pm", wedHours: "8:15am-1:15pm", thursHours: "8:15am-1:15pm", friHours: "8:15am-1:15pm", satHours: "CLOSED", sunHours: "CLOSED")
-        var restaurant15 = Restaurant(name: "Starbucks", location: "Goode's Hall", imageName: "Starbucks.png", monHours: "7:30am-10:00pm", tuesHours: "7:30am-10:00pm", wedHours: "7:30am-10:00pm", thursHours: "7:30am-10:00pm", friHours: "7:30am-7:00pm", satHours: "9:00am-7:00pm", sunHours: "9:00am-9:00pm")
+        var restaurant14 = Restaurant(name: "Tim Hortons", location: "Biosciences Complex", imageName: "Tim Hortons1.png", monHours: "7:00am-7:00pm", tuesHours: "7:00am-7:00pm", wedHours: "7:00am-7:00pm", thursHours: "7:00am-7:00pm", friHours: "7:00am-4:00pm", satHours: "CLOSED", sunHours: "CLOSED")
+        var restaurant15 = Restaurant(name: "Quiznos", location: "JDUC", imageName: "Quiznos.png", monHours: "10:30am-6:00pm", tuesHours: "10:30am-6:00pm", wedHours: "10:30am-6:00pm", thursHours: "10:30am-6:00pm", friHours: "10:30am-11:00pm", satHours: "10:30am-11:00pm", sunHours: "CLOSED")
         var restaurant16 = Restaurant(name: "The Library Café", location: "Stauffer Library", imageName: "Stauffer Cafe1.png", monHours: "8:00am-4:30pm", tuesHours: "8:00am-4:30pm", wedHours: "8:00am-4:30pm", thursHours: "8:00am-4:30pm", friHours: "8:00am-4:30pm", satHours: "CLOSED", sunHours: "CLOSED")
-        var restaurant17 = Restaurant(name: "Tim Hortons", location: "Biosciences Complex", imageName: "Tim Hortons1.png", monHours: "7:00am-7:00pm", tuesHours: "7:00am-7:00pm", wedHours: "7:00am-7:00pm", thursHours: "7:00am-7:00pm", friHours: "7:00am-4:00pm", satHours: "CLOSED", sunHours: "CLOSED")
-        var restaurant18 = Restaurant(name: "Fastlane", location: "New Medical Building", imageName: "Fast Lane1.png", monHours: "8:30am-1:30pm", tuesHours: "8:30am-1:30pm", wedHours: "8:30am-1:30pm", thursHours: "8:30am-1:30pm", friHours: "8:30am-1:30pm", satHours: "CLOSED", sunHours: "CLOSED")
-        var restaurant19 = Restaurant(name: "Market Street", location: "Botterall Hall", imageName: "Market Street1.png", monHours: "7:00am-3:00pm", tuesHours: "7:00am-3:00pm", wedHours: "7:00am-3:00pm", thursHours: "7:00am-3:00pm", friHours: "7:00am-3:00pm", satHours: "CLOSED", sunHours: "CLOSED")
+        var restaurant17 = Restaurant(name: "Goode's Café", location: "Goode's Hall", imageName: "Goode's Cafe.png", monHours: "8:15am-1:15pm", tuesHours: "8:15am-1:15pm", wedHours: "8:15am-1:15pm", thursHours: "8:15am-1:15pm", friHours: "8:15am-1:15pm", satHours: "CLOSED", sunHours: "CLOSED")
+        var restaurant18 = Restaurant(name: "Starbucks", location: "Goode's Hall", imageName: "Starbucks.png", monHours: "7:30am-10:00pm", tuesHours: "7:30am-10:00pm", wedHours: "7:30am-10:00pm", thursHours: "7:30am-10:00pm", friHours: "7:30am-7:00pm", satHours: "9:00am-7:00pm", sunHours: "9:00am-9:00pm")
+        var restaurant19 = Restaurant(name: "Fastlane", location: "New Medical Building", imageName: "Fast Lane1.png", monHours: "8:30am-1:30pm", tuesHours: "8:30am-1:30pm", wedHours: "8:30am-1:30pm", thursHours: "8:30am-1:30pm", friHours: "8:30am-1:30pm", satHours: "CLOSED", sunHours: "CLOSED")
+        
         
         arrayOfRestaurants.append(restaurant1)
         arrayOfRestaurants.append(restaurant2)
@@ -55,14 +56,14 @@ class RetailFoodViewController: UIViewController, UITableViewDataSource, UITable
         arrayOfRestaurants.append(restaurant9)
         arrayOfRestaurants.append(restaurant10)
         arrayOfRestaurants.append(restaurant11)
-        arrayOfRestaurants.append(restaurant19)
-        arrayOfRestaurants.append(restaurant13)
-        arrayOfRestaurants.append(restaurant17)
         arrayOfRestaurants.append(restaurant12)
-        arrayOfRestaurants.append(restaurant16)
+        arrayOfRestaurants.append(restaurant13)
         arrayOfRestaurants.append(restaurant14)
         arrayOfRestaurants.append(restaurant15)
+        arrayOfRestaurants.append(restaurant16)
+        arrayOfRestaurants.append(restaurant17)
         arrayOfRestaurants.append(restaurant18)
+        arrayOfRestaurants.append(restaurant19)
         
     }
 
@@ -111,14 +112,5 @@ class RetailFoodViewController: UIViewController, UITableViewDataSource, UITable
         self.myTableView.deselectRowAtIndexPath(indexPath, animated: true)
         
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

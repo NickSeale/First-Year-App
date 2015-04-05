@@ -1015,10 +1015,10 @@
             </objects>
             <point key="canvasLocation" x="516" y="326"/>
         </scene>
-        <!--Library Hours-->
+        <!--Building Hours-->
         <scene sceneID="5Jb-Ye-Lq9">
             <objects>
-                <viewController id="Lgu-iD-Ekp" customClass="LibraryViewController" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Building Hours" id="Lgu-iD-Ekp" customClass="LibraryViewController" customModule="First_Year_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ird-db-D2f"/>
                         <viewControllerLayoutGuide type="bottom" id="e1J-Lx-kKC"/>
@@ -1123,7 +1123,6 @@
                             <constraint firstAttribute="trailingMargin" secondItem="YTY-X5-tsP" secondAttribute="trailing" constant="-16" id="eGw-Se-UnV"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Library Hours" id="ydt-n2-l1K"/>
                     <connections>
                         <outlet property="myLibraryTableView" destination="YTY-X5-tsP" id="xjd-me-n9G"/>
                     </connections>

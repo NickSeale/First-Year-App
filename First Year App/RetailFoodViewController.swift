@@ -61,8 +61,8 @@ class RetailFoodViewController: UIViewController, UITableViewDataSource, UITable
         arrayOfRestaurants.append(restaurant12)
         arrayOfRestaurants.append(restaurant16)
         arrayOfRestaurants.append(restaurant14)
-        arrayOfRestaurants.append(restaurant18)
         arrayOfRestaurants.append(restaurant15)
+        arrayOfRestaurants.append(restaurant18)
         
     }
 

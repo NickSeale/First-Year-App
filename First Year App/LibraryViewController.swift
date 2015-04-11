@@ -48,7 +48,7 @@ class LibraryViewController: UIViewController,UITableViewDataSource, UITableView
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let cell:CustomLibraries = tableView.dequeueReusableCellWithIdentifier("Cell") as CustomLibraries
+        let cell:CustomLibraries = tableView.dequeueReusableCellWithIdentifier("Cell") as! CustomLibraries
         
         if indexPath.row % 2 == 0
         {

@@ -159,7 +159,7 @@ class ContactsViewController: UIViewController, UITableViewDataSource, UITableVi
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let cell:ContactsCustomCell = tableView.dequeueReusableCellWithIdentifier("Cell") as ContactsCustomCell
+        let cell:ContactsCustomCell = tableView.dequeueReusableCellWithIdentifier("Cell") as! ContactsCustomCell
         
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = UIColor.grayColor()

@@ -26,8 +26,8 @@ class RetailFoodViewController: UIViewController, UITableViewDataSource, UITable
     {
         var restaurant1 = Restaurant(name: "The Lazy Scholar", location: "Victoria Hall", imageName: "Lazy.png", monHours: "7:30am-1:00am", tuesHours: "7:30am-1:00am", wedHours: "7:30am-1:00am", thursHours: "7:30am-1:00am", friHours: "7:30am-1:00am", satHours: "9:30am-1:00am", sunHours: "9:30am-1:00am")
         var restaurant2 = Restaurant(name: "Canadian Grilling Company", location: "Mac-Corry", imageName: "CGC.png", monHours: "11:00am-8:00pm", tuesHours: "11:00am-8:00pm", wedHours: "11:00am-8:00pm", thursHours: "11:00am-8:00pm", friHours: "11:00am-8:00pm", satHours: "CLOSED", sunHours: "CLOSED")
-        var restaurant3 = Restaurant(name: "Pita Pit", location: "Mac-Corry", imageName: "Pita Pit.png", monHours: "8:30am-6:00pm", tuesHours: "8:30am-6:00pm", wedHours: "8:30am-6:00pm", thursHours: "8:30am-6:00pm", friHours: "8:30am-6:00pm", satHours: "CLOSED", sunHours: "CLOSED")
-        var restaurant4 = Restaurant(name: "Pizza Pizza", location: "Mac-Corry", imageName: "Pizza Pizza.png", monHours: "11:00am-6:00pm", tuesHours: "11:00am-6:00pm", wedHours: "11:00am-6:00pm", thursHours: "11:00am-6:00pm", friHours: "11:00am-5:00pm", satHours: "CLOSED", sunHours: "CLOSED")
+        var restaurant3 = Restaurant(name: "Pizza Pizza", location: "Mac-Corry", imageName: "Pizza Pizza.png", monHours: "11:00am-6:00pm", tuesHours: "11:00am-6:00pm", wedHours: "11:00am-6:00pm", thursHours: "11:00am-6:00pm", friHours: "11:00am-5:00pm", satHours: "CLOSED", sunHours: "CLOSED")
+        var restaurant4 = Restaurant(name: "Pita Pit", location: "Mac-Corry", imageName: "Pita Pit.png", monHours: "8:30am-6:00pm", tuesHours: "8:30am-6:00pm", wedHours: "8:30am-6:00pm", thursHours: "8:30am-6:00pm", friHours: "8:30am-6:00pm", satHours: "CLOSED", sunHours: "CLOSED")
         var restaurant5 = Restaurant(name: "MC Square", location: "Mac-Corry", imageName: "MC2.png", monHours: "7:30am-6:00pm", tuesHours: "7:30am-6:00pm", wedHours: "7:30am-6:00pm", thursHours: "7:30am-6:00pm", friHours: "7:30am-5:00pm", satHours: "CLOSED", sunHours: "CLOSED")
         var restaurant6 = Restaurant(name: "Pita Pit", location: "ARC", imageName: "Pita Pit.png", monHours: "8:00am-7:00pm", tuesHours: "8:00am-7:00pm", wedHours: "8:00am-7:00pm", thursHours: "8:00am-7:00pm", friHours: "8:00am-7:00pm", satHours: "11:00am-7:00pm", sunHours: "11:00am-7:00pm")
         var restaurant7 = Restaurant(name: "Teriyaki Experience", location: "ARC", imageName: "Teryaki.png", monHours: "11:00am-7:00pm", tuesHours: "11:00am-7:00pm", wedHours: "11:00am-7:00pm", thursHours: "11:00am-7:00pm", friHours: "11:00am-7:00pm", satHours: "CLOSED", sunHours: "CLOSED")
@@ -76,7 +76,7 @@ class RetailFoodViewController: UIViewController, UITableViewDataSource, UITable
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let cell:CustomCell = tableView.dequeueReusableCellWithIdentifier("Cell") as CustomCell
+        let cell:CustomCell = tableView.dequeueReusableCellWithIdentifier("Cell") as! CustomCell
        
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = UIColor.grayColor()
@@ -95,7 +95,7 @@ class RetailFoodViewController: UIViewController, UITableViewDataSource, UITable
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
          let restaurant = arrayOfRestaurants[indexPath.row]
         
-        var detailedViewController:DetailViewController = self.storyboard?.instantiateViewControllerWithIdentifier("DetailViewController") as DetailViewController
+        var detailedViewController:DetailViewController = self.storyboard?.instantiateViewControllerWithIdentifier("DetailViewController") as! DetailViewController
         
         detailedViewController.restaurantNameString = restaurant.name
         detailedViewController.restaurantLocationString = restaurant.location

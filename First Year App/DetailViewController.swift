@@ -52,9 +52,9 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
-
+    
 
 }

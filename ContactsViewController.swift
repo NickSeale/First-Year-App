@@ -43,7 +43,7 @@ class ContactsViewController: UIViewController, UITableViewDataSource, UITableVi
         var contact12 = Contacts (name: "Walk Home Service",                    number: "1-613-533-9255")
         var contact13 = Contacts (name: "Alma Mater Society (AMS)",             number: "1-613-533-3001")
         var contact15 = Contacts (name: "Equity Office",                        number: "1-613-533-2563")
-        var contact16 = Contacts (name: "Four Directions Aboriginal Student Centre", number: "1-613-533-6970")
+        var contact16 = Contacts (name: "Four Directions Student Centre",       number: "1-613-533-6970")
         var contact17 = Contacts (name: "Health, Counselling and Disability",   number: "1-613-533-2506")
         var contact18 = Contacts (name: "Human Rights Office",                  number: "1-613-533-6886")
         var contact19 = Contacts (name: "Queen’s University International Centre", number: "1-613-533-2604")

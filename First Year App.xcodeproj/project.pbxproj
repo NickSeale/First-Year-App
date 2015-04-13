@@ -11,6 +11,7 @@
 		A7361D791ADC3CF70004601F /* Flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7361D751ADC3CF70004601F /* Flag@2x.png */; };
 		A7361D7A1ADC3CF70004601F /* Flag@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7361D761ADC3CF70004601F /* Flag@3x.png */; };
 		A7361D7B1ADC3CF70004601F /* FlagRetina@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7361D771ADC3CF70004601F /* FlagRetina@2x.png */; };
+		A7361D7D1ADC52D70004601F /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A7361D7C1ADC52D70004601F /* rightArrow.png */; };
 		A73675BE1AB274770049F815 /* RetailFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73675BD1AB274770049F815 /* RetailFoodViewController.swift */; };
 		A73675C01AB274AF0049F815 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73675BF1AB274AF0049F815 /* CustomCell.swift */; };
 		A73675C41AB275D00049F815 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73675C31AB275D00049F815 /* Restaurants.swift */; };
@@ -33,6 +34,8 @@
 		A743D2821AC2F70300875CC6 /* newLinks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A743D27C1AC2F70300875CC6 /* newLinks.jpg */; };
 		A743D2831AC2F70300875CC6 /* newMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A743D27D1AC2F70300875CC6 /* newMap.jpg */; };
 		A743D2841AC2F70300875CC6 /* newSchedule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A743D27E1AC2F70300875CC6 /* newSchedule.jpg */; };
+		A745EEB91ADC588800DDF206 /* rightArrow2.png in Resources */ = {isa = PBXBuildFile; fileRef = A745EEB81ADC588800DDF206 /* rightArrow2.png */; };
+		A745EEBB1ADC599300DDF206 /* rightArrow3.png in Resources */ = {isa = PBXBuildFile; fileRef = A745EEBA1ADC599300DDF206 /* rightArrow3.png */; };
 		A750D60D1AD05672002C0EE0 /* loadingScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = A750D60C1AD05672002C0EE0 /* loadingScreen.png */; };
 		A7525BAA1ADC363100606D2F /* theArc@2x_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A7525BA91ADC363100606D2F /* theArc@2x_2.png */; };
 		A7628EAC1AC1DDA20043D408 /* CustomLibraries.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7628EAB1AC1DDA20043D408 /* CustomLibraries.swift */; };
@@ -55,6 +58,7 @@
 		A7D9345F1AD06FBA004F558E /* logo60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D934551AD06FBA004F558E /* logo60@3x.png */; };
 		A7D934601AD06FBA004F558E /* logo76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D934561AD06FBA004F558E /* logo76@1x.png */; };
 		A7D934611AD06FBA004F558E /* logo76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D934571AD06FBA004F558E /* logo76@2x.png */; };
+		A7E1745D1ADC8D91001D221F /* boosterJuiceIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E1745C1ADC8D91001D221F /* boosterJuiceIcon.png */; };
 		A7E437A11AB36B3A0015B1CC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E437A01AB36B3A0015B1CC /* DetailViewController.swift */; };
 		A7E437AE1AB372220015B1CC /* Booster Juice.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E437A21AB372220015B1CC /* Booster Juice.png */; };
 		A7E437AF1AB372230015B1CC /* CGC.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E437A31AB372220015B1CC /* CGC.png */; };
@@ -117,6 +121,7 @@
 		A7361D751ADC3CF70004601F /* Flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag@2x.png"; sourceTree = "<group>"; };
 		A7361D761ADC3CF70004601F /* Flag@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag@3x.png"; sourceTree = "<group>"; };
 		A7361D771ADC3CF70004601F /* FlagRetina@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlagRetina@2x.png"; sourceTree = "<group>"; };
+		A7361D7C1ADC52D70004601F /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
 		A73675BD1AB274770049F815 /* RetailFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetailFoodViewController.swift; sourceTree = "<group>"; };
 		A73675BF1AB274AF0049F815 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		A73675C31AB275D00049F815 /* Restaurants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
@@ -139,6 +144,8 @@
 		A743D27C1AC2F70300875CC6 /* newLinks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newLinks.jpg; sourceTree = "<group>"; };
 		A743D27D1AC2F70300875CC6 /* newMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newMap.jpg; sourceTree = "<group>"; };
 		A743D27E1AC2F70300875CC6 /* newSchedule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newSchedule.jpg; sourceTree = "<group>"; };
+		A745EEB81ADC588800DDF206 /* rightArrow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow2.png; sourceTree = "<group>"; };
+		A745EEBA1ADC599300DDF206 /* rightArrow3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow3.png; sourceTree = "<group>"; };
 		A750D60C1AD05672002C0EE0 /* loadingScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingScreen.png; sourceTree = "<group>"; };
 		A7525BA91ADC363100606D2F /* theArc@2x_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "theArc@2x_2.png"; sourceTree = "<group>"; };
 		A7628EAB1AC1DDA20043D408 /* CustomLibraries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLibraries.swift; sourceTree = "<group>"; };
@@ -165,6 +172,7 @@
 		A7D934551AD06FBA004F558E /* logo60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo60@3x.png"; sourceTree = "<group>"; };
 		A7D934561AD06FBA004F558E /* logo76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo76@1x.png"; sourceTree = "<group>"; };
 		A7D934571AD06FBA004F558E /* logo76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo76@2x.png"; sourceTree = "<group>"; };
+		A7E1745C1ADC8D91001D221F /* boosterJuiceIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boosterJuiceIcon.png; sourceTree = "<group>"; };
 		A7E437A01AB36B3A0015B1CC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A7E437A21AB372220015B1CC /* Booster Juice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Booster Juice.png"; sourceTree = "<group>"; };
 		A7E437A31AB372220015B1CC /* CGC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CGC.png; sourceTree = "<group>"; };
@@ -307,25 +315,27 @@
 			name = Map;
 			sourceTree = "<group>";
 		};
-		A7628EAD1AC1DDAF0043D408 /* Retail Food */ = {
+		A7628EAD1AC1DDAF0043D408 /* Food */ = {
 			isa = PBXGroup;
 			children = (
+				A7628EB11AC1DE0F0043D408 /* Menus */,
 				A73675C31AB275D00049F815 /* Restaurants.swift */,
 				A73675BF1AB274AF0049F815 /* CustomCell.swift */,
 				A73675BD1AB274770049F815 /* RetailFoodViewController.swift */,
 				A7E437A01AB36B3A0015B1CC /* DetailViewController.swift */,
+				A78DAAD41ACDA939005A8AAD /* JeanRoyceHours.swift */,
 			);
-			name = "Retail Food";
+			name = Food;
 			sourceTree = "<group>";
 		};
-		A7628EAE1AC1DDCD0043D408 /* Libraries */ = {
+		A7628EAE1AC1DDCD0043D408 /* Building Hours */ = {
 			isa = PBXGroup;
 			children = (
 				A7628EB51AC1E2160043D408 /* Libraries.swift */,
 				A7628EAB1AC1DDA20043D408 /* CustomLibraries.swift */,
 				A7628EB31AC1E01C0043D408 /* LibraryViewController.swift */,
 			);
-			name = Libraries;
+			name = "Building Hours";
 			sourceTree = "<group>";
 		};
 		A7628EAF1AC1DDDB0043D408 /* External Links */ = {
@@ -389,14 +399,12 @@
 		A7BDAA9B1AA109CB00E35518 /* First Year App */ = {
 			isa = PBXGroup;
 			children = (
-				A7628EAE1AC1DDCD0043D408 /* Libraries */,
-				A7628EAD1AC1DDAF0043D408 /* Retail Food */,
-				A7628EAF1AC1DDDB0043D408 /* External Links */,
 				A7628EB21AC1DE250043D408 /* Schedule */,
+				A7628EAE1AC1DDCD0043D408 /* Building Hours */,
+				A7628EAD1AC1DDAF0043D408 /* Food */,
+				A7628EAF1AC1DDDB0043D408 /* External Links */,
 				A7628EB01AC1DDFF0043D408 /* Maps */,
-				A7628EB11AC1DE0F0043D408 /* Menus */,
 				A7CDE0881ACCD0BE003E2E47 /* Contacts */,
-				A78DAAD41ACDA939005A8AAD /* JeanRoyceHours.swift */,
 				A7BDAAA01AA109CB00E35518 /* Home page.swift */,
 				A7BDAA9E1AA109CB00E35518 /* AppDelegate.swift */,
 				A7BDAAA21AA109CB00E35518 /* Main.storyboard */,
@@ -410,6 +418,10 @@
 		A7BDAA9C1AA109CB00E35518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A7E1745B1ADC8D78001D221F /* New Icons */,
+				A745EEBA1ADC599300DDF206 /* rightArrow3.png */,
+				A745EEB81ADC588800DDF206 /* rightArrow2.png */,
+				A7361D7C1ADC52D70004601F /* rightArrow.png */,
 				A7361D731ADC3CE60004601F /* externalLinks_bg */,
 				A7FE34A81ADC12D500043BDC /* food_bg2 */,
 				A7FE34971ADC0ABC00043BDC /* food_bg */,
@@ -468,6 +480,14 @@
 				A7D934571AD06FBA004F558E /* logo76@2x.png */,
 			);
 			name = logos;
+			sourceTree = "<group>";
+		};
+		A7E1745B1ADC8D78001D221F /* New Icons */ = {
+			isa = PBXGroup;
+			children = (
+				A7E1745C1ADC8D91001D221F /* boosterJuiceIcon.png */,
+			);
+			name = "New Icons";
 			sourceTree = "<group>";
 		};
 		A7FE34971ADC0ABC00043BDC /* food_bg */ = {
@@ -580,6 +600,7 @@
 				A7D9345F1AD06FBA004F558E /* logo60@3x.png in Resources */,
 				A739C33A1ABA0FAA00D81458 /* Contacts.png in Resources */,
 				A7D934601AD06FBA004F558E /* logo76@1x.png in Resources */,
+				A745EEBB1ADC599300DDF206 /* rightArrow3.png in Resources */,
 				A7E437B61AB372230015B1CC /* Quiznos.png in Resources */,
 				A7D934591AD06FBA004F558E /* logo29@2x.png in Resources */,
 				A743D26F1AC2F3DB00875CC6 /* Fast Lane1.png in Resources */,
@@ -592,6 +613,7 @@
 				A7525BAA1ADC363100606D2F /* theArc@2x_2.png in Resources */,
 				A7D9345C1AD06FBA004F558E /* logo40@2x.png in Resources */,
 				A7E437B81AB372230015B1CC /* Teryaki.png in Resources */,
+				A7361D7D1ADC52D70004601F /* rightArrow.png in Resources */,
 				A7FE34A41ADC0FCA00043BDC /* douglas@1x.png in Resources */,
 				A739C33B1ABA0FAA00D81458 /* External Links.png in Resources */,
 				A7FE34B21ADC178F00043BDC /* theArc@3x_3.png in Resources */,
@@ -625,7 +647,9 @@
 				FA91C4B21AC33A8A004C13D9 /* NewBus.png in Resources */,
 				A739C33E1ABA0FAA00D81458 /* Schedule.png in Resources */,
 				A743D2801AC2F70300875CC6 /* newFood.jpg in Resources */,
+				A745EEB91ADC588800DDF206 /* rightArrow2.png in Resources */,
 				A7FE34A51ADC0FCA00043BDC /* douglas@2x.png in Resources */,
+				A7E1745D1ADC8D91001D221F /* boosterJuiceIcon.png in Resources */,
 				A7D934581AD06FBA004F558E /* logo29@1x.png in Resources */,
 				A7FE34B01ADC130E00043BDC /* theArcRetina@2x.png in Resources */,
 				A739C33D1ABA0FAA00D81458 /* Map.png in Resources */,

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72669F01AE18D720038532E /* timHortonsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A72669EF1AE18D720038532E /* timHortonsIcon.png */; };
 		A7361D781ADC3CF70004601F /* Flag@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7361D741ADC3CF70004601F /* Flag@1x.png */; };
 		A7361D791ADC3CF70004601F /* Flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7361D751ADC3CF70004601F /* Flag@2x.png */; };
 		A7361D7A1ADC3CF70004601F /* Flag@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7361D761ADC3CF70004601F /* Flag@3x.png */; };
@@ -117,6 +118,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A72669EF1AE18D720038532E /* timHortonsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timHortonsIcon.png; sourceTree = "<group>"; };
 		A7361D741ADC3CF70004601F /* Flag@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag@1x.png"; sourceTree = "<group>"; };
 		A7361D751ADC3CF70004601F /* Flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag@2x.png"; sourceTree = "<group>"; };
 		A7361D761ADC3CF70004601F /* Flag@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag@3x.png"; sourceTree = "<group>"; };
@@ -485,6 +487,7 @@
 		A7E1745B1ADC8D78001D221F /* New Icons */ = {
 			isa = PBXGroup;
 			children = (
+				A72669EF1AE18D720038532E /* timHortonsIcon.png */,
 				A7E1745C1ADC8D91001D221F /* boosterJuiceIcon.png */,
 			);
 			name = "New Icons";
@@ -655,6 +658,7 @@
 				A739C33D1ABA0FAA00D81458 /* Map.png in Resources */,
 				FADA5C471ABB76DD000F9F10 /* Bus.png in Resources */,
 				A7BDAAA61AA109CB00E35518 /* Images.xcassets in Resources */,
+				A72669F01AE18D720038532E /* timHortonsIcon.png in Resources */,
 				A743D2721AC2F3DB00875CC6 /* Tim Hortons1.png in Resources */,
 				A743D2841AC2F70300875CC6 /* newSchedule.jpg in Resources */,
 				A7E437BB1AB375190015B1CC /* Lazy.png in Resources */,

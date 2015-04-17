@@ -15,7 +15,8 @@ class JeanRoyceHours: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-   scroll.contentSize.height = 500
+   scroll.contentSize.height = 350
+
         
         // Do any additional setup after loading the view.
     }

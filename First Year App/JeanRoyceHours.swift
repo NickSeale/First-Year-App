@@ -10,10 +10,13 @@ import UIKit
 
 class JeanRoyceHours: UIViewController {
 
-    @IBOutlet weak var ScrollView: UIScrollView!
+    @IBOutlet weak var scroll: UIScrollView!
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        ScrollView.contentSize.height = 500
+   scroll.contentSize.height = 500
+        
         // Do any additional setup after loading the view.
     }
 
